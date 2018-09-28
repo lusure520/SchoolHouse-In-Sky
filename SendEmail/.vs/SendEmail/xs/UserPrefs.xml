@@ -1,0 +1,11 @@
+﻿<Properties StartupConfiguration="{C626D332-88A9-4754-BB86-5575DA0F159B}|Default" NuGet.AddPackagesDialog.IncludePrerelease="True">
+  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.ItemProperties.SendEmail.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.CF55BF49-29BA-4FDE-BCCF-DD4735BCB895" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.SendEmail.Android PreferredExecutionTarget="Android.Android_Accelerated_Oreo" AndroidDesignerPreferredTheme="Theme.DeviceDefault.NoActionBar.Fullscreen" />
+</Properties>

@@ -1,0 +1,14 @@
+/Users/deng/Projects/SendEmail/SendEmail/bin/Debug/netstandard2.0/SendEmail.deps.json
+/Users/deng/Projects/SendEmail/SendEmail/bin/Debug/netstandard2.0/SendEmail.dll
+/Users/deng/Projects/SendEmail/SendEmail/bin/Debug/netstandard2.0/SendEmail.pdb
+/Users/deng/Projects/SendEmail/SendEmail/obj/Debug/netstandard2.0/App.xaml.g.cs
+/Users/deng/Projects/SendEmail/SendEmail/obj/Debug/netstandard2.0/MainPage.xaml.g.cs
+/Users/deng/Projects/SendEmail/SendEmail/obj/Debug/netstandard2.0/SendEmail.csproj.CoreCompileInputs.cache
+/Users/deng/Projects/SendEmail/SendEmail/obj/Debug/netstandard2.0/SendEmail.AssemblyInfoInputs.cache
+/Users/deng/Projects/SendEmail/SendEmail/obj/Debug/netstandard2.0/SendEmail.AssemblyInfo.cs
+/Users/deng/Projects/SendEmail/SendEmail/obj/Debug/netstandard2.0/XamlC.stamp
+/Users/deng/Projects/SendEmail/SendEmail/obj/Debug/netstandard2.0/SendEmail.dll
+/Users/deng/Projects/SendEmail/SendEmail/obj/Debug/netstandard2.0/SendEmail.pdb
+/Users/deng/Projects/SendEmail/SendEmail/obj/Debug/netstandard2.0/SendEmail.csprojAssemblyReference.cache
+/Users/deng/Projects/SendEmail/SendEmail/obj/Debug/netstandard2.0/Views/SignUp.xaml.g.cs
+/Users/deng/Projects/SendEmail/SendEmail/obj/Debug/netstandard2.0/UsingBehaviorsPage.xaml.g.cs
