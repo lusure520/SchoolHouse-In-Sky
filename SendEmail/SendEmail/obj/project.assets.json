@@ -443,11 +443,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/deng/Downloads/SchoolHouse-In-Sky-sprint-2-test-branch/SendEmail/SendEmail/SendEmail.csproj",
+      "projectUniqueName": "/Users/deng/Downloads/SchoolHouse-In-Sky-sprint-1-emailsend-branch/SendEmail/SendEmail/SendEmail.csproj",
       "projectName": "SendEmail",
-      "projectPath": "/Users/deng/Downloads/SchoolHouse-In-Sky-sprint-2-test-branch/SendEmail/SendEmail/SendEmail.csproj",
+      "projectPath": "/Users/deng/Downloads/SchoolHouse-In-Sky-sprint-1-emailsend-branch/SendEmail/SendEmail/SendEmail.csproj",
       "packagesPath": "/Users/deng/.nuget/packages/",
-      "outputPath": "/Users/deng/Downloads/SchoolHouse-In-Sky-sprint-2-test-branch/SendEmail/SendEmail/obj",
+      "outputPath": "/Users/deng/Downloads/SchoolHouse-In-Sky-sprint-1-emailsend-branch/SendEmail/SendEmail/obj",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"

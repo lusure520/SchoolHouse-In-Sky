@@ -1,12 +1,13 @@
 ﻿<Properties StartupConfiguration="{C626D332-88A9-4754-BB86-5575DA0F159B}|Default" NuGet.AddPackagesDialog.IncludePrerelease="True">
-  <MonoDevelop.Ide.Workbench ActiveDocument="SendEmail/UsingBehaviorsPage.xaml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="SendEmail.iOS/Main.cs">
     <Files>
-      <File FileName="SendEmail/InputValidation.cs" Line="28" Column="24" />
-      <File FileName="SendEmail/MainPage.xaml.cs" Line="17" Column="13" />
-      <File FileName="SendEmail/SendEmail.xaml" Line="23" Column="1" />
-      <File FileName="SendEmail/SendEmail.xaml.cs" Line="74" Column="43" />
-      <File FileName="SendEmail/UsingBehaviorsPage.xaml" Line="11" Column="1" />
-      <File FileName="SendEmail/UsingBehaviorsPage.xaml.cs" Line="1" Column="1" />
+      <File FileName="SendEmail/SendEmail.xaml.cs" Line="17" Column="9" />
+      <File FileName="SendEmail/InputValidation.cs" Line="11" Column="17" />
+      <File FileName="SendEmail/SendEmail.xaml" Line="17" Column="47" />
+      <File FileName="SendEmail/Validation/EmailValidatorBehavior.cs" Line="22" Column="124" />
+      <File FileName="SendEmail/Validation/NumberValidationBehavior.cs" Line="17" Column="20" />
+      <File FileName="SendEmail/Validation/LetterValidatorBehavior.cs" Line="18" Column="56" />
+      <File FileName="SendEmail.iOS/Main.cs" Line="17" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.SendEmail.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.CF55BF49-29BA-4FDE-BCCF-DD4735BCB895" />

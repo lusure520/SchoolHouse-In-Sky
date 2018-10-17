@@ -991,11 +991,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/deng/Downloads/SchoolHouse-In-Sky-sprint-2-test-branch/SendEmail/SendEmail.Android/SendEmail.Android.csproj",
+      "projectUniqueName": "/Users/deng/Downloads/SchoolHouse-In-Sky-sprint-1-emailsend-branch/SendEmail/SendEmail.Android/SendEmail.Android.csproj",
       "projectName": "SendEmail.Android",
-      "projectPath": "/Users/deng/Downloads/SchoolHouse-In-Sky-sprint-2-test-branch/SendEmail/SendEmail.Android/SendEmail.Android.csproj",
+      "projectPath": "/Users/deng/Downloads/SchoolHouse-In-Sky-sprint-1-emailsend-branch/SendEmail/SendEmail.Android/SendEmail.Android.csproj",
       "packagesPath": "/Users/deng/.nuget/packages/",
-      "outputPath": "/Users/deng/Downloads/SchoolHouse-In-Sky-sprint-2-test-branch/SendEmail/SendEmail.Android/obj",
+      "outputPath": "/Users/deng/Downloads/SchoolHouse-In-Sky-sprint-1-emailsend-branch/SendEmail/SendEmail.Android/obj",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/deng/.config/NuGet/NuGet.Config"
@@ -1009,8 +1009,8 @@
       "frameworks": {
         "monoandroid81": {
           "projectReferences": {
-            "/Users/deng/Downloads/SchoolHouse-In-Sky-sprint-2-test-branch/SendEmail/SendEmail/SendEmail.csproj": {
-              "projectPath": "/Users/deng/Downloads/SchoolHouse-In-Sky-sprint-2-test-branch/SendEmail/SendEmail/SendEmail.csproj"
+            "/Users/deng/Downloads/SchoolHouse-In-Sky-sprint-1-emailsend-branch/SendEmail/SendEmail/SendEmail.csproj": {
+              "projectPath": "/Users/deng/Downloads/SchoolHouse-In-Sky-sprint-1-emailsend-branch/SendEmail/SendEmail/SendEmail.csproj"
             }
           }
         }

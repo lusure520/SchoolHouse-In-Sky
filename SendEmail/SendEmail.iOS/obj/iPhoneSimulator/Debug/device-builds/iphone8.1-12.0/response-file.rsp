@@ -1,5 +1,5 @@
---cache=/Users/deng/Downloads/SchoolHouse-In-Sky-sprint-2-test-branch/SendEmail/SendEmail.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone8.1-12.0/mtouch-cache
---sim=/Users/deng/Downloads/SchoolHouse-In-Sky-sprint-2-test-branch/SendEmail/SendEmail.iOS/bin/iPhoneSimulator/Debug/device-builds/iphone8.1-12.0/SendEmail.iOS.app
+--cache=/Users/deng/Downloads/SchoolHouse-In-Sky-sprint-1-emailsend-branch/SendEmail/SendEmail.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone8.1-12.0/mtouch-cache
+--sim=/Users/deng/Downloads/SchoolHouse-In-Sky-sprint-1-emailsend-branch/SendEmail/SendEmail.iOS/bin/iPhoneSimulator/Debug/device-builds/iphone8.1-12.0/SendEmail.iOS.app
 --executable=SendEmail.iOS
 --debug
 --nolink
@@ -9,10 +9,10 @@
 --aot-options=-O=-float32
 --http-message-handler=NSUrlSessionHandler
 --abi=x86_64
---symbollist=/Users/deng/Downloads/SchoolHouse-In-Sky-sprint-2-test-branch/SendEmail/SendEmail.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone8.1-12.0/mtouch-symbols.list
+--symbollist=/Users/deng/Downloads/SchoolHouse-In-Sky-sprint-1-emailsend-branch/SendEmail/SendEmail.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone8.1-12.0/mtouch-symbols.list
 --dsym=no
 -r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/mscorlib.dll
--r=/Users/deng/Downloads/SchoolHouse-In-Sky-sprint-2-test-branch/SendEmail/SendEmail/bin/Debug/netstandard2.0/SendEmail.dll
+-r=/Users/deng/Downloads/SchoolHouse-In-Sky-sprint-1-emailsend-branch/SendEmail/SendEmail/bin/Debug/netstandard2.0/SendEmail.dll
 -r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Core.dll
 -r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.dll
 -r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Xml.dll
@@ -196,7 +196,7 @@
 -r=/Users/deng/.nuget/packages/xamarin.forms/3.2.0.871581/lib/Xamarin.iOS10/zh-HK/Xamarin.Forms.Platform.iOS.resources.dll
 -r=/Users/deng/.nuget/packages/xamarin.forms/3.2.0.871581/lib/Xamarin.iOS10/zh-Hans/Xamarin.Forms.Platform.iOS.resources.dll
 -r=/Users/deng/.nuget/packages/xamarin.forms/3.2.0.871581/lib/Xamarin.iOS10/zh-Hant/Xamarin.Forms.Platform.iOS.resources.dll
--r=/Users/deng/Downloads/SchoolHouse-In-Sky-sprint-2-test-branch/SendEmail/SendEmail/bin/Debug/netstandard2.0/SendEmail.dll
+-r=/Users/deng/Downloads/SchoolHouse-In-Sky-sprint-1-emailsend-branch/SendEmail/SendEmail/bin/Debug/netstandard2.0/SendEmail.dll
 --target-framework=Xamarin.iOS,v1.0
---root-assembly=/Users/deng/Downloads/SchoolHouse-In-Sky-sprint-2-test-branch/SendEmail/SendEmail.iOS/bin/iPhoneSimulator/Debug/SendEmail.iOS.exe
+--root-assembly=/Users/deng/Downloads/SchoolHouse-In-Sky-sprint-1-emailsend-branch/SendEmail/SendEmail.iOS/bin/iPhoneSimulator/Debug/SendEmail.iOS.exe
 
