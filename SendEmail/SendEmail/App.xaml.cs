@@ -11,7 +11,9 @@ namespace SendEmail
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+
+            MainPage = new NavigationTest();
+
         }
 
         protected override void OnStart()

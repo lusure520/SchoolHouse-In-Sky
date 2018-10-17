@@ -4,10 +4,11 @@
              xmlns:local="clr-namespace:SendEmail" 
              xmlns:behaviors="clr-namespace:SendEmail"
              x:Class="SendEmail.MainPage"
-             Title="SignUp Page">
+             Title="Send email">
+    
     <StackLayout Padding="20" Spacing="10" Orientation="Vertical">
         <!-- Place new controls here -->
-        <Label Text="SignUp Page" HorizontalOptions="Center" VerticalOptions="Start"  />
+        
         <Entry Placeholder="First name" FontSize="15" x:Name="firstName"/>
         <Entry Placeholder="Last name" FontSize="15" x:Name="lastName"/>
         <Entry Placeholder="sample@email.com" FontSize="15" x:Name="EmailEntry">

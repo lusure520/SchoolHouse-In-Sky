@@ -1,5 +1,14 @@
 ﻿<Properties StartupConfiguration="{C626D332-88A9-4754-BB86-5575DA0F159B}|Default" NuGet.AddPackagesDialog.IncludePrerelease="True">
-  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.Workbench ActiveDocument="SendEmail/UsingBehaviorsPage.xaml">
+    <Files>
+      <File FileName="SendEmail/InputValidation.cs" Line="28" Column="24" />
+      <File FileName="SendEmail/MainPage.xaml.cs" Line="17" Column="13" />
+      <File FileName="SendEmail/SendEmail.xaml" Line="23" Column="1" />
+      <File FileName="SendEmail/SendEmail.xaml.cs" Line="74" Column="43" />
+      <File FileName="SendEmail/UsingBehaviorsPage.xaml" Line="11" Column="1" />
+      <File FileName="SendEmail/UsingBehaviorsPage.xaml.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.SendEmail.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.CF55BF49-29BA-4FDE-BCCF-DD4735BCB895" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
