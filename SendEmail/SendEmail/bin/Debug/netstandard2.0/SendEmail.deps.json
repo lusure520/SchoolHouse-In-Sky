@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETStandard,Version=v2.0/",
-    "signature": "12b8411d6c3271c6e8bc2ada9c6222c721f3256e"
+    "signature": "7f9004e7c7d2878c3bc3ee396da99e18a7b8317c"
   },
   "compilationOptions": {},
   "targets": {
@@ -11,7 +11,7 @@
         "dependencies": {
           "NETStandard.Library": "2.0.3",
           "Xamarin.Essentials": "0.10.0-preview",
-          "Xamarin.Forms": "3.2.0.839982"
+          "Xamarin.Forms": "3.2.0.871581"
         },
         "runtime": {
           "SendEmail.dll": {}
@@ -42,7 +42,7 @@
           }
         }
       },
-      "Xamarin.Forms/3.2.0.839982": {
+      "Xamarin.Forms/3.2.0.871581": {
         "runtime": {
           "lib/netstandard2.0/Xamarin.Forms.Core.dll": {
             "assemblyVersion": "2.0.0.0",
@@ -94,12 +94,12 @@
       "path": "xamarin.essentials/0.10.0-preview",
       "hashPath": "xamarin.essentials.0.10.0-preview.nupkg.sha512"
     },
-    "Xamarin.Forms/3.2.0.839982": {
+    "Xamarin.Forms/3.2.0.871581": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-BtiTMpmTqkzPPlGvQEVrO51kC1e/vieOaGHB+bKUULER0ruf2EQ92zVRwuvLop60g0WQQJ0Arj45TNCu6qCINQ==",
-      "path": "xamarin.forms/3.2.0.839982",
-      "hashPath": "xamarin.forms.3.2.0.839982.nupkg.sha512"
+      "sha512": "sha512-1yKOnOHYR1v4Afa5XIkpPfdIG3A3Tu0gT5TX4923xG5DV+8dJw+beSPuLagSJoU33NzV023t73R5iSbMoSF7qQ==",
+      "path": "xamarin.forms/3.2.0.871581",
+      "hashPath": "xamarin.forms.3.2.0.871581.nupkg.sha512"
     }
   }
 }

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             xmlns:behaviors="clr-namespace:SendEmail"
+             x:Class="SendEmail.SendEmail"
+             Title="Send email">
+    
+    <ContentPage.Content>
+        <StackLayout Padding="20" Spacing="10" Orientation="Vertical">
+        <Entry Keyboard="Text" Placeholder="First name" FontSize="15" x:Name="firstName"/>
+        <Entry Keyboard="Text" Placeholder="Last name" FontSize="15" x:Name="lastName"/>
+        <Entry Keyboard="Telephone" Placeholder="e.g. 0211235678" FontSize="15" x:Name="phoneNumber"/>
+        <Entry Keyboard="Email" Placeholder="sample@email.com" FontSize="15" x:Name="EmailEntry">
+        <Entry.Behaviors>
+            <behaviors:InputValidation/>
+        </Entry.Behaviors>
+        </Entry>
+        
+        <Button Text="Sign Up" Clicked="Handle_Clicked" />
+    </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

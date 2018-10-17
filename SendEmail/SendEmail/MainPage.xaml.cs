@@ -15,6 +15,7 @@ namespace SendEmail
         {
             var toEmail = EmailEntry.Text;
 
+
             String signUpSucc = "Welcome to Join us," + firstName.Text +" "+ lastName.Text +". \nYou will get more detail from email!";
             try
             {
