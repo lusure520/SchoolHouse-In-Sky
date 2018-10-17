@@ -15,10 +15,12 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Views\" />
+    <Folder Include="Validation\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Remove="EmptyClass.cs" />
     <Compile Remove="Test1.xaml.cs" />
+    <Compile Remove="Validation\EmailValidationBehavior.xaml.cs" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Update="EditPage.xaml">
