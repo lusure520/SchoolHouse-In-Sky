@@ -1,21 +1,31 @@
 ﻿<Properties StartupConfiguration="{C626D332-88A9-4754-BB86-5575DA0F159B}|Default" NuGet.AddPackagesDialog.IncludePrerelease="True">
-  <MonoDevelop.Ide.Workbench ActiveDocument="SendEmail.iOS/Main.cs">
+  <MonoDevelop.Ide.ItemProperties.SendEmail.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.E8EB18AF-5F37-45DF-8A0F-0B18D9DF0F37" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="SendEmail/Views/Donation.xaml">
     <Files>
-      <File FileName="SendEmail/SendEmail.xaml.cs" Line="17" Column="9" />
-      <File FileName="SendEmail/InputValidation.cs" Line="11" Column="17" />
-      <File FileName="SendEmail/SendEmail.xaml" Line="17" Column="47" />
-      <File FileName="SendEmail/Validation/EmailValidatorBehavior.cs" Line="22" Column="124" />
-      <File FileName="SendEmail/Validation/NumberValidationBehavior.cs" Line="17" Column="20" />
-      <File FileName="SendEmail/Validation/LetterValidatorBehavior.cs" Line="18" Column="56" />
+      <File FileName="SendEmail/NavigationTest.cs" Line="13" Column="10" />
+      <File FileName="SendEmail/Views/Donation.xaml.cs" Line="65" Column="42" />
+      <File FileName="SendEmail/Views/Donation.xaml" Line="8" Column="13" />
       <File FileName="SendEmail.iOS/Main.cs" Line="17" Column="1" />
     </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="SendEmail" expanded="True">
+            <Node name="SendEmail" expanded="True">
+              <Node name="Views" expanded="True">
+                <Node name="Donation.xaml" expanded="True" selected="True" />
+              </Node>
+            </Node>
+            <Node name="SendEmail.iOS" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.SendEmail.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.CF55BF49-29BA-4FDE-BCCF-DD4735BCB895" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.SendEmail.Android PreferredExecutionTarget="Android.Android_Accelerated_Oreo" AndroidDesignerPreferredTheme="Theme.DeviceDefault.NoActionBar.Fullscreen" />
 </Properties>

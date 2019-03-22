@@ -68,10 +68,12 @@
   },
   "libraries": {
     "Microsoft.NETCore.Platforms/1.1.0": {
-      "sha512": "kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
+      "sha512": "a/iSwnRZb+LHFk49hQOyThh/ZNC3vsbZsF65XwQIb863qF6msmhdQtxGXFL28Ob2NsCz/drEj28BJd/YPpLRBg==",
       "type": "package",
       "path": "microsoft.netcore.platforms/1.1.0",
       "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/netstandard1.0/_._",
@@ -443,11 +445,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/deng/Downloads/SchoolHouse-In-Sky-sprint-1-emailsend-branch/SendEmail/SendEmail/SendEmail.csproj",
+      "projectUniqueName": "/Users/deng/Documents/GitHub/SchoolHouse-In-Sky/SendEmail/SendEmail/SendEmail.csproj",
       "projectName": "SendEmail",
-      "projectPath": "/Users/deng/Downloads/SchoolHouse-In-Sky-sprint-1-emailsend-branch/SendEmail/SendEmail/SendEmail.csproj",
+      "projectPath": "/Users/deng/Documents/GitHub/SchoolHouse-In-Sky/SendEmail/SendEmail/SendEmail.csproj",
       "packagesPath": "/Users/deng/.nuget/packages/",
-      "outputPath": "/Users/deng/Downloads/SchoolHouse-In-Sky-sprint-1-emailsend-branch/SendEmail/SendEmail/obj",
+      "outputPath": "/Users/deng/Documents/GitHub/SchoolHouse-In-Sky/SendEmail/SendEmail/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
@@ -475,19 +477,19 @@
     "frameworks": {
       "netstandard2.0": {
         "dependencies": {
-          "Xamarin.Forms": {
-            "target": "Package",
-            "version": "3.2.0.871581"
-          },
-          "Xamarin.Essentials": {
-            "target": "Package",
-            "version": "0.10.0-preview"
-          },
           "NETStandard.Library": {
             "suppressParent": "All",
             "target": "Package",
-            "version": "2.0.3",
+            "version": "[2.0.3, )",
             "autoReferenced": true
+          },
+          "Xamarin.Essentials": {
+            "target": "Package",
+            "version": "[0.10.0-preview, )"
+          },
+          "Xamarin.Forms": {
+            "target": "Package",
+            "version": "[3.2.0.871581, )"
           }
         },
         "imports": [

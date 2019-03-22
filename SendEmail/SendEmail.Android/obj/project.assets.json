@@ -991,12 +991,13 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/deng/Downloads/SchoolHouse-In-Sky-sprint-1-emailsend-branch/SendEmail/SendEmail.Android/SendEmail.Android.csproj",
+      "projectUniqueName": "/Users/deng/Documents/GitHub/SchoolHouse-In-Sky/SendEmail/SendEmail.Android/SendEmail.Android.csproj",
       "projectName": "SendEmail.Android",
-      "projectPath": "/Users/deng/Downloads/SchoolHouse-In-Sky-sprint-1-emailsend-branch/SendEmail/SendEmail.Android/SendEmail.Android.csproj",
+      "projectPath": "/Users/deng/Documents/GitHub/SchoolHouse-In-Sky/SendEmail/SendEmail.Android/SendEmail.Android.csproj",
       "packagesPath": "/Users/deng/.nuget/packages/",
-      "outputPath": "/Users/deng/Downloads/SchoolHouse-In-Sky-sprint-1-emailsend-branch/SendEmail/SendEmail.Android/obj",
+      "outputPath": "/Users/deng/Documents/GitHub/SchoolHouse-In-Sky/SendEmail/SendEmail.Android/obj/",
       "projectStyle": "PackageReference",
+      "skipContentFileWrite": true,
       "configFilePaths": [
         "/Users/deng/.config/NuGet/NuGet.Config"
       ],
@@ -1009,8 +1010,8 @@
       "frameworks": {
         "monoandroid81": {
           "projectReferences": {
-            "/Users/deng/Downloads/SchoolHouse-In-Sky-sprint-1-emailsend-branch/SendEmail/SendEmail/SendEmail.csproj": {
-              "projectPath": "/Users/deng/Downloads/SchoolHouse-In-Sky-sprint-1-emailsend-branch/SendEmail/SendEmail/SendEmail.csproj"
+            "/Users/deng/Documents/GitHub/SchoolHouse-In-Sky/SendEmail/SendEmail/SendEmail.csproj": {
+              "projectPath": "/Users/deng/Documents/GitHub/SchoolHouse-In-Sky/SendEmail/SendEmail/SendEmail.csproj"
             }
           }
         }
@@ -1019,37 +1020,37 @@
     "frameworks": {
       "monoandroid81": {
         "dependencies": {
-          "Xamarin.Forms": {
+          "Xam.Plugin.Connectivity": {
             "target": "Package",
-            "version": "3.2.0.871581"
+            "version": "[4.0.0.190-beta, )"
           },
           "Xamarin.Android.Support.Design": {
             "target": "Package",
-            "version": "27.0.2.1"
-          },
-          "Xamarin.Android.Support.v7.AppCompat": {
-            "target": "Package",
-            "version": "27.0.2.1"
+            "version": "[27.0.2.1, )"
           },
           "Xamarin.Android.Support.v4": {
             "target": "Package",
-            "version": "27.0.2.1"
+            "version": "[27.0.2.1, )"
+          },
+          "Xamarin.Android.Support.v7.AppCompat": {
+            "target": "Package",
+            "version": "[27.0.2.1, )"
           },
           "Xamarin.Android.Support.v7.CardView": {
             "target": "Package",
-            "version": "27.0.2.1"
+            "version": "[27.0.2.1, )"
           },
           "Xamarin.Android.Support.v7.MediaRouter": {
             "target": "Package",
-            "version": "27.0.2.1"
-          },
-          "Xam.Plugin.Connectivity": {
-            "target": "Package",
-            "version": "4.0.0.190-beta"
+            "version": "[27.0.2.1, )"
           },
           "Xamarin.Essentials": {
             "target": "Package",
-            "version": "0.10.0-preview"
+            "version": "[0.10.0-preview, )"
+          },
+          "Xamarin.Forms": {
+            "target": "Package",
+            "version": "[3.2.0.871581, )"
           }
         }
       }
