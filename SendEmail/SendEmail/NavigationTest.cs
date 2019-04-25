@@ -15,6 +15,8 @@ namespace SendEmail
             Page sendEmailPage = null;
             Page editPage = null;
             Page donationPage = null;
+            Page aboutPage = null;
+            Page mapPage = null;
 
             switch (Device.RuntimePlatform){
                 case Device.iOS:
@@ -30,16 +32,28 @@ namespace SendEmail
                     {
                         Title = "Donate"
                     };
+                    mapPage = new NavigationPage(new MapPage())
+                    {
+                        Title = "Map"
+                    };
+                    aboutPage = new NavigationPage(new About())
+                    {
+                        Title = "About Us"
+                    };
                     break;
                 default:
                     sendEmailPage = new SendEmail();
                     editPage = new Home();
                     donationPage = new Donation();
+                    mapPage = new MapPage();
+                    aboutPage = new About();
                     break;
             }
             Children.Add(sendEmailPage);
-            Children.Add(editPage);
             Children.Add(donationPage);
+            Children.Add(aboutPage);
+            Children.Add(mapPage);
+            Children.Add(editPage);
             Title = Children[0].Title;
         }
 

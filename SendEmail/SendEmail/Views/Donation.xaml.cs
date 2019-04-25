@@ -45,10 +45,10 @@ namespace SendEmail.Views
         {
             string url = "";
 
-            string business = "my@paypalemail.com";  // your paypal email
-            string description = "Donation";            // '%20' represents a space. remember HTML!
-            string country = "AU";                  // AU, US, etc.
-            string currency = "AUD";                 // AUD, USD, etc.
+            //string business = "my@paypalemail.com";  // your paypal email
+            //string description = "Donation";            // '%20' represents a space. remember HTML!
+            //string country = "AU";                  // AU, US, etc.
+            //string currency = "AUD";                 // AUD, USD, etc.
 
         //    url += "https://www.paypal.com/cgi-bin/webscr" +
         //        "?cmd=" + "_donations" +
