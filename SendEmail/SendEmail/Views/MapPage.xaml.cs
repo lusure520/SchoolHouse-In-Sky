@@ -107,17 +107,128 @@ namespace SendEmail
                     stack.Children.Add(map);
                     Content = stack;
 
-                    var position = new Position(37, -122); // Latitude, Longitude
-                    var pin = new Pin
+                    var pin1 = new Pin
                     {
                         Type = PinType.Place,
-                        Position = position,
-                        Label = "Project X",
-                        //Address = "custom detail info"
+                        Position = new Position(27.6900444, 86.7317329),
+                        Label = "Hillary-Tenzing Airport",
                     };
-                    map.Pins.Add(pin);
+                    map.Pins.Add(pin1);
 
-                    pin.Clicked += (object epin, EventArgs pina) =>
+                    var pin2 = new Pin
+                    {
+                        Type = PinType.Place,
+                        Position = new Position(27.8203184, 86.7166543),
+                        Label = "Khumjung School",
+                    };
+                    map.Pins.Add(pin2);
+
+                    var pin3 = new Pin
+                    {
+                        Type = PinType.Place,
+                        Position = new Position(27.6899884, 86.729604),
+                        Label = "Lukla Drinking Water Project",
+                    };
+                    map.Pins.Add(pin3);
+
+                    var pin4 = new Pin
+                    {
+                        Type = PinType.Place,
+                        Position = new Position(27.8237344, 86.7047882),
+                        Label = "Kunde Hospital",
+                    };
+                    map.Pins.Add(pin4);
+
+                    var pin5 = new Pin
+                    {
+                        Type = PinType.Place,
+                        Position = new Position(27.6964303, 86.7205072),
+                        Label = "Chaurikharka School",
+                    };
+                    map.Pins.Add(pin5);
+
+                    var pin6 = new Pin
+                    {
+                        Type = PinType.Place,
+                        Position = new Position(27.6968699, 86.7174107),
+                        Label = "Musey Drinking Water Project",
+                    };
+                    map.Pins.Add(pin6);
+
+                    var pin7 = new Pin
+                    {
+                        Type = PinType.Place,
+                        Position = new Position(27.8301751, 86.6489022),
+                        Label = "Thame School",
+                    };
+                    map.Pins.Add(pin7);
+
+                    var pin8 = new Pin
+                    {
+                        Type = PinType.Place,
+                        Position = new Position(27.8034675, 86.7123172),
+                        Label = "Shree Himalayan Primary School, Namche",
+                    };
+                    map.Pins.Add(pin8);
+
+                    var pin9 = new Pin
+                    {
+                        Type = PinType.Place,
+                        Position = new Position(27.987445, 86.8762079),
+                        Label = "Everest Avalanche on Popcorn Field",
+                    };
+                    map.Pins.Add(pin9);
+
+                    var pin10 = new Pin
+                    {
+                        Type = PinType.Place,
+                        Position = new Position(27.8245459, 86.7161815),
+                        Label = "Khumjung Water Project",
+                    };
+                    map.Pins.Add(pin10);
+
+                    var pin11 = new Pin
+                    {
+                        Type = PinType.Place,
+                        Position = new Position(27.772655, 86.7218092),
+                        Label = "Monjo School",
+                    };
+                    map.Pins.Add(pin11);
+
+                    var pin12 = new Pin
+                    {
+                        Type = PinType.Place,
+                        Position = new Position(27.8427756, 86.7617098),
+                        Label = "Tengboche Monastery",
+                    };
+                    map.Pins.Add(pin12);
+
+                    var pin13 = new Pin
+                    {
+                        Type = PinType.Place,
+                        Position = new Position(27.8518312, 86.7473996),
+                        Label = "Phortse School",
+                    };
+                    map.Pins.Add(pin13);
+
+                    var pin14 = new Pin
+                    {
+                        Type = PinType.Place,
+                        Position = new Position(27.773707, 86.7222946),
+                        Label = "Sagarmatha National Park",
+                    };
+                    map.Pins.Add(pin14);
+
+                    var pin15 = new Pin
+                    {
+                        Type = PinType.Place,
+                        Position = new Position(27.8252767, 86.7160495),
+                        Label = "The Yeti Scalp",
+                    };
+                    map.Pins.Add(pin15);
+
+
+                    /*pin1.Clicked += (object epin, EventArgs pina) =>
                     {
                         var p = sender as Pin;
                         var piny = new Pin
@@ -125,7 +236,7 @@ namespace SendEmail
                             Type = PinType.Place,
                             Position = new Position(38, -122),
                         };
-                    };
+                    }; */
 
 
                     LabelGeolocation.Text = "Lat: " + results.Latitude + " Long: " + results.Longitude;
