@@ -2,16 +2,296 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
              x:Class="SendEmail.MapPage"
-             Title="Map">
-    <ContentPage.Content>
-        <ScrollView>
-            <StackLayout Padding="30" Spacing="10">
+             Title="Project Details">
+              <ContentPage.Resources> 
+            <Style TargetType="Frame">
+                <Setter Property="BackgroundColor" Value="LightYellow" />
+                <Setter Property="BorderColor" Value="Blue" />
+                <Setter Property="Margin" Value="10" />
+                <Setter Property="CornerRadius" Value="15" />
+            </Style>
 
-                <Button Text="Get Location" Clicked="Button_OnClicked"></Button>
-                <Label x:Name="LabelGeolocation"></Label>
-                <Button Text="LocationAlways" StyleId="LocationAlways" Clicked="ButtonPermission_OnClicked"></Button>
-                <Button Text="LocationWhenInUse" StyleId="LocationWhenInUse" Clicked="ButtonPermission_OnClicked"></Button>
+            <Style TargetType="Label">
+                <Setter Property="Margin" Value="0, 4" />
+            </Style>
+
+            <Style x:Key="headerLabel" TargetType="Label">
+                <Setter Property="Margin" Value="0, 6" />
+                <Setter Property="FontSize" Value="Medium" />
+                <Setter Property="TextColor" Value="Blue" />
+                <Setter Property="XAlign" Value="Center" />
+            </Style>
+
+            <Style TargetType="Image">
+                <Setter Property="FlexLayout.Order" Value="-1" />
+                <Setter Property="FlexLayout.AlignSelf" Value="Center" />
+            </Style>
+
+            <Style TargetType="Button">
+                <Setter Property="Text" Value="LEARN MORE" />
+                <Setter Property="FontSize" Value="Large" />
+                <Setter Property="TextColor" Value="White" />
+                <Setter Property="BackgroundColor" Value="Green" />
+                <Setter Property="BorderRadius" Value="20" />
+            </Style>
+    </ContentPage.Resources>
+    
+    <ContentPage.Content>
+            <ScrollView>
+           
+           <StackLayout>
+                <StackLayout Padding="30" Spacing="10">
+                    <Button Text="Get Location" Clicked="Button_OnClicked"></Button>
+                </StackLayout>
+                
+                <StackLayout>
+                    <Grid>
+                    <ScrollView Orientation="Horizontal" VerticalOptions="StartAndExpand">
+                        <FlexLayout>
+                            <Frame WidthRequest="300"
+                                   HeightRequest="400">
+
+                                <FlexLayout Direction="Column">
+                                    <Label Text="Hillary-Tenzing Airport"
+                                           Style="{StaticResource headerLabel}" />
+                                    <Label Text="Lukla airport is the gateway to the Everest region for visitors and the second busiest airport in Nepal. It is often described as one of the most dangerous..." FontSize="Small"/>
+                                    <Image Source="Airport.png"
+                                           WidthRequest="270"
+                                           HeightRequest="180" 
+                                           Aspect="Fill"/>
+                                    <Label FlexLayout.Grow="1" />
+                                    <Button StyleId="Airport" Clicked="Handle_Clicked"/>
+                                </FlexLayout>
+                            </Frame>
+
+                            <Frame WidthRequest="300"
+                                   HeightRequest="400">
+
+                                <FlexLayout Direction="Column">
+                                    <Label Text="Khumjung School"
+                                           Style="{StaticResource headerLabel}" />
+                                    <Label Text="In 1960 Ed asked his Sherpa friends: ‘If there were one thing we could do for your village, what would it be?’ They said: 'Our children have eyes but cannot see..." FontSize="Small"/>
+                                    <Image Source="KhumjungSchool.png"
+                                           WidthRequest="270"
+                                           HeightRequest="180" 
+                                           Aspect="Fill"/>
+                                    <Label FlexLayout.Grow="1" />
+                                    <Button StyleId="KhumjungSchool" Clicked="Handle_Clicked"/>
+                                </FlexLayout>
+                            </Frame>
+                                
+                            <Frame WidthRequest="300"
+                                   HeightRequest="400">
+
+                                <FlexLayout Direction="Column">
+                                    <Label Text="Lukla Drinking Water Project"
+                                           Style="{StaticResource headerLabel}" />
+                                    <Label Text="The drinking water in Lukla lodges flows from a water system designed and built thanks to a collaboration between the local community and the Himalayan Trust. It was..." FontSize="Small"/>
+                                    <Image Source="LuklaDrinkingWater.png"
+                                           WidthRequest="270"
+                                           HeightRequest="180" 
+                                           Aspect="Fill"/>
+                                    <Label FlexLayout.Grow="1" />
+                                    <Button StyleId="LuklaDrinkingWater" Clicked="Handle_Clicked"/>
+                                </FlexLayout>
+                            </Frame>
+                                
+                            <Frame WidthRequest="300"
+                                   HeightRequest="400">
+
+                                <FlexLayout Direction="Column">
+                                    <Label Text="Kunde Hospital"
+                                           Style="{StaticResource headerLabel}" />
+                                    <Label Text="The Kunde hospital was built in 1966 by Sir Ed Hillary and the friends and volunteers he persuaded to help him. From 1966 until 2002, Sir Ed recruited volunteer doctors..." FontSize="Small"/>
+                                    <Image Source="KundeHospital.png"
+                                           WidthRequest="270"
+                                           HeightRequest="180" 
+                                           Aspect="Fill"/>
+                                    <Label FlexLayout.Grow="1" />
+                                    <Button StyleId="KundeHospital" Clicked="Handle_Clicked"/>
+                                </FlexLayout>
+                            </Frame>
+                            
+                            <Frame WidthRequest="300"
+                                   HeightRequest="400">
+
+                                <FlexLayout Direction="Column">
+                                    <Label Text="Chaurikharka School"
+                                           Style="{StaticResource headerLabel}" />
+                                    <Label Text="Chaurikharka School was as good as destroyed completely during the earthquakes in 2015. Thanks to Himalayan Trust New Zealand and its supporters, the school..." FontSize="Small"/>
+                                    <Image Source="ChaurikharkaSchool.png"
+                                           WidthRequest="270"
+                                           HeightRequest="180" 
+                                           Aspect="Fill"/>
+                                    <Label FlexLayout.Grow="1" />
+                                    <Button StyleId="ChaurikharkaSchool" Clicked="Handle_Clicked"/>
+                                </FlexLayout>
+                            </Frame>  
+                                
+                            <Frame WidthRequest="300"
+                                   HeightRequest="400">
+
+                                <FlexLayout Direction="Column">
+                                    <Label Text="Musey Drinking Water Proejct"
+                                           Style="{StaticResource headerLabel}" />
+                                    <Label Text="Himalayan Trust supporters helped the community of Musey build a seismic-resistant water system to replace the old water tanks that were destroyed in the 2015..." FontSize="Small"/>
+                                    <Image Source="MuseyDrinkingWater.png"
+                                           WidthRequest="270"
+                                           HeightRequest="180"  
+                                           Aspect="Fill"/>
+                                    <Label FlexLayout.Grow="1" />
+                                    <Button StyleId="MuseyDrinkingWater" Clicked="Handle_Clicked"/>
+                                </FlexLayout>
+                            </Frame>  
+                                
+                            <Frame WidthRequest="300"
+                                   HeightRequest="400">
+
+                                <FlexLayout Direction="Column">
+                                    <Label Text="Thame School"
+                                           Style="{StaticResource headerLabel}" />
+                                    <Label Text="Thame school is one of 60 across the region that the Himalayan Trust supports with vital equipment, resources and training for teachers." FontSize="Small"/>
+                                    <Image Source="ThameSchool.png"
+                                           WidthRequest="270"
+                                           HeightRequest="180" 
+                                           Aspect="Fill"/>
+                                    <Label FlexLayout.Grow="1" />
+                                    <Button StyleId="ThameSchool" Clicked="Handle_Clicked"/>
+                                </FlexLayout>
+                            </Frame>  
+                                
+                            <Frame WidthRequest="300"
+                                   HeightRequest="400">
+
+                                <FlexLayout Direction="Column">
+                                    <Label Text="Shree Himalayan Primary School, Namche"
+                                           Style="{StaticResource headerLabel}" />
+                                    <Label Text="Shree Himalaya School in Namche is one of 60 across the region that the Himalayan Trust supports with vital equipment, resources and training for teachers." FontSize="Small"/>
+                                    <Image Source="ShreeHimalayanPrimarySchool.png"
+                                           WidthRequest="270"
+                                           HeightRequest="180" 
+                                           Aspect="Fill"/>
+                                    <Label FlexLayout.Grow="1" />
+                                    <Button StyleId="ShreeHimalayanPrimarySchool" Clicked="Handle_Clicked"/>
+                                </FlexLayout>
+                            </Frame>  
+                                
+                            <Frame WidthRequest="300"
+                                   HeightRequest="400">
+
+                                <FlexLayout Direction="Column">
+                                    <Label Text="Monjo School"
+                                           Style="{StaticResource headerLabel}" />
+                                    <Label Text="Monjo school is one of 60 across the region that the Himalayan Trust supports with vital equipment, resources and training for teachers." FontSize="Small"/>
+                                    <Image Source="MonjoSchool.png"
+                                           WidthRequest="270"
+                                           HeightRequest="180" 
+                                           Aspect="Fill"/>
+                                    <Label FlexLayout.Grow="1" />
+                                    <Button StyleId="MonjoSchool" Clicked="Handle_Clicked"/>
+                                </FlexLayout>
+                            </Frame>  
+                                
+                            <Frame WidthRequest="300"
+                                   HeightRequest="400">
+
+                                <FlexLayout Direction="Column">
+                                    <Label Text="Sagarmatha National Park"
+                                           Style="{StaticResource headerLabel}" />
+                                    <Label Text="In 1979, with the backing of Sir Edmund Hillary and the New Zealand government, the Sagarmatha National Park Forestry Project is established to promote the sustainable..." FontSize="Small"/>
+                                    <Image Source="SagarmathaNationalPark.png"
+                                           WidthRequest="270"
+                                           HeightRequest="180" 
+                                           Aspect="Fill"/>
+                                    <Label FlexLayout.Grow="1" />
+                                    <Button StyleId="SagarmathaNationalPark" Clicked="Handle_Clicked"/>
+                                </FlexLayout>
+                            </Frame>  
+                                
+                            <Frame WidthRequest="300"
+                                   HeightRequest="400">
+
+                                <FlexLayout Direction="Column">
+                                    <Label Text="The Yeti Scalp"
+                                           Style="{StaticResource headerLabel}" />
+                                    <Label Text="In 1960, Ed returned to the Everest region to lead an expedition with two very different goals: 1. To learn more about what happens to the human body..." FontSize="Small"/>
+                                    <Image Source="TheYetiScalp.png"
+                                           WidthRequest="270"
+                                           HeightRequest="180" 
+                                           Aspect="Fill"/>
+                                    <Label FlexLayout.Grow="1" />
+                                    <Button StyleId="TheYetiScalp" Clicked="Handle_Clicked"/>
+                                </FlexLayout>
+                            </Frame>  
+                                
+                            <Frame WidthRequest="300"
+                                   HeightRequest="400">
+
+                                <FlexLayout Direction="Column">
+                                    <Label Text="Everest avalanche on Popcorn Field"
+                                           Style="{StaticResource headerLabel}" />
+                                    <Label Text="In April 2014, 16 families lost their fathers, sons and husbands in a devastating avalanche on the slopes of Everest. Many of the climbers killed in the..." FontSize="Small"/>
+                                    <Image Source="HimalayanTrust.png"
+                                           WidthRequest="270"
+                                           HeightRequest="180" 
+                                           Aspect="Fill"/>
+                                    <Label FlexLayout.Grow="1" />
+                                    <Button StyleId="EverestAvalanche" Clicked="Handle_Clicked"/>
+                                </FlexLayout>
+                            </Frame>
+                                
+                            <Frame WidthRequest="300"
+                                   HeightRequest="400">
+
+                                <FlexLayout Direction="Column">
+                                    <Label Text="Khumjung water project"
+                                           Style="{StaticResource headerLabel}" />
+                                    <Label Text="In 1963, Sir Edmund Hillary's HImalayan Trust builds its first water supply system in the village of Khumjung. The water system is such an immediate and..." FontSize="Small"/>
+                                    <Image Source="HimalayanTrust.png"
+                                           WidthRequest="270"
+                                           HeightRequest="180" 
+                                           Aspect="Fill"/>
+                                    <Label FlexLayout.Grow="1" />
+                                    <Button StyleId="KhumjungWater" Clicked="Handle_Clicked"/>
+                                </FlexLayout>
+                            </Frame>  
+                            
+                            <Frame WidthRequest="300"
+                                   HeightRequest="400">
+
+                                <FlexLayout Direction="Column">
+                                    <Label Text="Tengboche Monastery"
+                                           Style="{StaticResource headerLabel}" />
+                                    <Label Text="In 1993, the Himalayan Trust helped rebuild Tengboche Monastery after it was destroyed in a fire. Most Everest expeditions, including the 1953 expedition..." FontSize="Small"/>
+                                    <Image Source="HimalayanTrust.png"
+                                           WidthRequest="270"
+                                           HeightRequest="180" 
+                                           Aspect="Fill"/>
+                                    <Label FlexLayout.Grow="1" />
+                                    <Button StyleId="TengbocheMonastery" Clicked="Handle_Clicked"/>
+                                </FlexLayout>
+                            </Frame>  
+                                
+                            <Frame WidthRequest="300"
+                                   HeightRequest="400">
+
+                                <FlexLayout Direction="Column">
+                                    <Label Text="Phortse School"
+                                           Style="{StaticResource headerLabel}" />
+                                    <Label Text="Monjo school is one of 60 across the region that the Himalayan Trust supports with vital equipment, resources and training for teachers...." FontSize="Small"/>
+                                    <Image Source="HimalayanTrust.png"
+                                           WidthRequest="270"
+                                           HeightRequest="180" 
+                                           Aspect="Fill"/>
+                                    <Label FlexLayout.Grow="1" />
+                                    <Button StyleId="PhortseSchool" Clicked="Handle_Clicked"/>
+                                </FlexLayout>
+                            </Frame>        
+                        </FlexLayout>
+                    </ScrollView>
+                    </Grid>
+                </StackLayout>
             </StackLayout>
-        </ScrollView>
+            </ScrollView>
     </ContentPage.Content>
 </ContentPage>

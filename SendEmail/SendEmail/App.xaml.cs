@@ -10,8 +10,6 @@ namespace SendEmail
         public App()
         {
             InitializeComponent();
-
-
             MainPage = new NavigationTest();
 
         }

@@ -169,4 +169,22 @@
       <Name>SendEmail</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\email.png" />
+    <BundleResource Include="Resources\aboutUs.png" />
+    <BundleResource Include="Resources\donate.png" />
+    <BundleResource Include="Resources\map.png" />
+    <BundleResource Include="Resources\Airport.png" />
+    <BundleResource Include="Resources\LuklaDrinkingWater.png" />
+    <BundleResource Include="Resources\KundeHospital.png" />
+    <BundleResource Include="Resources\ChaurikharkaSchool.png" />
+    <BundleResource Include="Resources\KhumjungSchool.png" />
+    <BundleResource Include="Resources\MuseyDrinkingWater.png" />
+    <BundleResource Include="Resources\ThameSchool.png" />
+    <BundleResource Include="Resources\ShreeHimalayanPrimarySchool.png" />
+    <BundleResource Include="Resources\MonjoSchool.png" />
+    <BundleResource Include="Resources\SagarmathaNationalPark.png" />
+    <BundleResource Include="Resources\TheYetiScalp.png" />
+    <BundleResource Include="Resources\HimalayanTrust.png" />
+  </ItemGroup>
 </Project>

@@ -10,6 +10,7 @@ using Xamarin.Forms.Maps;
 using Plugin.Permissions;
 using Plugin.Permissions.Abstractions;
 using Plugin.Geolocator;
+using SendEmail.Views;
 
 namespace SendEmail
 {
@@ -18,6 +19,58 @@ namespace SendEmail
         public MapPage()
         {
             InitializeComponent();
+        }
+
+        void Handle_Clicked(object sender, System.EventArgs e)
+        {
+            switch (((Button)sender).StyleId)
+            {
+                case "Airport":
+                    Navigation.PushAsync(new ProjectDetails("Airport"));
+                    break;
+                case "KhumjungSchool":
+                    Navigation.PushAsync(new ProjectDetails("KhumjungSchool"));
+                    break;
+                case "LuklaDrinkingWater":
+                    Navigation.PushAsync(new ProjectDetails("LuklaDrinkingWater"));
+                    break;
+                case "KundeHospital":
+                    Navigation.PushAsync(new ProjectDetails("KundeHospital"));
+                    break;
+                case "ChaurikharkaSchool":
+                    Navigation.PushAsync(new ProjectDetails("ChaurikharkaSchool"));
+                    break;
+                case "MuseyDrinkingWater":
+                    Navigation.PushAsync(new ProjectDetails("MuseyDrinkingWater"));
+                    break;
+                case "ThameSchool":
+                    Navigation.PushAsync(new ProjectDetails("ThameSchool"));
+                    break;
+                case "ShreeHimalayanPrimarySchool":
+                    Navigation.PushAsync(new ProjectDetails("ShreeHimalayanPrimarySchool"));
+                    break;
+                case "MonjoSchool":
+                    Navigation.PushAsync(new ProjectDetails("MonjoSchool"));
+                    break;
+                case "SagarmathaNationalPark":
+                    Navigation.PushAsync(new ProjectDetails("SagarmathaNationalPark"));
+                    break;
+                case "TheYetiScalp":
+                    Navigation.PushAsync(new ProjectDetails("TheYetiScalp"));
+                    break;
+                case "EverestAvalanche":
+                    Navigation.PushAsync(new ProjectDetails("EverestAvalanche"));
+                    break;
+                case "KhumjungWater":
+                    Navigation.PushAsync(new ProjectDetails("KhumjungWater"));
+                    break;
+                case "TengbocheMonastery":
+                    Navigation.PushAsync(new ProjectDetails("TengbocheMonastery"));
+                    break;
+                case "PhortseSchool":
+                    Navigation.PushAsync(new ProjectDetails("PhortseSchool"));
+                    break;
+            }
         }
 
         bool busy;
@@ -238,8 +291,8 @@ namespace SendEmail
                         };
                     }; */
 
-
-                    LabelGeolocation.Text = "Lat: " + results.Latitude + " Long: " + results.Longitude;
+                    await DisplayAlert("Location Detail", "Lat: " + results.Latitude + " Long: " + results.Longitude, "OK");
+                    //LabelGeolocation.Text = "Lat: " + results.Latitude + " Long: " + results.Longitude;
                 }
                 else if (status != PermissionStatus.Unknown)
                 {
@@ -248,8 +301,8 @@ namespace SendEmail
             }
             catch (Exception ex)
             {
-
-                LabelGeolocation.Text = "Error: " + ex;
+                await DisplayAlert("Location Error", ex.ToString(), "OK");
+                //LabelGeolocation.Text = "Error: " + ex;
             }
 
             ((Button)sender).IsEnabled = true;
