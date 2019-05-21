@@ -1,0 +1,26 @@
+﻿<Properties StartupConfiguration="{EF48F5D8-D8C7-47A4-8674-2C79A8600EFC}|Default">
+  <MonoDevelop.Ide.ItemProperties.SendEmail.Android PreferredExecutionTarget="Android.Android_Accelerated_Oreo" />
+  <MonoDevelop.Ide.Workbench>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="SendEmail" expanded="True">
+            <Node name="SendEmail" expanded="True">
+              <Node name="Views" expanded="True" />
+            </Node>
+            <Node name="SendEmail.iOS" expanded="True">
+              <Node name="Properties" selected="True" />
+              <Node name="Resources" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
