@@ -34,17 +34,13 @@
     <EmbeddedResource Remove="MainPage.xaml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="Views\EditPage.xaml.cs">
-      <DependentUpon>EditPage.xaml</DependentUpon>
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="Views\Home.xaml.cs">
-      <DependentUpon>Home.xaml</DependentUpon>
-      <SubType>Code</SubType>
-    </Compile>
     <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="Views\SendEmail.xaml.cs">
       <DependentUpon>SendEmail.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Images\Airport.jpg" />
+    <None Remove="Images\Airport.png" />
   </ItemGroup>
 </Project>

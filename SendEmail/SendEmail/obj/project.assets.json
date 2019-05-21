@@ -590,11 +590,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/deng/Documents/GitHub/SchoolHouse-In-Sky/SendEmail/SendEmail/SendEmail.csproj",
+      "projectUniqueName": "/Users/deng/Downloads/SchoolHouse-In-Sky-sprint-7-maps/SendEmail/SendEmail/SendEmail.csproj",
       "projectName": "SendEmail",
-      "projectPath": "/Users/deng/Documents/GitHub/SchoolHouse-In-Sky/SendEmail/SendEmail/SendEmail.csproj",
+      "projectPath": "/Users/deng/Downloads/SchoolHouse-In-Sky-sprint-7-maps/SendEmail/SendEmail/SendEmail.csproj",
       "packagesPath": "/Users/deng/.nuget/packages/",
-      "outputPath": "/Users/deng/Documents/GitHub/SchoolHouse-In-Sky/SendEmail/SendEmail/obj/",
+      "outputPath": "/Users/deng/Downloads/SchoolHouse-In-Sky-sprint-7-maps/SendEmail/SendEmail/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"

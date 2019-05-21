@@ -1,19 +1,31 @@
-﻿<Properties StartupConfiguration="{EF48F5D8-D8C7-47A4-8674-2C79A8600EFC}|Default">
-  <MonoDevelop.Ide.ItemProperties.SendEmail.Android PreferredExecutionTarget="Android.Android_Accelerated_Oreo" />
+﻿<Properties StartupConfiguration="{C626D332-88A9-4754-BB86-5575DA0F159B}|Default">
+  <MonoDevelop.Ide.ItemProperties.SendEmail.Android AndroidDesignerPreferredTheme="Theme.DeviceDefault.NoActionBar.Fullscreen" AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.Android_Accelerated_Oreo" />
+  <MonoDevelop.Ide.ItemProperties.SendEmail.iOS automaticSigning="False" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.002AC2AA-317A-4B96-BCCE-62466402A947" />
   <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="SendEmail" expanded="True">
             <Node name="SendEmail" expanded="True">
-              <Node name="Views" expanded="True" />
+              <Node name="Dependencies" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="MapPage.xaml" expanded="True">
+                  <Node name="MapPage.xaml.cs" selected="True" />
+                </Node>
+              </Node>
+            </Node>
+            <Node name="SendEmail.Android" expanded="True">
+              <Node name="Resources" expanded="True" />
             </Node>
             <Node name="SendEmail.iOS" expanded="True">
-              <Node name="Properties" selected="True" />
+              <Node name="References" expanded="True" />
               <Node name="Resources" expanded="True" />
             </Node>
           </Node>
         </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
