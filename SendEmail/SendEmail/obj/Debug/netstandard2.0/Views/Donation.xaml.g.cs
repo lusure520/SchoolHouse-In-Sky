@@ -13,7 +13,7 @@
 namespace SendEmail.Views {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views\\Donation.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views/Donation.xaml")]
     public partial class Donation : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
