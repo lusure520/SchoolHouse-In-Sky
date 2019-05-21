@@ -9,7 +9,7 @@
     <StackLayout>
             <Label Text="Give a single gift" HorizontalOptions="Center"/>
             <Image Source="https://himalayantrust.org/wp-content/uploads/2018/07/Your-gift-banner-750x330.png" />
-        <StackLayout Padding="10, 20, 10, 0" BackgroundColor="Silver">
+        <StackLayout Padding="10, 20, 10, 0" BackgroundColor="White">
             <Label Text="How much would you like to donate?" />
             <Picker Title="Select a money" x:Name="money" SelectedIndexChanged="OnPickerSelectedIndexChanged"/>
             <Label Text="Would you like to make regular donations?"  />
@@ -57,18 +57,22 @@
                     </Entry>
                 </StackLayout>
                 
-                <StackLayout Grid.Row="2" Grid.Column="0">
+                <StackLayout Grid.Row="2" Grid.Column="0" >
                     <Label Text="Address" />
-                    <Editor HeightRequest="100">
-                        
-                    </Editor>
+                        <StackLayout BackgroundColor="Silver" Padding="1" Opacity="0.5">
+                            <Editor HeightRequest="100" BackgroundColor="White" >
+                                
+                            </Editor>
+                        </StackLayout>
                 </StackLayout>
                 
-                <StackLayout Grid.Row="2" Grid.Column="1">
+                <StackLayout Grid.Row="2" Grid.Column="1" >
                     <Label Text="Additional Note" />
-                    <Editor HeightRequest="100" >
-                        
-                    </Editor>
+                    <StackLayout BackgroundColor="Silver" Padding="1" Opacity="0.5">
+                            <Editor HeightRequest="100" BackgroundColor="White" >
+                                
+                            </Editor>
+                        </StackLayout>
                 </StackLayout>
             </Grid>
             <Button Text="DONATE" Clicked="Handle_Clicked" />

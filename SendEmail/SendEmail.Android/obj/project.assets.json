@@ -1483,11 +1483,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/deng/Downloads/SchoolHouse-In-Sky-sprint-7-maps/SendEmail/SendEmail.Android/SendEmail.Android.csproj",
+      "projectUniqueName": "/Users/deng/Documents/GitHub/SchoolHouse-In-Sky/SendEmail/SendEmail.Android/SendEmail.Android.csproj",
       "projectName": "SendEmail.Android",
-      "projectPath": "/Users/deng/Downloads/SchoolHouse-In-Sky-sprint-7-maps/SendEmail/SendEmail.Android/SendEmail.Android.csproj",
+      "projectPath": "/Users/deng/Documents/GitHub/SchoolHouse-In-Sky/SendEmail/SendEmail.Android/SendEmail.Android.csproj",
       "packagesPath": "/Users/deng/.nuget/packages/",
-      "outputPath": "/Users/deng/Downloads/SchoolHouse-In-Sky-sprint-7-maps/SendEmail/SendEmail.Android/obj/",
+      "outputPath": "/Users/deng/Documents/GitHub/SchoolHouse-In-Sky/SendEmail/SendEmail.Android/obj/",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
@@ -1502,8 +1502,8 @@
       "frameworks": {
         "monoandroid81": {
           "projectReferences": {
-            "/Users/deng/Downloads/SchoolHouse-In-Sky-sprint-7-maps/SendEmail/SendEmail/SendEmail.csproj": {
-              "projectPath": "/Users/deng/Downloads/SchoolHouse-In-Sky-sprint-7-maps/SendEmail/SendEmail/SendEmail.csproj"
+            "/Users/deng/Documents/GitHub/SchoolHouse-In-Sky/SendEmail/SendEmail/SendEmail.csproj": {
+              "projectPath": "/Users/deng/Documents/GitHub/SchoolHouse-In-Sky/SendEmail/SendEmail/SendEmail.csproj"
             }
           }
         }

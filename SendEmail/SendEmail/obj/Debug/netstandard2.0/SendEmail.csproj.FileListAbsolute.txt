@@ -68,8 +68,6 @@ C:/Users/Matthew/Documents/GitHub/SchoolHouse-In-Sky/SendEmail/SendEmail/obj/Deb
 /Users/deng/Documents/GitHub/SchoolHouse-In-Sky/SendEmail/SendEmail/obj/Debug/netstandard2.0/App.xaml.g.cs
 /Users/deng/Documents/GitHub/SchoolHouse-In-Sky/SendEmail/SendEmail/obj/Debug/netstandard2.0/Views/About.xaml.g.cs
 /Users/deng/Documents/GitHub/SchoolHouse-In-Sky/SendEmail/SendEmail/obj/Debug/netstandard2.0/Views/Donation.xaml.g.cs
-/Users/deng/Documents/GitHub/SchoolHouse-In-Sky/SendEmail/SendEmail/obj/Debug/netstandard2.0/Views/EditPage.xaml.g.cs
-/Users/deng/Documents/GitHub/SchoolHouse-In-Sky/SendEmail/SendEmail/obj/Debug/netstandard2.0/Views/Home.xaml.g.cs
 /Users/deng/Documents/GitHub/SchoolHouse-In-Sky/SendEmail/SendEmail/obj/Debug/netstandard2.0/Views/MapPage.xaml.g.cs
 /Users/deng/Documents/GitHub/SchoolHouse-In-Sky/SendEmail/SendEmail/obj/Debug/netstandard2.0/Views/SendEmail.xaml.g.cs
 /Users/deng/Documents/GitHub/SchoolHouse-In-Sky/SendEmail/SendEmail/obj/Debug/netstandard2.0/SendEmail.csproj.CoreCompileInputs.cache
@@ -112,3 +110,4 @@ C:/Users/matth/Documents/GitHub/SchoolHouse-In-Sky/SendEmail/SendEmail/obj/Debug
 /Users/deng/Downloads/SchoolHouse-In-Sky-sprint-7-maps/SendEmail/SendEmail/obj/Debug/netstandard2.0/SendEmail.dll
 /Users/deng/Downloads/SchoolHouse-In-Sky-sprint-7-maps/SendEmail/SendEmail/obj/Debug/netstandard2.0/SendEmail.pdb
 /Users/deng/Downloads/SchoolHouse-In-Sky-sprint-7-maps/SendEmail/SendEmail/obj/Debug/netstandard2.0/Views/ProjectDetails.xaml.g.cs
+/Users/deng/Documents/GitHub/SchoolHouse-In-Sky/SendEmail/SendEmail/obj/Debug/netstandard2.0/Views/ProjectDetails.xaml.g.cs
