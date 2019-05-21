@@ -4,8 +4,14 @@
              x:Class="SendEmail.MapPage"
              Title="Map">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="This will develop later!" />
-        </StackLayout>
+        <ScrollView>
+            <StackLayout Padding="30" Spacing="10">
+
+                <Button Text="Get Location" Clicked="Button_OnClicked"></Button>
+                <Label x:Name="LabelGeolocation"></Label>
+                <Button Text="LocationAlways" StyleId="LocationAlways" Clicked="ButtonPermission_OnClicked"></Button>
+                <Button Text="LocationWhenInUse" StyleId="LocationWhenInUse" Clicked="ButtonPermission_OnClicked"></Button>
+            </StackLayout>
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>
