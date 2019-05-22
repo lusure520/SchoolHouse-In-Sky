@@ -112,6 +112,7 @@
     <AndroidResource Include="Resources\drawable\LuklaDrinkingWater.png" />
     <AndroidResource Include="Resources\drawable\Airport.png" />
     <AndroidResource Include="Resources\drawable\HimalayanTrust.png" />
+    <AndroidResource Include="Resources\drawable\backGround.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\drawable-hdpi\" />

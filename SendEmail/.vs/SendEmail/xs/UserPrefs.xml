@@ -1,24 +1,31 @@
-﻿<Properties StartupConfiguration="{C626D332-88A9-4754-BB86-5575DA0F159B}|Default">
-  <MonoDevelop.Ide.ItemProperties.SendEmail.Android AndroidDesignerPreferredTheme="Theme.DeviceDefault.NoActionBar.Fullscreen" AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.Android_Accelerated_Oreo" />
-  <MonoDevelop.Ide.ItemProperties.SendEmail.iOS automaticSigning="False" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.4f3641ee10f0d896cf873e3848586806183587de" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="SendEmail/Views/MapPage.xaml.cs">
+﻿<Properties StartupConfiguration="{EF48F5D8-D8C7-47A4-8674-2C79A8600EFC}|Default">
+  <MonoDevelop.Ide.ItemProperties.SendEmail.Android AndroidDesignerPreferredTheme="Theme.DeviceDefault.NoActionBar.Fullscreen" AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.test" />
+  <MonoDevelop.Ide.ItemProperties.SendEmail.iOS automaticSigning="False" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.2C6170A6-78C5-4124-A6E1-F54CFCE8E125" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="SendEmail/Views/MapPage.xaml">
     <Files>
-      <File FileName="SendEmail/Views/MapPage.xaml.cs" Line="133" Column="33" />
-      <File FileName="SendEmail/Views/Donation.xaml" Line="28" Column="43" />
-      <File FileName="SendEmail/Views/Donation.xaml.cs" Line="1" Column="1" />
-      <File FileName="SendEmail/NavigationTest.cs" Line="43" Column="53" />
-      <File FileName="SendEmail/Views/ProjectDetails.xaml.cs" Line="95" Column="27" />
+      <File FileName="SendEmail/Views/MapPage.xaml" Line="16" Column="21" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="SendEmail" expanded="True" selected="True" />
+          <Node name="SendEmail" expanded="True">
+            <Node name="SendEmail" expanded="True">
+              <Node name="Views" expanded="True">
+                <Node name="MapPage.xaml" selected="True" />
+              </Node>
+            </Node>
+            <Node name="SendEmail.Android" expanded="True">
+              <Node name="Resources" expanded="True">
+                <Node name="drawable" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhone" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

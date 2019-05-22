@@ -115,6 +115,7 @@
 /Users/deng/Documents/GitHub/SchoolHouse-In-Sky/SendEmail/SendEmail.Android/obj/Debug/R.cs.flag
 /Users/deng/Documents/GitHub/SchoolHouse-In-Sky/SendEmail/SendEmail.Android/obj/Debug/R.txt
 /Users/deng/Documents/GitHub/SchoolHouse-In-Sky/SendEmail/SendEmail.Android/obj/Debug/uploadflags.txt
+/Users/deng/Documents/GitHub/SchoolHouse-In-Sky/SendEmail/SendEmail.Android/obj/Debug/res/drawable/background.png
 /Users/deng/Documents/GitHub/SchoolHouse-In-Sky/SendEmail/SendEmail.Android/obj/Debug/linksrc/SendEmail.Android.pdb
 /Users/deng/Documents/GitHub/SchoolHouse-In-Sky/SendEmail/SendEmail.Android/obj/Debug/linksrc/FormsViewGroup.pdb
 /Users/deng/Documents/GitHub/SchoolHouse-In-Sky/SendEmail/SendEmail.Android/obj/Debug/linksrc/Mono.Android.pdb
