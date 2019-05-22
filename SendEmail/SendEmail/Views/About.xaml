@@ -4,31 +4,41 @@
              x:Class="SendEmail.About"
              Title="About Us">
     <ContentPage.Content>
-        <ScrollView>
-        <Grid Padding="10">
-                <Grid.RowDefinitions>
-                    <RowDefinition Height="300"/>
-                    <RowDefinition Height="300"/>
-                </Grid.RowDefinitions>
-                
-               
-                <StackLayout Margin="10,10,10,5" Grid.Row="0">
-                <Label Text="{Binding AboutTitle}" Font="Bold,20"/>
-                <BoxView Color="Black" WidthRequest ="100" HeightRequest="1"/>
-                    <ScrollView  Padding="5">
-                        <Label Text="{Binding AboutDetails}" FontSize="12"/>
-                    </ScrollView>   
-                </StackLayout>
-                
-                <StackLayout  Margin="10,10,10,5" Grid.Row="1">
-                <Label Text="{Binding SecondTitle}" Font="Bold,20" />
-                <BoxView Color="Black" WidthRequest ="100" HeightRequest="1"/>
-                    <ScrollView Padding="5">
-                        <Label Text="{Binding AboutDetails}" FontSize="12"/>
-                    </ScrollView>   
-                </StackLayout>
-              
-            </Grid>
-        </ScrollView>
+        <StackLayout>
+        <Grid Padding="0">
+        <Image
+            Aspect="AspectFill"
+            Source="backGround.png"
+            RelativeLayout.WidthConstraint= "{ConstraintExpression Type=RelativeToParent, Property=Width}"
+            RelativeLayout.HeightConstraint= "{ConstraintExpression Type=RelativeToParent, Property=Height}">
+        </Image>
+            <ScrollView>
+            <Grid Padding="10">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="300"/>
+                        <RowDefinition Height="300"/>
+                    </Grid.RowDefinitions>
+                    
+                   
+                    <StackLayout Margin="10,10,10,5" Grid.Row="0">
+                    <Label Text="{Binding AboutTitle}" Font="Bold,20"/>
+                    <BoxView Color="Black" WidthRequest ="100" HeightRequest="1"/>
+                        <ScrollView  Padding="5">
+                            <Label Text="{Binding AboutDetails}" FontSize="12"/>
+                        </ScrollView>   
+                    </StackLayout>
+                    
+                    <StackLayout  Margin="10,10,10,5" Grid.Row="1">
+                    <Label Text="{Binding SecondTitle}" Font="Bold,20" />
+                    <BoxView Color="Black" WidthRequest ="100" HeightRequest="1"/>
+                        <ScrollView Padding="5">
+                            <Label Text="{Binding AboutDetails}" FontSize="12"/>
+                        </ScrollView>   
+                    </StackLayout>
+                  
+                </Grid>
+            </ScrollView>
+        </Grid>
+        </StackLayout>
     </ContentPage.Content>
 </ContentPage>

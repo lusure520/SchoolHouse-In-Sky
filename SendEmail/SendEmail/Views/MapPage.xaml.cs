@@ -156,9 +156,15 @@ namespace SendEmail
                     map.WidthRequest = 960;
                     map.VerticalOptions = LayoutOptions.FillAndExpand;
 
+                    var newPage = new ProjectDetails("maps");
+                  
+                    
                     var stack = new StackLayout { Spacing = 0 };
                     stack.Children.Add(map);
-                    Content = stack;
+                    newPage.Content = stack;
+                    await Navigation.PushAsync(newPage);
+                    //Content = stack;
+
 
                     var pin1 = new Pin
                     {
@@ -291,12 +297,12 @@ namespace SendEmail
                         };
                     }; */
 
-                    await DisplayAlert("Location Detail", "Lat: " + results.Latitude + " Long: " + results.Longitude, "OK");
+                    //await DisplayAlert("Location Detail", "Lat: " + results.Latitude + " Long: " + results.Longitude, "OK");
                     //LabelGeolocation.Text = "Lat: " + results.Latitude + " Long: " + results.Longitude;
                 }
                 else if (status != PermissionStatus.Unknown)
                 {
-                    await DisplayAlert("Location Denied", "Can not continue, try again.", "OK");
+                    await DisplayAlert("Location Denied", "No loaction Permission, try again.", "OK");
                 }
             }
             catch (Exception ex)

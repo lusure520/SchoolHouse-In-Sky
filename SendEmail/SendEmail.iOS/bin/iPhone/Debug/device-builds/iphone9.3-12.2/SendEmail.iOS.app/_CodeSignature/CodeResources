@@ -4,6 +4,10 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Airport.png</key>
+		<data>
+		rFaS6Tfz03iojx3WAay3LdGPK5I=
+		</data>
 		<key>AppIcon20x20@2x.png</key>
 		<data>
 		jeFj9+clocp00h08YDnHDr2AQIA=
@@ -74,11 +78,27 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		mOZxvHqQFst13kykuh2bjYj5dB0=
+		/F8NtytR4U+/cNTNisEKBbBTn+Y=
+		</data>
+		<key>ChaurikharkaSchool.png</key>
+		<data>
+		4s2DaSfXo2mfsuamBxpsC3aC6J0=
+		</data>
+		<key>HimalayanTrust.png</key>
+		<data>
+		O2P8tcyZAv4OhQi+JPAND37mf3Q=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		TxXuoXGFf0Zy+euO8gP9OtvAcI0=
+		/UqX6GelMQiMxU0KDysQ9CLTj/E=
+		</data>
+		<key>KhumjungSchool.png</key>
+		<data>
+		pSB2EhDdnEJ3qU6G1AAdJUAX2qY=
+		</data>
+		<key>KundeHospital.png</key>
+		<data>
+		oms4g08xlnmydT3A5DQWbVlpLEM=
 		</data>
 		<key>LaunchScreen.storyboardc/Info.plist</key>
 		<data>
@@ -86,11 +106,19 @@
 		</data>
 		<key>LaunchScreen.storyboardc/UIViewController-X5k-f2-b5h.nib</key>
 		<data>
-		e46eymMyj5cR2ouGqy/7VUH2efI=
+		lHCdGXHXChDwQfzSGeIG+ebz1HI=
 		</data>
 		<key>LaunchScreen.storyboardc/X5k-f2-b5h-view-yd7-JS-zBw.nib</key>
 		<data>
-		PkGG0qYJZM9OGQx5Hzd+G38j1vM=
+		igZemeEimtVvoyePxSvwptu2Ebs=
+		</data>
+		<key>LuklaDrinkingWater.png</key>
+		<data>
+		MNXbbZmOvcj1q1iboZXH8GHRQSs=
+		</data>
+		<key>MonjoSchool.png</key>
+		<data>
+		oolNW9Umdj3MnAR6sr3RUPngYyw=
 		</data>
 		<key>Mono.Security.aotdata.arm64</key>
 		<data>
@@ -107,6 +135,10 @@
 		<key>MonoTouchDebugConfiguration.txt</key>
 		<data>
 		oowkf1sL6T19nanXUObgmuayWqM=
+		</data>
+		<key>MuseyDrinkingWater.png</key>
+		<data>
+		6Fnmv8swddoir4waZWo2n/cZYaI=
 		</data>
 		<key>NOTICE</key>
 		<data>
@@ -148,33 +180,41 @@
 		<data>
 		iEM0ahuakis9BVrV8TN7JKMhIkg=
 		</data>
+		<key>SagarmathaNationalPark.png</key>
+		<data>
+		YF7Ipsl+ny5it/Gs2i8uVTd0d+A=
+		</data>
 		<key>SendEmail.aotdata.arm64</key>
 		<data>
-		jUsKbjAfT1hF0rNBlMkSoa0hk5k=
+		x2eQz8jJpqYAylstDnu6p+f0q1o=
 		</data>
 		<key>SendEmail.dll</key>
 		<data>
-		jF47Gm3CksNojAizVKY8G39nCes=
+		tiEmNoMaDeD6AZs85hl+rFSglmA=
 		</data>
 		<key>SendEmail.iOS.aotdata.arm64</key>
 		<data>
-		HfwDz8XMAq3ryCn2+jG31soyUa8=
+		KjYep+eKCK7KQdk9O0mIMQbK8J0=
 		</data>
 		<key>SendEmail.iOS.exe</key>
 		<data>
-		/lvy3/JbeeR8uuRJINBsy7rDHvk=
+		QGEyWWZmTJZprjSMd28AhJJoIJg=
 		</data>
 		<key>SendEmail.iOS.pdb</key>
 		<data>
-		WjpuP+PcJg+I63W+8GiH7KMI47Q=
+		t+S/wiJcHcMHQGwNHM+f8X2jnmE=
 		</data>
 		<key>SendEmail.pdb</key>
 		<data>
-		nQzQG4+7Z3jncV8P2XQoQjheRqw=
+		N0L2x//NrQw6ObMBqWZxCy+2JDk=
 		</data>
 		<key>Settings.bundle/Root.plist</key>
 		<data>
 		nrVMGKClE6pvxn6IcBgG4it6i0A=
+		</data>
+		<key>ShreeHimalayanPrimarySchool.png</key>
+		<data>
+		Ja4gqdHXi4qrYywpN2qX2UskONU=
 		</data>
 		<key>System.Core.aotdata.arm64</key>
 		<data>
@@ -296,6 +336,14 @@
 		<data>
 		SSAVwfyzHHXaUjbMhbieDU91498=
 		</data>
+		<key>ThameSchool.png</key>
+		<data>
+		SgnkN3DtRXCkPOtBCemj6iCNIrM=
+		</data>
+		<key>TheYetiScalp.png</key>
+		<data>
+		pPDiA0YLDBRGqx3ojKGBBaQSTPA=
+		</data>
 		<key>Xamarin.Forms.Core.aotdata.arm64</key>
 		<data>
 		r3bsfzhGGFLWO2kgbGAD0R1wAW8=
@@ -380,6 +428,10 @@
 		<data>
 		vO/gVYVVkU1zHBaxd4xJ53/ga5k=
 		</data>
+		<key>backGround.png</key>
+		<data>
+		XAodLlIAZ3szLYQcXiwFQcO6P1g=
+		</data>
 		<key>ca/Xamarin.Forms.Platform.iOS.resources.dll</key>
 		<data>
 		7aXLp87qCctnJqOlx7VlR+6gLGo=
@@ -410,7 +462,7 @@
 		</data>
 		<key>embedded.mobileprovision</key>
 		<data>
-		YV7JZX2QnUnZbvPihmrMCB0X+hc=
+		4wpxm/c/ISGAu9TAxGgq7SRWp3w=
 		</data>
 		<key>es/Xamarin.Forms.Platform.iOS.resources.dll</key>
 		<data>
@@ -543,6 +595,17 @@
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>Airport.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			rFaS6Tfz03iojx3WAay3LdGPK5I=
+			</data>
+			<key>hash2</key>
+			<data>
+			uUQM2skLgHwCMvyA26UGdhoW+wiswI6yWzKsCzJEQDg=
+			</data>
+		</dict>
 		<key>AppIcon20x20@2x.png</key>
 		<dict>
 			<key>hash</key>
@@ -734,11 +797,55 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			mOZxvHqQFst13kykuh2bjYj5dB0=
+			/F8NtytR4U+/cNTNisEKBbBTn+Y=
 			</data>
 			<key>hash2</key>
 			<data>
-			XKvv8XnMl09ud4sfoUxsyi1GgusNAzUb38K/m47Kb2c=
+			HGaTvxQ/8xprLRsfGP/acBKjsEvqChNpn8Puits4LYc=
+			</data>
+		</dict>
+		<key>ChaurikharkaSchool.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			4s2DaSfXo2mfsuamBxpsC3aC6J0=
+			</data>
+			<key>hash2</key>
+			<data>
+			FSTHjHqhYhlBU/NjIftOhyE3Tc/siCMcFAT82a0p6PI=
+			</data>
+		</dict>
+		<key>HimalayanTrust.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			O2P8tcyZAv4OhQi+JPAND37mf3Q=
+			</data>
+			<key>hash2</key>
+			<data>
+			wVnc4oyK9GHAtIh7mqlrKmanYBNBCM9znEWvGVBgFzs=
+			</data>
+		</dict>
+		<key>KhumjungSchool.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			pSB2EhDdnEJ3qU6G1AAdJUAX2qY=
+			</data>
+			<key>hash2</key>
+			<data>
+			aCEa3Q2avf8T9rpQ2kisnQ/WSDCQvhsra6mk9ple2no=
+			</data>
+		</dict>
+		<key>KundeHospital.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			oms4g08xlnmydT3A5DQWbVlpLEM=
+			</data>
+			<key>hash2</key>
+			<data>
+			F0+GjHxap+ZmAYQmnR7qp2y92ZAQ6eJPa3aOy4NCRU8=
 			</data>
 		</dict>
 		<key>LaunchScreen.storyboardc/Info.plist</key>
@@ -756,22 +863,44 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			e46eymMyj5cR2ouGqy/7VUH2efI=
+			lHCdGXHXChDwQfzSGeIG+ebz1HI=
 			</data>
 			<key>hash2</key>
 			<data>
-			NfkVHx558kDhKe+UmJ4HEWafgyMZZlDidRYlFqIBfkk=
+			1LWVgEmNZbJ9MfC7sGXZlxPyWpnSTmC4Qv7z0bTTgKI=
 			</data>
 		</dict>
 		<key>LaunchScreen.storyboardc/X5k-f2-b5h-view-yd7-JS-zBw.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			PkGG0qYJZM9OGQx5Hzd+G38j1vM=
+			igZemeEimtVvoyePxSvwptu2Ebs=
 			</data>
 			<key>hash2</key>
 			<data>
-			Vpx2MvmnuULSASD3/GnX3c9Kks1kGwOqu7cmzkkl9B4=
+			LL1RdXc+FQ9de6YOEoEU2GwySGBrQXqXYyOTWyn4Hm0=
+			</data>
+		</dict>
+		<key>LuklaDrinkingWater.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			MNXbbZmOvcj1q1iboZXH8GHRQSs=
+			</data>
+			<key>hash2</key>
+			<data>
+			IcASwPfxHA4oDi1odOTH5U5KYYftK8Ow5CKKbrK2GgI=
+			</data>
+		</dict>
+		<key>MonjoSchool.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			oolNW9Umdj3MnAR6sr3RUPngYyw=
+			</data>
+			<key>hash2</key>
+			<data>
+			b2zGy3yibeUdcYtlHOyg35k0u1qL6dXBodqxpDrBLuI=
 			</data>
 		</dict>
 		<key>Mono.Security.aotdata.arm64</key>
@@ -816,6 +945,17 @@
 			<key>hash2</key>
 			<data>
 			RS51BO98d+zhJWK1abJOyD5jB4nYJnWJPtL2DZyA/zw=
+			</data>
+		</dict>
+		<key>MuseyDrinkingWater.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			6Fnmv8swddoir4waZWo2n/cZYaI=
+			</data>
+			<key>hash2</key>
+			<data>
+			NhMFH8rlVmNYIUjhqBHkuRykySwnFHdgk0EIO2f5gKY=
 			</data>
 		</dict>
 		<key>NOTICE</key>
@@ -917,70 +1057,81 @@
 			K6ZTxDtwJXgMcFU1YQXeifRTISPIZ9VJHMxJDPsO3io=
 			</data>
 		</dict>
+		<key>SagarmathaNationalPark.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			YF7Ipsl+ny5it/Gs2i8uVTd0d+A=
+			</data>
+			<key>hash2</key>
+			<data>
+			tkfGgHLDMSqx9rNUj3+EwcpmuvfEwImmF4hVIQdALiM=
+			</data>
+		</dict>
 		<key>SendEmail.aotdata.arm64</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			jUsKbjAfT1hF0rNBlMkSoa0hk5k=
+			x2eQz8jJpqYAylstDnu6p+f0q1o=
 			</data>
 			<key>hash2</key>
 			<data>
-			Gj2Mrp4IbqWaKpN/oZkfcZy56yVIujKsXRekkr6AVOY=
+			GaCKBpkvmZhSV6bjd4HbaLCYBhU9BMSuMiCr1a7bbD0=
 			</data>
 		</dict>
 		<key>SendEmail.dll</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			jF47Gm3CksNojAizVKY8G39nCes=
+			tiEmNoMaDeD6AZs85hl+rFSglmA=
 			</data>
 			<key>hash2</key>
 			<data>
-			kfRNmJgCfIhscco6VEBIJebE1tPpm+/ycnBRUB/loQU=
+			Tr3PjRwPvAFdQ0NlI6v3zocg8OJJEmW7y+0BEK7H6OU=
 			</data>
 		</dict>
 		<key>SendEmail.iOS.aotdata.arm64</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			HfwDz8XMAq3ryCn2+jG31soyUa8=
+			KjYep+eKCK7KQdk9O0mIMQbK8J0=
 			</data>
 			<key>hash2</key>
 			<data>
-			QpZKIRTTQO5IXsSh2mpCGNLFfxx8xaNPSve2pK8tJ0k=
+			Z265zRFMj1h5UiR5gLaCyVVFvkrEqF1ibU4k3hmxaoY=
 			</data>
 		</dict>
 		<key>SendEmail.iOS.exe</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			/lvy3/JbeeR8uuRJINBsy7rDHvk=
+			QGEyWWZmTJZprjSMd28AhJJoIJg=
 			</data>
 			<key>hash2</key>
 			<data>
-			OPW2beKbzUQS6rGOWkjyyeYtsDD5EvAsMjbMROxDbOs=
+			rAKEnlKY56mIV0YgXKdEESRL0BvuYYh3a5oFPu4rv3w=
 			</data>
 		</dict>
 		<key>SendEmail.iOS.pdb</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			WjpuP+PcJg+I63W+8GiH7KMI47Q=
+			t+S/wiJcHcMHQGwNHM+f8X2jnmE=
 			</data>
 			<key>hash2</key>
 			<data>
-			SnhbTqh8y2cnifvDc8gGaNCtrMHWlMr05KXLYVGPMCg=
+			9VkpZXp9WYhQbiaOEmjRvmXPbZ1rwoVy+kN9jXdnxRs=
 			</data>
 		</dict>
 		<key>SendEmail.pdb</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			nQzQG4+7Z3jncV8P2XQoQjheRqw=
+			N0L2x//NrQw6ObMBqWZxCy+2JDk=
 			</data>
 			<key>hash2</key>
 			<data>
-			pC7yXCMhpStVXv5/mnU/mJivsHmkjdM9PUUfvoYwaV0=
+			dAK9YxgJYRieyPpUhmE9px9rNLilV7TBHyRTvJE/aJI=
 			</data>
 		</dict>
 		<key>Settings.bundle/Root.plist</key>
@@ -992,6 +1143,17 @@
 			<key>hash2</key>
 			<data>
 			zi1Y0A+tVNNfppRDjT3LpbeC+xDRJTirIvMQJ0HkgMQ=
+			</data>
+		</dict>
+		<key>ShreeHimalayanPrimarySchool.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Ja4gqdHXi4qrYywpN2qX2UskONU=
+			</data>
+			<key>hash2</key>
+			<data>
+			rKZNJ27OvFBqbi0tCHhegEnG78AnndUE9tPpwDzJTH4=
 			</data>
 		</dict>
 		<key>System.Core.aotdata.arm64</key>
@@ -1324,6 +1486,28 @@
 			yqS3Gn/yMLBWAZU/Rwtf7d312NQXzz6h9td6FI4vXE8=
 			</data>
 		</dict>
+		<key>ThameSchool.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			SgnkN3DtRXCkPOtBCemj6iCNIrM=
+			</data>
+			<key>hash2</key>
+			<data>
+			N6gcof6doDitWqAFkcPmxVQbeVW6Z0Ys6CVSpkJDMv0=
+			</data>
+		</dict>
+		<key>TheYetiScalp.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			pPDiA0YLDBRGqx3ojKGBBaQSTPA=
+			</data>
+			<key>hash2</key>
+			<data>
+			xDClqxO61lW0EN4iVvYiphF+lC6OO50GlKxNCvLCr9U=
+			</data>
+		</dict>
 		<key>Xamarin.Forms.Core.aotdata.arm64</key>
 		<dict>
 			<key>hash</key>
@@ -1555,6 +1739,17 @@
 			l3BKiWC0+szu9UOXoI+10KRWJHw2JzWSFaoqJ98iZWw=
 			</data>
 		</dict>
+		<key>backGround.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			XAodLlIAZ3szLYQcXiwFQcO6P1g=
+			</data>
+			<key>hash2</key>
+			<data>
+			Q3H71vbVziq/P0Lk2pU8DncYFAkLGibuuWkWqy/9C7k=
+			</data>
+		</dict>
 		<key>ca/Xamarin.Forms.Platform.iOS.resources.dll</key>
 		<dict>
 			<key>hash</key>
@@ -1636,11 +1831,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			YV7JZX2QnUnZbvPihmrMCB0X+hc=
+			4wpxm/c/ISGAu9TAxGgq7SRWp3w=
 			</data>
 			<key>hash2</key>
 			<data>
-			2Va6nCVCaelT7T2JncHc/EFkNJNBJx91aZVPfMqOgks=
+			Vtv8UILKNNXH4ZB1X8rdAKMEjVyWudwlzXhzqVvOScw=
 			</data>
 		</dict>
 		<key>es/Xamarin.Forms.Platform.iOS.resources.dll</key>

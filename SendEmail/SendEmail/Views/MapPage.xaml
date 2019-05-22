@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
              x:Class="SendEmail.MapPage"
              Title="Project Details">
-              <ContentPage.Resources> 
+      <ContentPage.Resources> 
             <Style TargetType="Frame">
                 <Setter Property="BackgroundColor" Value="LightYellow" />
                 <Setter Property="BorderColor" Value="Blue" />
@@ -37,9 +37,15 @@
     </ContentPage.Resources>
     
     <ContentPage.Content>
+        <Grid Padding="0">
+        <Image
+            Aspect="AspectFill"
+            Source="backGround.png"
+            RelativeLayout.WidthConstraint= "{ConstraintExpression Type=RelativeToParent, Property=Width}"
+            RelativeLayout.HeightConstraint= "{ConstraintExpression Type=RelativeToParent, Property=Height}">
+        </Image>
             <ScrollView>
-           
-           <StackLayout>
+            <StackLayout>
                 <StackLayout Padding="30" Spacing="10">
                     <Button Text="Get Location" Clicked="Button_OnClicked"></Button>
                 </StackLayout>
@@ -293,5 +299,6 @@
                 </StackLayout>
             </StackLayout>
             </ScrollView>
+        </Grid>
     </ContentPage.Content>
 </ContentPage>

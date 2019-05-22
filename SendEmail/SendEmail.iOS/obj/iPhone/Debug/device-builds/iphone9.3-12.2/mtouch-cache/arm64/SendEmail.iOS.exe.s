@@ -121,7 +121,7 @@ jit_code_start:
 	.align 4
 	.no_dead_strip SendEmail_iOS_Application_Main_string__
 SendEmail_iOS_Application_Main_string__:
-.file 1 "/Users/deng/Downloads/SchoolHouse-In-Sky-sprint-7-maps/SendEmail/SendEmail.iOS/Main.cs"
+.file 1 "/Users/deng/Documents/GitHub/SchoolHouse-In-Sky/SendEmail/SendEmail.iOS/Main.cs"
 .loc 1 14 0 prologue_end
 .word 0xa9bd7bfd
 .word 0x910003fd
@@ -212,7 +212,7 @@ Lme_1:
 	.align 4
 	.no_dead_strip SendEmail_iOS_AppDelegate_FinishedLaunching_UIKit_UIApplication_Foundation_NSDictionary
 SendEmail_iOS_AppDelegate_FinishedLaunching_UIKit_UIApplication_Foundation_NSDictionary:
-.file 2 "/Users/deng/Downloads/SchoolHouse-In-Sky-sprint-7-maps/SendEmail/SendEmail.iOS/AppDelegate.cs"
+.file 2 "/Users/deng/Documents/GitHub/SchoolHouse-In-Sky/SendEmail/SendEmail.iOS/AppDelegate.cs"
 .loc 2 24 0 prologue_end
 .word 0xa9ba7bfd
 .word 0x910003fd
@@ -483,7 +483,7 @@ runtime_version:
 .section __TEXT, __const
 	.align 2
 assembly_guid:
-	.asciz "C7C43D79-53B2-461A-8E5F-FDE2A440F5E7"
+	.asciz "592E848C-E401-482E-AF43-BCE3CB45C85D"
 .section __TEXT, __const
 	.align 2
 assembly_name:
@@ -568,7 +568,7 @@ _mono_aot_file_info:
 	.long 32,872,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0
-	.byte 77,80,97,111,3,255,74,104,169,44,48,8,167,33,182,125
+	.byte 203,120,201,153,151,38,168,200,55,167,195,67,236,140,140,126
 	.globl _mono_aot_module_SendEmail_iOS_info
 	.align 3
 _mono_aot_module_SendEmail_iOS_info:

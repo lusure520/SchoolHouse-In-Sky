@@ -186,5 +186,6 @@
     <BundleResource Include="Resources\SagarmathaNationalPark.png" />
     <BundleResource Include="Resources\TheYetiScalp.png" />
     <BundleResource Include="Resources\HimalayanTrust.png" />
+    <BundleResource Include="Resources\backGround.png" />
   </ItemGroup>
 </Project>
