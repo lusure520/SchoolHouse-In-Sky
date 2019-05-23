@@ -10,6 +10,15 @@ namespace SendEmail.Views
         public ProjectDetails(String name)
         {
             InitializeComponent();
+            //switch (Device.RuntimePlatform)
+            //{
+            //    case Device.Android:
+            //        NavigationPage.SetHasNavigationBar(this, false);
+            //        break;
+            //    default:
+            //        NavigationPage.SetHasNavigationBar(this, true);
+            //        break;
+            //}
             GetProjectDetailByName(name);
         }
 

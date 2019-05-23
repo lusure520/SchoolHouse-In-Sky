@@ -20,7 +20,7 @@ namespace SendEmail
                     sendEmailPage = new NavigationPage(new SendEmail())
                     {
                         Title = "Send Email",
-                        Icon = "email.png",
+                        Icon = "email.png"
 
                     };
                     donationPage = new NavigationPage(new Donation())
@@ -42,7 +42,10 @@ namespace SendEmail
                 default:
                     sendEmailPage = new SendEmail();
                     donationPage = new Donation();
-                    mapPage = new MapPage();
+                    mapPage = new NavigationPage(new MapPage())
+                    {
+                        Title = "Project Details"
+                    };
                     aboutPage = new About();
                     break;
             }

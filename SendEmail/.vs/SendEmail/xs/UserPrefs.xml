@@ -1,9 +1,14 @@
 ﻿<Properties StartupConfiguration="{EF48F5D8-D8C7-47A4-8674-2C79A8600EFC}|Default">
-  <MonoDevelop.Ide.ItemProperties.SendEmail.Android AndroidDesignerPreferredTheme="Theme.DeviceDefault.NoActionBar.Fullscreen" AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.test" />
-  <MonoDevelop.Ide.ItemProperties.SendEmail.iOS automaticSigning="False" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.2C6170A6-78C5-4124-A6E1-F54CFCE8E125" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="SendEmail/Views/MapPage.xaml">
+  <MonoDevelop.Ide.ItemProperties.SendEmail.Android AndroidDesignerPreferredTheme="Theme.DeviceDefault.NoActionBar.Fullscreen" AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.deng" />
+  <MonoDevelop.Ide.ItemProperties.SendEmail.iOS automaticSigning="False" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.002AC2AA-317A-4B96-BCCE-62466402A947" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="SendEmail/NavigationTest.cs">
     <Files>
-      <File FileName="SendEmail/Views/MapPage.xaml" Line="16" Column="21" />
+      <File FileName="SendEmail/App.xaml.cs" Line="21" Column="9" />
+      <File FileName="SendEmail/NavigationTest.cs" Line="35" Column="23" />
+      <File FileName="SendEmail/Views/MapPage.xaml" Line="5" Column="14" />
+      <File FileName="../../../../../../Library/Frameworks/Mono.framework/External/xbuild/Xamarin/Android/Xamarin.Android.Common.targets" Line="1703" Column="2" />
+      <File FileName="SendEmail/Views/MapPage.xaml.cs" Line="22" Column="13" />
+      <File FileName="SendEmail/Views/ProjectDetails.xaml.cs" Line="14" Column="16" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -11,13 +16,19 @@
           <Node name="SendEmail" expanded="True">
             <Node name="SendEmail" expanded="True">
               <Node name="Views" expanded="True">
-                <Node name="MapPage.xaml" selected="True" />
+                <Node name="MapPage.xaml" expanded="True" />
+                <Node name="ProjectDetails.xaml" expanded="True" />
               </Node>
+              <Node name="App.xaml" expanded="True" />
+              <Node name="NavigationTest.cs" selected="True" />
             </Node>
             <Node name="SendEmail.Android" expanded="True">
               <Node name="Resources" expanded="True">
-                <Node name="drawable" expanded="True" />
+                <Node name="drawable-xxhdpi" expanded="True" />
               </Node>
+            </Node>
+            <Node name="SendEmail.iOS" expanded="True">
+              <Node name="Resources" expanded="True" />
             </Node>
           </Node>
         </State>

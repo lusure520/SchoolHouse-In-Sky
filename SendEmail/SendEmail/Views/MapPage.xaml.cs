@@ -19,6 +19,16 @@ namespace SendEmail
         public MapPage()
         {
             InitializeComponent();
+            switch (Device.RuntimePlatform)
+            {
+                case Device.Android:
+                    NavigationPage.SetHasNavigationBar(this, false);
+                    break;
+                default:
+                    NavigationPage.SetHasNavigationBar(this, true);
+                    break;
+            }
+
         }
 
         void Handle_Clicked(object sender, System.EventArgs e)

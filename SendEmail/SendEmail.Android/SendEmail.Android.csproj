@@ -100,19 +100,19 @@
     <AndroidResource Include="Resources\mipmap-xxhdpi\launcher_foreground.png" />
     <AndroidResource Include="Resources\mipmap-xxxhdpi\Icon.png" />
     <AndroidResource Include="Resources\mipmap-xxxhdpi\launcher_foreground.png" />
-    <AndroidResource Include="Resources\drawable\TheYetiScalp.png" />
-    <AndroidResource Include="Resources\drawable\SagarmathaNationalPark.png" />
-    <AndroidResource Include="Resources\drawable\MonjoSchool.png" />
-    <AndroidResource Include="Resources\drawable\ShreeHimalayanPrimarySchool.png" />
-    <AndroidResource Include="Resources\drawable\ThameSchool.png" />
-    <AndroidResource Include="Resources\drawable\MuseyDrinkingWater.png" />
-    <AndroidResource Include="Resources\drawable\KhumjungSchool.png" />
-    <AndroidResource Include="Resources\drawable\ChaurikharkaSchool.png" />
-    <AndroidResource Include="Resources\drawable\KundeHospital.png" />
-    <AndroidResource Include="Resources\drawable\LuklaDrinkingWater.png" />
-    <AndroidResource Include="Resources\drawable\Airport.png" />
-    <AndroidResource Include="Resources\drawable\HimalayanTrust.png" />
-    <AndroidResource Include="Resources\drawable\backGround.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\backGround.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\TheYetiScalp.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\SagarmathaNationalPark.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\MonjoSchool.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\ShreeHimalayanPrimarySchool.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\ThameSchool.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\MuseyDrinkingWater.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\KhumjungSchool.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\ChaurikharkaSchool.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\KundeHospital.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\LuklaDrinkingWater.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\Airport.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\HimalayanTrust.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\drawable-hdpi\" />
