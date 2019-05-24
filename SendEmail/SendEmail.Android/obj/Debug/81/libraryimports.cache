@@ -25,7 +25,6 @@
   </ManifestDocuments>
   <NativeLibraries />
   <Jars>
-    <Jar>obj\Debug\81\lp\0\jl\formsviewgroup.jar</Jar>
     <Jar>obj\Debug\81\lp\10\jl\bin\classes.jar</Jar>
     <Jar>obj\Debug\81\lp\11\jl\bin\classes.jar</Jar>
     <Jar>obj\Debug\81\lp\12\jl\support-annotations.jar</Jar>
@@ -36,6 +35,7 @@
     <Jar>obj\Debug\81\lp\17\jl\bin\classes.jar</Jar>
     <Jar>obj\Debug\81\lp\18\jl\bin\classes.jar</Jar>
     <Jar>obj\Debug\81\lp\19\jl\bin\classes.jar</Jar>
+    <Jar>obj\Debug\81\lp\2\jl\formsviewgroup.jar</Jar>
     <Jar>obj\Debug\81\lp\20\jl\bin\classes.jar</Jar>
     <Jar>obj\Debug\81\lp\21\jl\bin\classes.jar</Jar>
     <Jar>obj\Debug\81\lp\22\jl\bin\classes.jar</Jar>

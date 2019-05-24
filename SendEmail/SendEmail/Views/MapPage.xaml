@@ -2,7 +2,7 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
              x:Class="SendEmail.MapPage"
-             Title="Project Details">
+             Title="Explore Nepal">
       <ContentPage.Resources> 
             <Style TargetType="Frame">
                 <Setter Property="BackgroundColor" Value="LightYellow" />
@@ -47,7 +47,7 @@
             <ScrollView>
             <StackLayout>
                 <StackLayout Padding="30" Spacing="10">
-                    <Button Text="Get Location" Clicked="Button_OnClicked"></Button>
+                    <Button Text="Explore Nepal" Clicked="Button_OnClicked"></Button>
                 </StackLayout>
                 
                 <StackLayout>

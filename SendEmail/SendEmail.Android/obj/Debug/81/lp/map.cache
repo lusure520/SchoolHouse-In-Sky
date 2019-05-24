@@ -1,11 +1,11 @@
+SendEmail
+System.Runtime
 FormsViewGroup
 Plugin.Connectivity.Abstractions
 Plugin.Connectivity
 Plugin.CurrentActivity
 Plugin.Geolocator
 Plugin.Permissions
-SendEmail
-System.Runtime
 Xamarin.Android.Arch.Core.Common
 Xamarin.Android.Arch.Lifecycle.Common
 Xamarin.Android.Arch.Lifecycle.Runtime

@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
              xmlns:behaviors="clr-namespace:SendEmail.Validation"
              x:Class="SendEmail.SendEmail"
-             Title="Send email">
+             Title="Newsletter">
     
     <ContentPage.Content>
         <Grid Padding="0">

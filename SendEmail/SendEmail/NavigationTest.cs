@@ -19,7 +19,7 @@ namespace SendEmail
                 case Device.iOS:
                     sendEmailPage = new NavigationPage(new SendEmail())
                     {
-                        Title = "Send Email",
+                        Title = "Newsletter",
                         Icon = "email.png"
 
                     };
@@ -30,7 +30,7 @@ namespace SendEmail
                     };
                     mapPage = new NavigationPage(new MapPage())
                     {
-                        Title = "Project Details",
+                        Title = "Explore Nepal",
                         Icon = "map.png"
                     };
                     aboutPage = new NavigationPage(new About())
@@ -44,7 +44,7 @@ namespace SendEmail
                     donationPage = new Donation();
                     mapPage = new NavigationPage(new MapPage())
                     {
-                        Title = "Project Details"
+                        Title = "Explore Nepal"
                     };
                     aboutPage = new About();
                     break;
