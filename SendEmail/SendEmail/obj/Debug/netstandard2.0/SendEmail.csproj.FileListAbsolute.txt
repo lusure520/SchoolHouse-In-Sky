@@ -108,4 +108,3 @@ C:\Users\matth\Documents\GitHub\SchoolHouse-In-Sky\SendEmail\SendEmail\obj\Debug
 C:\Users\matth\Documents\GitHub\SchoolHouse-In-Sky\SendEmail\SendEmail\obj\Debug\netstandard2.0\XamlC.stamp
 C:\Users\matth\Documents\GitHub\SchoolHouse-In-Sky\SendEmail\SendEmail\obj\Debug\netstandard2.0\SendEmail.dll
 C:\Users\matth\Documents\GitHub\SchoolHouse-In-Sky\SendEmail\SendEmail\obj\Debug\netstandard2.0\SendEmail.pdb
-C:\Users\matth\Documents\GitHub\SchoolHouse-In-Sky\SendEmail\SendEmail\obj\Debug\netstandard2.0\SendEmail.csprojAssemblyReference.cache

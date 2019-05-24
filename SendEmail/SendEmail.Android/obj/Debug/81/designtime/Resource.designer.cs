@@ -3842,38 +3842,38 @@ namespace SendEmail.Droid
 			// aapt resource value: 0x7F050004
 			public const int colorPrimaryDark = 2131034116;
 			
-			// aapt resource value: 0x7F050105
-			public const int common_google_signin_btn_text_dark = 2131034373;
-			
-			// aapt resource value: 0x7F050108
-			public const int common_google_signin_btn_text_dark_default = 2131034376;
+			// aapt resource value: 0x7F050106
+			public const int common_google_signin_btn_text_dark = 2131034374;
 			
 			// aapt resource value: 0x7F050109
-			public const int common_google_signin_btn_text_dark_disabled = 2131034377;
+			public const int common_google_signin_btn_text_dark_default = 2131034377;
 			
 			// aapt resource value: 0x7F050110
-			public const int common_google_signin_btn_text_dark_focused = 2131034384;
+			public const int common_google_signin_btn_text_dark_disabled = 2131034384;
 			
 			// aapt resource value: 0x7F050111
-			public const int common_google_signin_btn_text_dark_pressed = 2131034385;
-			
-			// aapt resource value: 0x7F050106
-			public const int common_google_signin_btn_text_light = 2131034374;
+			public const int common_google_signin_btn_text_dark_focused = 2131034385;
 			
 			// aapt resource value: 0x7F050112
-			public const int common_google_signin_btn_text_light_default = 2131034386;
-			
-			// aapt resource value: 0x7F050113
-			public const int common_google_signin_btn_text_light_disabled = 2131034387;
-			
-			// aapt resource value: 0x7F050114
-			public const int common_google_signin_btn_text_light_focused = 2131034388;
-			
-			// aapt resource value: 0x7F050115
-			public const int common_google_signin_btn_text_light_pressed = 2131034389;
+			public const int common_google_signin_btn_text_dark_pressed = 2131034386;
 			
 			// aapt resource value: 0x7F050107
-			public const int common_google_signin_btn_tint = 2131034375;
+			public const int common_google_signin_btn_text_light = 2131034375;
+			
+			// aapt resource value: 0x7F050113
+			public const int common_google_signin_btn_text_light_default = 2131034387;
+			
+			// aapt resource value: 0x7F050114
+			public const int common_google_signin_btn_text_light_disabled = 2131034388;
+			
+			// aapt resource value: 0x7F050115
+			public const int common_google_signin_btn_text_light_focused = 2131034389;
+			
+			// aapt resource value: 0x7F050116
+			public const int common_google_signin_btn_text_light_pressed = 2131034390;
+			
+			// aapt resource value: 0x7F050108
+			public const int common_google_signin_btn_tint = 2131034376;
 			
 			// aapt resource value: 0x7F060027
 			public const int design_bottom_navigation_shadow_color = 2131099687;
@@ -4042,6 +4042,9 @@ namespace SendEmail.Droid
 			
 			// aapt resource value: 0x7F060057
 			public const int secondary_text_disabled_material_light = 2131099735;
+			
+			// aapt resource value: 0x7F050006
+			public const int splash_background = 2131034118;
 			
 			// aapt resource value: 0x7F060058
 			public const int switch_thumb_disabled_material_dark = 2131099736;
@@ -4990,8 +4993,8 @@ namespace SendEmail.Droid
 			// aapt resource value: 0x7F090053
 			public const int abc_vector_test = 2131296339;
 			
-			// aapt resource value: 0x7F010002
-			public const int Airport = 2130771970;
+			// aapt resource value: 0x7F010004
+			public const int Airport = 2130771972;
 			
 			// aapt resource value: 0x7F090054
 			public const int avd_hide_password = 2131296340;
@@ -4999,8 +5002,8 @@ namespace SendEmail.Droid
 			// aapt resource value: 0x7F090055
 			public const int avd_show_password = 2131296341;
 			
-			// aapt resource value: 0x7F010003
-			public const int backGround = 2130771971;
+			// aapt resource value: 0x7F010005
+			public const int backGround = 2130771973;
 			
 			// aapt resource value: 0x1
 			public const int cast_abc_scrubber_control_off_mtrl_alpha = 1;
@@ -5164,65 +5167,65 @@ namespace SendEmail.Droid
 			// aapt resource value: 0x1
 			public const int cast_skip_ad_label_border = 1;
 			
-			// aapt resource value: 0x7F010004
-			public const int ChaurikharkaSchool = 2130771972;
-			
-			// aapt resource value: 0x7F010332
-			public const int common_full_open_on_phone = 2130772786;
-			
-			// aapt resource value: 0x7F010318
-			public const int common_google_signin_btn_icon_dark = 2130772760;
-			
-			// aapt resource value: 0x7F010319
-			public const int common_google_signin_btn_icon_dark_focused = 2130772761;
-			
-			// aapt resource value: 0x7F010320
-			public const int common_google_signin_btn_icon_dark_normal = 2130772768;
-			
-			// aapt resource value: 0x7F010333
-			public const int common_google_signin_btn_icon_dark_normal_background = 2130772787;
-			
-			// aapt resource value: 0x7F010321
-			public const int common_google_signin_btn_icon_disabled = 2130772769;
-			
-			// aapt resource value: 0x7F010322
-			public const int common_google_signin_btn_icon_light = 2130772770;
-			
-			// aapt resource value: 0x7F010323
-			public const int common_google_signin_btn_icon_light_focused = 2130772771;
-			
-			// aapt resource value: 0x7F010324
-			public const int common_google_signin_btn_icon_light_normal = 2130772772;
+			// aapt resource value: 0x7F010006
+			public const int ChaurikharkaSchool = 2130771974;
 			
 			// aapt resource value: 0x7F010334
-			public const int common_google_signin_btn_icon_light_normal_background = 2130772788;
+			public const int common_full_open_on_phone = 2130772788;
 			
-			// aapt resource value: 0x7F010325
-			public const int common_google_signin_btn_text_dark = 2130772773;
+			// aapt resource value: 0x7F010320
+			public const int common_google_signin_btn_icon_dark = 2130772768;
 			
-			// aapt resource value: 0x7F010326
-			public const int common_google_signin_btn_text_dark_focused = 2130772774;
+			// aapt resource value: 0x7F010321
+			public const int common_google_signin_btn_icon_dark_focused = 2130772769;
 			
-			// aapt resource value: 0x7F010327
-			public const int common_google_signin_btn_text_dark_normal = 2130772775;
+			// aapt resource value: 0x7F010322
+			public const int common_google_signin_btn_icon_dark_normal = 2130772770;
 			
 			// aapt resource value: 0x7F010335
-			public const int common_google_signin_btn_text_dark_normal_background = 2130772789;
+			public const int common_google_signin_btn_icon_dark_normal_background = 2130772789;
 			
-			// aapt resource value: 0x7F010328
-			public const int common_google_signin_btn_text_disabled = 2130772776;
+			// aapt resource value: 0x7F010323
+			public const int common_google_signin_btn_icon_disabled = 2130772771;
 			
-			// aapt resource value: 0x7F010329
-			public const int common_google_signin_btn_text_light = 2130772777;
+			// aapt resource value: 0x7F010324
+			public const int common_google_signin_btn_icon_light = 2130772772;
 			
-			// aapt resource value: 0x7F010330
-			public const int common_google_signin_btn_text_light_focused = 2130772784;
+			// aapt resource value: 0x7F010325
+			public const int common_google_signin_btn_icon_light_focused = 2130772773;
 			
-			// aapt resource value: 0x7F010331
-			public const int common_google_signin_btn_text_light_normal = 2130772785;
+			// aapt resource value: 0x7F010326
+			public const int common_google_signin_btn_icon_light_normal = 2130772774;
 			
 			// aapt resource value: 0x7F010336
-			public const int common_google_signin_btn_text_light_normal_background = 2130772790;
+			public const int common_google_signin_btn_icon_light_normal_background = 2130772790;
+			
+			// aapt resource value: 0x7F010327
+			public const int common_google_signin_btn_text_dark = 2130772775;
+			
+			// aapt resource value: 0x7F010328
+			public const int common_google_signin_btn_text_dark_focused = 2130772776;
+			
+			// aapt resource value: 0x7F010329
+			public const int common_google_signin_btn_text_dark_normal = 2130772777;
+			
+			// aapt resource value: 0x7F010337
+			public const int common_google_signin_btn_text_dark_normal_background = 2130772791;
+			
+			// aapt resource value: 0x7F010330
+			public const int common_google_signin_btn_text_disabled = 2130772784;
+			
+			// aapt resource value: 0x7F010331
+			public const int common_google_signin_btn_text_light = 2130772785;
+			
+			// aapt resource value: 0x7F010332
+			public const int common_google_signin_btn_text_light_focused = 2130772786;
+			
+			// aapt resource value: 0x7F010333
+			public const int common_google_signin_btn_text_light_normal = 2130772787;
+			
+			// aapt resource value: 0x7F010338
+			public const int common_google_signin_btn_text_light_normal_background = 2130772792;
 			
 			// aapt resource value: 0x7F090056
 			public const int design_bottom_navigation_item_background = 2131296342;
@@ -5242,14 +5245,14 @@ namespace SendEmail.Droid
 			// aapt resource value: 0x7F09005B
 			public const int design_snackbar_background = 2131296347;
 			
-			// aapt resource value: 0x7F010337
-			public const int googleg_disabled_color_18 = 2130772791;
+			// aapt resource value: 0x7F010339
+			public const int googleg_disabled_color_18 = 2130772793;
 			
-			// aapt resource value: 0x7F010338
-			public const int googleg_standard_color_18 = 2130772792;
+			// aapt resource value: 0x7F010340
+			public const int googleg_standard_color_18 = 2130772800;
 			
-			// aapt resource value: 0x7F010005
-			public const int HimalayanTrust = 2130771973;
+			// aapt resource value: 0x7F010007
+			public const int HimalayanTrust = 2130771975;
 			
 			// aapt resource value: 0x7F090054
 			public const int ic_audiotrack_dark = 2131296340;
@@ -5794,17 +5797,20 @@ namespace SendEmail.Droid
 			// aapt resource value: 0x7F090104
 			public const int ic_vol_type_tv_light = 2131296516;
 			
-			// aapt resource value: 0x7F010006
-			public const int KhumjungSchool = 2130771974;
-			
-			// aapt resource value: 0x7F010007
-			public const int KundeHospital = 2130771975;
-			
 			// aapt resource value: 0x7F010008
-			public const int LuklaDrinkingWater = 2130771976;
+			public const int KhumjungSchool = 2130771976;
 			
 			// aapt resource value: 0x7F010009
-			public const int MonjoSchool = 2130771977;
+			public const int KundeHospital = 2130771977;
+			
+			// aapt resource value: 0x7F010002
+			public const int logo = 2130771970;
+			
+			// aapt resource value: 0x7F010010
+			public const int LuklaDrinkingWater = 2130771984;
+			
+			// aapt resource value: 0x7F010011
+			public const int MonjoSchool = 2130771985;
 			
 			// aapt resource value: 0x7F090105
 			public const int mr_button_connected_dark = 2131296517;
@@ -5866,8 +5872,8 @@ namespace SendEmail.Droid
 			// aapt resource value: 0x7F090118
 			public const int mr_vol_type_audiotrack_light = 2131296536;
 			
-			// aapt resource value: 0x7F010010
-			public const int MuseyDrinkingWater = 2130771984;
+			// aapt resource value: 0x7F010012
+			public const int MuseyDrinkingWater = 2130771986;
 			
 			// aapt resource value: 0x7F09005C
 			public const int navigation_empty_icon = 2131296348;
@@ -6043,17 +6049,20 @@ namespace SendEmail.Droid
 			// aapt resource value: 0x1
 			public const int quantum_ic_volume_up_white_36 = 1;
 			
-			// aapt resource value: 0x7F010011
-			public const int SagarmathaNationalPark = 2130771985;
-			
-			// aapt resource value: 0x7F010012
-			public const int ShreeHimalayanPrimarySchool = 2130771986;
-			
 			// aapt resource value: 0x7F010013
-			public const int ThameSchool = 2130771987;
+			public const int SagarmathaNationalPark = 2130771987;
 			
 			// aapt resource value: 0x7F010014
-			public const int TheYetiScalp = 2130771988;
+			public const int ShreeHimalayanPrimarySchool = 2130771988;
+			
+			// aapt resource value: 0x7F010003
+			public const int SplashScreen = 2130771971;
+			
+			// aapt resource value: 0x7F010015
+			public const int ThameSchool = 2130771989;
+			
+			// aapt resource value: 0x7F010016
+			public const int TheYetiScalp = 2130771990;
 			
 			// aapt resource value: 0x7F090069
 			public const int tooltip_frame_dark = 2131296361;
@@ -7830,8 +7839,8 @@ namespace SendEmail.Droid
 			// aapt resource value: 0x7F160006
 			public const int Animation_Design_BottomSheetDialog = 2132148230;
 			
-			// aapt resource value: 0x7F060004
-			public const int AppCompatDialogStyle = 2131099652;
+			// aapt resource value: 0x7F060007
+			public const int AppCompatDialogStyle = 2131099655;
 			
 			// aapt resource value: 0x7F160007
 			public const int Base_AlertDialog_AppCompat = 2132148231;
@@ -8346,11 +8355,20 @@ namespace SendEmail.Droid
 			// aapt resource value: 0x1
 			public const int CustomCastTheme = 1;
 			
-			// aapt resource value: 0x7F060002
-			public const int MainTheme = 2131099650;
+			// aapt resource value: 0x7F060005
+			public const int MainTheme = 2131099653;
+			
+			// aapt resource value: 0x7F060006
+			public const int MainTheme_Base = 2131099654;
 			
 			// aapt resource value: 0x7F060003
-			public const int MainTheme_Base = 2131099651;
+			public const int MyTheme = 2131099651;
+			
+			// aapt resource value: 0x7F060002
+			public const int MyTheme_Base = 2131099650;
+			
+			// aapt resource value: 0x7F060004
+			public const int MyTheme_Splash = 2131099652;
 			
 			// aapt resource value: 0x7F1600AA
 			public const int Platform_AppCompat = 2132148394;

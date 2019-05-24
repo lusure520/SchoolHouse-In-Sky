@@ -4,7 +4,6 @@ C:\Users\matth\Documents\GitHub\SchoolHouse-In-Sky\SendEmail\SendEmail.Android\b
 C:\Users\matth\Documents\GitHub\SchoolHouse-In-Sky\SendEmail\SendEmail.Android\bin\Debug\com.orand.SendEmail-Signed.apk
 C:\Users\matth\Documents\GitHub\SchoolHouse-In-Sky\SendEmail\SendEmail.Android\bin\Debug\SendEmail.dll
 C:\Users\matth\Documents\GitHub\SchoolHouse-In-Sky\SendEmail\SendEmail.Android\bin\Debug\SendEmail.pdb
-C:\Users\matth\Documents\GitHub\SchoolHouse-In-Sky\SendEmail\SendEmail.Android\bin\Debug\SendEmail.dll.mdb
 C:\Users\matth\Documents\GitHub\SchoolHouse-In-Sky\SendEmail\SendEmail.Android\obj\Debug\81\MonoAndroid,Version=v8.1.AssemblyAttributes.cs
 C:\Users\matth\Documents\GitHub\SchoolHouse-In-Sky\SendEmail\SendEmail.Android\obj\Debug\81\SendEmail.Android.nuget.stamp
 C:\Users\matth\Documents\GitHub\SchoolHouse-In-Sky\SendEmail\SendEmail.Android\obj\Debug\81\SendEmail.Android.csprojAssemblyReference.cache
@@ -57,6 +56,8 @@ C:\Users\matth\Documents\GitHub\SchoolHouse-In-Sky\SendEmail\SendEmail.Android\o
 C:\Users\matth\Documents\GitHub\SchoolHouse-In-Sky\SendEmail\SendEmail.Android\obj\Debug\81\R.cs.flag
 C:\Users\matth\Documents\GitHub\SchoolHouse-In-Sky\SendEmail\SendEmail.Android\obj\Debug\81\R.txt
 C:\Users\matth\Documents\GitHub\SchoolHouse-In-Sky\SendEmail\SendEmail.Android\obj\Debug\81\uploadflags.txt
+C:\Users\matth\Documents\GitHub\SchoolHouse-In-Sky\SendEmail\SendEmail.Android\obj\Debug\81\res\drawable\logo.png
+C:\Users\matth\Documents\GitHub\SchoolHouse-In-Sky\SendEmail\SendEmail.Android\obj\Debug\81\res\drawable\splashscreen.xml
 C:\Users\matth\Documents\GitHub\SchoolHouse-In-Sky\SendEmail\SendEmail.Android\bin\Debug\FormsViewGroup.pdb
 C:\Users\matth\Documents\GitHub\SchoolHouse-In-Sky\SendEmail\SendEmail.Android\bin\Debug\Mono.Android.pdb
 C:\Users\matth\Documents\GitHub\SchoolHouse-In-Sky\SendEmail\SendEmail.Android\bin\Debug\mscorlib.pdb
@@ -105,6 +106,7 @@ C:\Users\matth\Documents\GitHub\SchoolHouse-In-Sky\SendEmail\SendEmail.Android\o
 C:\Users\matth\Documents\GitHub\SchoolHouse-In-Sky\SendEmail\SendEmail.Android\obj\Debug\81\linksrc\System.Web.Services.pdb
 C:\Users\matth\Documents\GitHub\SchoolHouse-In-Sky\SendEmail\SendEmail.Android\obj\Debug\81\linksrc\Mono.Security.pdb
 C:\Users\matth\Documents\GitHub\SchoolHouse-In-Sky\SendEmail\SendEmail.Android\bin\Debug\Plugin.Connectivity.dll.mdb
+C:\Users\matth\Documents\GitHub\SchoolHouse-In-Sky\SendEmail\SendEmail.Android\bin\Debug\SendEmail.dll.mdb
 C:\Users\matth\Documents\GitHub\SchoolHouse-In-Sky\SendEmail\SendEmail.Android\bin\Debug\Xamarin.Essentials.dll.mdb
 C:\Users\matth\Documents\GitHub\SchoolHouse-In-Sky\SendEmail\SendEmail.Android\obj\Debug\81\linksrc\Plugin.Connectivity.dll.mdb
 C:\Users\matth\Documents\GitHub\SchoolHouse-In-Sky\SendEmail\SendEmail.Android\obj\Debug\81\linksrc\SendEmail.dll.mdb
@@ -136,8 +138,6 @@ C:\Users\matth\Documents\GitHub\SchoolHouse-In-Sky\SendEmail\SendEmail.Android\o
 C:\Users\matth\Documents\GitHub\SchoolHouse-In-Sky\SendEmail\SendEmail.Android\obj\Debug\81\android\assets\Xamarin.Forms.Core.pdb
 C:\Users\matth\Documents\GitHub\SchoolHouse-In-Sky\SendEmail\SendEmail.Android\obj\Debug\81\android\assets\Xamarin.Forms.Platform.Android.pdb
 C:\Users\matth\Documents\GitHub\SchoolHouse-In-Sky\SendEmail\SendEmail.Android\obj\Debug\81\android\assets\Xamarin.Forms.Xaml.pdb
-C:\Users\matth\Documents\GitHub\SchoolHouse-In-Sky\SendEmail\SendEmail\bin\Debug\netstandard2.0\SendEmail.dll
-C:\Users\matth\Documents\GitHub\SchoolHouse-In-Sky\SendEmail\SendEmail.Android\bin\Debug\SendEmail.dll.mdb
 C:\Users\matth\Documents\GitHub\SchoolHouse-In-Sky\SendEmail\SendEmail.Android\obj\Debug\81\linksrc\Plugin.Connectivity.dll.mdb
 C:\Users\matth\Documents\GitHub\SchoolHouse-In-Sky\SendEmail\SendEmail.Android\obj\Debug\81\linksrc\SendEmail.dll.mdb
 C:\Users\matth\Documents\GitHub\SchoolHouse-In-Sky\SendEmail\SendEmail.Android\obj\Debug\81\linksrc\Xamarin.Essentials.dll.mdb
