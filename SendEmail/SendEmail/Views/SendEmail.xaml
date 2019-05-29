@@ -6,15 +6,22 @@
              Title="Newsletter">
     
     <ContentPage.Content>
+         
+        
         <Grid Padding="0">
-        <Image
+            
+
+            <Image
             Aspect="AspectFill"
             Source="backGround.png"
             RelativeLayout.WidthConstraint= "{ConstraintExpression Type=RelativeToParent, Property=Width}"
             RelativeLayout.HeightConstraint= "{ConstraintExpression Type=RelativeToParent, Property=Height}">
         </Image>
 
+
             <StackLayout Padding="20" Spacing="10" Orientation="Vertical">
+            <Label Text="Sign Up To Enews" XAlign="Center" Margin="15" HorizontalOptions="Center" FontAttributes="Bold" FontSize="22"/>
+            <Label Text="Sign up to our email newsletter today and get all the latest news, updates, information and ways to get involved straight to your inbox!" XAlign="Center" Margin="15" HorizontalOptions="Center" FontSize="14"/>
             <Entry Keyboard="Text" Placeholder="First name" FontSize="15" x:Name="firstName">
             <Entry.Behaviors>
                 <behaviors:LetterValidatorBehavior/>
@@ -36,7 +43,7 @@
             </Entry.Behaviors>
             </Entry>
             
-            <Button Text="Sign Up" Clicked="Handle_Clicked" />
+            <Button Text="Subscribe" Clicked="Handle_Clicked" />
             </StackLayout>
         </Grid>
     </ContentPage.Content>

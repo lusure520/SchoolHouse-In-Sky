@@ -27,7 +27,7 @@ namespace SendEmail.Views
                 "Monthly",
                 "Yearly"
             };
-            donation_time.ItemsSource = times;
+            donation_time.ItemsSource = times; 
         }
 
         private void OnPickerSelectedIndexChanged(object sender, EventArgs e)
