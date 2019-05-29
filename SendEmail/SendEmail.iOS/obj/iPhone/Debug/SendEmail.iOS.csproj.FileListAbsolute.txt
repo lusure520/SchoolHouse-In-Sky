@@ -140,6 +140,7 @@
 /Users/deng/Documents/GitHub/SchoolHouse-In-Sky/SendEmail/SendEmail.iOS/obj/iPhone/Debug/device-builds/iphone9.3-12.2/optimized/TheYetiScalp.png
 /Users/deng/Documents/GitHub/SchoolHouse-In-Sky/SendEmail/SendEmail.iOS/obj/iPhone/Debug/device-builds/iphone9.3-12.2/optimized/HimalayanTrust.png
 /Users/deng/Documents/GitHub/SchoolHouse-In-Sky/SendEmail/SendEmail.iOS/obj/iPhone/Debug/device-builds/iphone9.3-12.2/optimized/backGround.png
+/Users/deng/Documents/GitHub/SchoolHouse-In-Sky/SendEmail/SendEmail.iOS/obj/iPhone/Debug/device-builds/iphone9.3-12.2/optimized/home.png
 /Users/deng/Documents/GitHub/SchoolHouse-In-Sky/SendEmail/SendEmail.iOS/obj/iPhone/Debug/device-builds/iphone9.3-12.2/optimized/
 /Users/deng/Documents/GitHub/SchoolHouse-In-Sky/SendEmail/SendEmail.iOS/obj/iPhone/Debug/SendEmail.iOS.csprojAssemblyReference.cache
 /Users/deng/Documents/GitHub/SchoolHouse-In-Sky/SendEmail/SendEmail.iOS/obj/iPhone/Debug/SendEmail.iOS.csproj.CoreCompileInputs.cache
@@ -147,4 +148,3 @@
 /Users/deng/Documents/GitHub/SchoolHouse-In-Sky/SendEmail/SendEmail.iOS/obj/iPhone/Debug/SendEmail.iOS.csproj.CopyComplete
 /Users/deng/Documents/GitHub/SchoolHouse-In-Sky/SendEmail/SendEmail.iOS/obj/iPhone/Debug/SendEmail.iOS.exe
 /Users/deng/Documents/GitHub/SchoolHouse-In-Sky/SendEmail/SendEmail.iOS/obj/iPhone/Debug/SendEmail.iOS.pdb
-/Users/deng/Documents/GitHub/SchoolHouse-In-Sky/SendEmail/SendEmail.iOS/obj/iPhone/Debug/device-builds/iphone9.3-12.2/optimized/home.png

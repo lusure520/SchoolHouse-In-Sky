@@ -10,7 +10,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		FctAuLSHDRSazNuWUET4xBiFuSE=
+		+jcbM1tjCbEiEmE6LHLR+mvur4w=
 		</data>
 		<key>ChaurikharkaSchool.png</key>
 		<data>
@@ -110,11 +110,11 @@
 		</data>
 		<key>LaunchScreen.storyboardc/UIViewController-X5k-f2-b5h.nib</key>
 		<data>
-		nu3jR99rdagZ4i9Q3kInQ+wI/yg=
+		KXCG+QRa9nOyEhidhIQobod7JHk=
 		</data>
 		<key>LaunchScreen.storyboardc/X5k-f2-b5h-view-yd7-JS-zBw.nib</key>
 		<data>
-		pk2PWjVb/3o9YCSlghbmYB1oLkk=
+		oEXm8YOqr2KjcBlfMKLcpoLzRjE=
 		</data>
 		<key>LuklaDrinkingWater.png</key>
 		<data>
@@ -190,19 +190,19 @@
 		</data>
 		<key>SendEmail.aotdata.arm64</key>
 		<data>
-		3Dz5aLoK2grit2EfYvx505FIB9A=
+		qAzGU8drLBw2QurL/HGajvLDSV4=
 		</data>
 		<key>SendEmail.dll</key>
 		<data>
-		Oj22FWeGMynGESfdSXIOeEilGXo=
+		5WYcG+ltc3U+1Rt7j37q736Bbuk=
 		</data>
 		<key>SendEmail.iOS.aotdata.arm64</key>
 		<data>
-		+oNo7xol2+S7A6G3XOi8TXWtGu8=
+		n+owR5O3EQluA0I6po+W478zrqc=
 		</data>
 		<key>SendEmail.iOS.exe</key>
 		<data>
-		/Dd9EBJA4diE9IoYwSHbYTeLq9k=
+		B6X89VVtOuyN8crcmSIbLW5iego=
 		</data>
 		<key>SendEmail.iOS.pdb</key>
 		<data>
@@ -210,7 +210,7 @@
 		</data>
 		<key>SendEmail.pdb</key>
 		<data>
-		w03B6DapnPvm1EnjgeerULbTBNA=
+		ycWJIvjCH/Oqu+3ve07tHcmG2E8=
 		</data>
 		<key>Settings.bundle/Root.plist</key>
 		<data>
@@ -488,6 +488,10 @@
 		<data>
 		Rah7FC/Ol0mE31H28uME7mw2qzA=
 		</data>
+		<key>home.png</key>
+		<data>
+		fYswYsqX4xvaEMm4DWx9N59NpnA=
+		</data>
 		<key>hr/Xamarin.Forms.Platform.iOS.resources.dll</key>
 		<data>
 		A+zCfoa5QfkNz8L/OtGq4/3fhEg=
@@ -614,11 +618,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			FctAuLSHDRSazNuWUET4xBiFuSE=
+			+jcbM1tjCbEiEmE6LHLR+mvur4w=
 			</data>
 			<key>hash2</key>
 			<data>
-			GS+xIYRrKDSYr0P5hx5q1ZY1Ad09O5W6pTMBUBiICOY=
+			7cDUlexvsNf/3etw+gko3kyjc+20xrvDoQIzhoXh1qE=
 			</data>
 		</dict>
 		<key>ChaurikharkaSchool.png</key>
@@ -878,22 +882,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			nu3jR99rdagZ4i9Q3kInQ+wI/yg=
+			KXCG+QRa9nOyEhidhIQobod7JHk=
 			</data>
 			<key>hash2</key>
 			<data>
-			+f3hMjKz+MIkP+YZRwyojemOWKrLDaAkGKVkWd3xvYo=
+			idkhNQarXfzE6lWFAXpanG6we8THEJy1GroshTbVwQA=
 			</data>
 		</dict>
 		<key>LaunchScreen.storyboardc/X5k-f2-b5h-view-yd7-JS-zBw.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			pk2PWjVb/3o9YCSlghbmYB1oLkk=
+			oEXm8YOqr2KjcBlfMKLcpoLzRjE=
 			</data>
 			<key>hash2</key>
 			<data>
-			o0dfq4P6akl8aolOG9AP9+MzlkW9B5tURVko+Bea9dY=
+			OAYlBK0HeQx1uP8aBeQjXoHiw+X/djD1cVjM/bkv9EQ=
 			</data>
 		</dict>
 		<key>LuklaDrinkingWater.png</key>
@@ -1087,44 +1091,44 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			3Dz5aLoK2grit2EfYvx505FIB9A=
+			qAzGU8drLBw2QurL/HGajvLDSV4=
 			</data>
 			<key>hash2</key>
 			<data>
-			Rs/HTQcDVRPXfmxLuya6/1fRw5NuIATIWprhVuKoQsk=
+			L9yVkXPDL/iMGUE5B3WwdEKaAnb5M1ss16zHPzyz9Tw=
 			</data>
 		</dict>
 		<key>SendEmail.dll</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Oj22FWeGMynGESfdSXIOeEilGXo=
+			5WYcG+ltc3U+1Rt7j37q736Bbuk=
 			</data>
 			<key>hash2</key>
 			<data>
-			aejAHmVcoQP3K9GmStGTWFe0OI9U6cxnbLzMVUOc6U8=
+			KchDm+su6+1m70uE3B+Z80VBhqfFQ4Z6JnNG41hcAAU=
 			</data>
 		</dict>
 		<key>SendEmail.iOS.aotdata.arm64</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			+oNo7xol2+S7A6G3XOi8TXWtGu8=
+			n+owR5O3EQluA0I6po+W478zrqc=
 			</data>
 			<key>hash2</key>
 			<data>
-			RQK8RBGHoG4Oog1QU+wUAplEgI2+2+ZlWPnL7uqKTqY=
+			MAKykxrDmkGQvArgKiokFKP2GNW8ZG9TUvhtM0sFzlo=
 			</data>
 		</dict>
 		<key>SendEmail.iOS.exe</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			/Dd9EBJA4diE9IoYwSHbYTeLq9k=
+			B6X89VVtOuyN8crcmSIbLW5iego=
 			</data>
 			<key>hash2</key>
 			<data>
-			yQ7ON2YsWi11DM4t+7CUzO1xBIeQp0wzvIyHubhBgBE=
+			rbVaP0YxL8AXHAl4XTORaxiabLBksFIHFnRHNuOVdHg=
 			</data>
 		</dict>
 		<key>SendEmail.iOS.pdb</key>
@@ -1142,11 +1146,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			w03B6DapnPvm1EnjgeerULbTBNA=
+			ycWJIvjCH/Oqu+3ve07tHcmG2E8=
 			</data>
 			<key>hash2</key>
 			<data>
-			U/EAW3VoZGP2wr3tgP3y3s6uzpMzsOjHObdv50cgzZQ=
+			pxVKaytvBQDVFMP5BzaPketLhX8peEsz99mJSo3h4Vk=
 			</data>
 		</dict>
 		<key>Settings.bundle/Root.plist</key>
@@ -1906,6 +1910,17 @@
 			<key>hash2</key>
 			<data>
 			iii2TV+E6x1g3Hlu51UC4S4lKukmj7gklLOgmpfISnk=
+			</data>
+		</dict>
+		<key>home.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			fYswYsqX4xvaEMm4DWx9N59NpnA=
+			</data>
+			<key>hash2</key>
+			<data>
+			QodVzPbGDYEkmrIoUZbKKd5E4ea4sJTTTGnNhtJGE5c=
 			</data>
 		</dict>
 		<key>hr/Xamarin.Forms.Platform.iOS.resources.dll</key>

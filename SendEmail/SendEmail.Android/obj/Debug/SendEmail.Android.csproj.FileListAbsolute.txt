@@ -56,6 +56,7 @@
 /Users/deng/Documents/GitHub/SchoolHouse-In-Sky/SendEmail/SendEmail.Android/obj/Debug/res/drawable-xxhdpi/himalayantrust.png
 /Users/deng/Documents/GitHub/SchoolHouse-In-Sky/SendEmail/SendEmail.Android/obj/Debug/res/drawable/splashscreen.xml
 /Users/deng/Documents/GitHub/SchoolHouse-In-Sky/SendEmail/SendEmail.Android/obj/Debug/res/drawable/logo.png
+/Users/deng/Documents/GitHub/SchoolHouse-In-Sky/SendEmail/SendEmail.Android/obj/Debug/res/drawable-xxhdpi/newslogo.png
 /Users/deng/Documents/GitHub/SchoolHouse-In-Sky/SendEmail/SendEmail.Android/obj/Debug/R.cs.flag
 /Users/deng/Documents/GitHub/SchoolHouse-In-Sky/SendEmail/SendEmail.Android/obj/Debug/R.txt
 /Users/deng/Documents/GitHub/SchoolHouse-In-Sky/SendEmail/SendEmail.Android/obj/Debug/uploadflags.txt
