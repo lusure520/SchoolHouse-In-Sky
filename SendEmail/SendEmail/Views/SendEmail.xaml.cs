@@ -66,7 +66,7 @@ namespace SendEmail
                         UseDefaultCredentials = false
                     };
                     System.Net.NetworkCredential basicAuthenticationInfo = new
-                        System.Net.NetworkCredential("himalayanmembers", "himalayan37");
+                        System.Net.NetworkCredential("himalayanmembers", "Himalayan37");
                     mySmtpClient.Credentials = basicAuthenticationInfo;
 
                     // add from,to mailaddresses - for user
