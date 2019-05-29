@@ -25,16 +25,16 @@ namespace SendEmail
                     UseDefaultCredentials = false
                 };
                 System.Net.NetworkCredential basicAuthenticationInfo = new
-                    System.Net.NetworkCredential("dengyuanlu", "WOcaonim2");
+                    System.Net.NetworkCredential("himalayanmembers", "Himalayan37");
                 mySmtpClient.Credentials = basicAuthenticationInfo;
 
                 // add from,to mailaddresses
-                MailAddress from = new MailAddress("deng@51any.com", "TestFromName");
+                MailAddress from = new MailAddress("himalayanmembers@gmail.com", "TestFromName");
                 MailAddress to = new MailAddress(toEmail, "TestToName");
                 MailMessage myMail = new System.Net.Mail.MailMessage(from, to);
 
                 // add ReplyTo
-                MailAddress replyto = new MailAddress("dengyuanlu+test1@gmail.com");
+                MailAddress replyto = new MailAddress("himalayanmembers@gmail.com");
                 myMail.ReplyToList.Add(replyto);
 
                 // set subject and encoding
