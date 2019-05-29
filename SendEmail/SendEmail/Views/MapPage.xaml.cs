@@ -90,6 +90,7 @@ namespace SendEmail
                 Type = PinType.Place,
                 Position = new Position(27.6900444, 86.7317329),
                 Label = "Hillary-Tenzing Airport",
+                Address = "Tap to view information"
             };
             map.Pins.Add(pin1);
 
@@ -98,6 +99,7 @@ namespace SendEmail
                 Type = PinType.Place,
                 Position = new Position(27.8203184, 86.7166543),
                 Label = "Khumjung School",
+                Address = "Tap to view information"
             };
             map.Pins.Add(pin2);
 
@@ -106,6 +108,7 @@ namespace SendEmail
                 Type = PinType.Place,
                 Position = new Position(27.6899884, 86.729604),
                 Label = "Lukla Drinking Water Project",
+                Address = "Tap to view information"
             };
             map.Pins.Add(pin3);
 
@@ -114,6 +117,7 @@ namespace SendEmail
                 Type = PinType.Place,
                 Position = new Position(27.8237344, 86.7047882),
                 Label = "Kunde Hospital",
+                Address = "Tap to view information"
             };
             map.Pins.Add(pin4);
 
@@ -122,6 +126,7 @@ namespace SendEmail
                 Type = PinType.Place,
                 Position = new Position(27.6964303, 86.7205072),
                 Label = "Chaurikharka School",
+                Address = "Tap to view information"
             };
             map.Pins.Add(pin5);
 
@@ -130,6 +135,7 @@ namespace SendEmail
                 Type = PinType.Place,
                 Position = new Position(27.6968699, 86.7174107),
                 Label = "Musey Drinking Water Project",
+                Address = "Tap to view information"
             };
             map.Pins.Add(pin6);
 
@@ -138,6 +144,7 @@ namespace SendEmail
                 Type = PinType.Place,
                 Position = new Position(27.8301751, 86.6489022),
                 Label = "Thame School",
+                Address = "Tap to view information"
             };
             map.Pins.Add(pin7);
 
@@ -146,6 +153,7 @@ namespace SendEmail
                 Type = PinType.Place,
                 Position = new Position(27.8034675, 86.7123172),
                 Label = "Shree Himalayan Primary School, Namche",
+                Address = "Tap to view information"
             };
             map.Pins.Add(pin8);
 
@@ -154,6 +162,7 @@ namespace SendEmail
                 Type = PinType.Place,
                 Position = new Position(27.987445, 86.8762079),
                 Label = "Everest Avalanche on Popcorn Field",
+                Address = "Tap to view information"
             };
             map.Pins.Add(pin9);
 
@@ -162,6 +171,7 @@ namespace SendEmail
                 Type = PinType.Place,
                 Position = new Position(27.8245459, 86.7161815),
                 Label = "Khumjung Water Project",
+                Address = "Tap to view information"
             };
             map.Pins.Add(pin10);
 
@@ -170,6 +180,7 @@ namespace SendEmail
                 Type = PinType.Place,
                 Position = new Position(27.772655, 86.7218092),
                 Label = "Monjo School",
+                Address = "Tap to view information"
             };
             map.Pins.Add(pin11);
 
@@ -178,6 +189,7 @@ namespace SendEmail
                 Type = PinType.Place,
                 Position = new Position(27.8427756, 86.7617098),
                 Label = "Tengboche Monastery",
+                Address = "Tap to view information"
             };
             map.Pins.Add(pin12);
 
@@ -186,6 +198,7 @@ namespace SendEmail
                 Type = PinType.Place,
                 Position = new Position(27.8518312, 86.7473996),
                 Label = "Phortse School",
+                Address = "Tap to view information"
             };
             map.Pins.Add(pin13);
 
@@ -194,6 +207,7 @@ namespace SendEmail
                 Type = PinType.Place,
                 Position = new Position(27.773707, 86.7222946),
                 Label = "Sagarmatha National Park",
+                Address = "Tap to view information"
             };
             map.Pins.Add(pin14);
 
@@ -202,8 +216,69 @@ namespace SendEmail
                 Type = PinType.Place,
                 Position = new Position(27.8252767, 86.7160495),
                 Label = "The Yeti Scalp",
+                Address = "Tap to view information"
             };
             map.Pins.Add(pin15);
+
+            pin1.Clicked += async (sender, e) => {
+                await Navigation.PushAsync(new ProjectDetails("Airport"));
+            };
+
+            pin2.Clicked += async (sender, e) => {
+                await Navigation.PushAsync(new ProjectDetails("KhumjungSchool"));
+            };
+
+            pin3.Clicked += async (sender, e) => {
+                await Navigation.PushAsync(new ProjectDetails("LuklaDrinkingWater"));
+            };
+
+            pin4.Clicked += async (sender, e) => {
+                await Navigation.PushAsync(new ProjectDetails("KundeHospital"));
+            };
+
+            pin5.Clicked += async (sender, e) => {
+                await Navigation.PushAsync(new ProjectDetails("ChaurikharkaSchool"));
+            };
+
+            pin6.Clicked += async (sender, e) => {
+                await Navigation.PushAsync(new ProjectDetails("MuseyDrinkingWater"));
+            };
+
+            pin7.Clicked += async (sender, e) => {
+                await Navigation.PushAsync(new ProjectDetails("ThameSchool"));
+            };
+
+            pin8.Clicked += async (sender, e) => {
+                await Navigation.PushAsync(new ProjectDetails("ShreeHimalayanPrimarySchool"));
+            };
+
+            pin9.Clicked += async (sender, e) => {
+                await Navigation.PushAsync(new ProjectDetails("EverestAvalanche"));
+            };
+
+            pin10.Clicked += async (sender, e) => {
+                await Navigation.PushAsync(new ProjectDetails("KhumjungWater"));
+            };
+
+            pin11.Clicked += async (sender, e) => {
+                await Navigation.PushAsync(new ProjectDetails("MonjoSchool"));
+            };
+
+            pin12.Clicked += async (sender, e) => {
+                await Navigation.PushAsync(new ProjectDetails("TengbocheMonastery"));
+            };
+
+            pin13.Clicked += async (sender, e) => {
+                await Navigation.PushAsync(new ProjectDetails("PhortseSchool"));
+            };
+
+            pin14.Clicked += async (sender, e) => {
+                await Navigation.PushAsync(new ProjectDetails("SagarmathaNationalPark"));
+            };
+
+            pin15.Clicked += async (sender, e) => {
+                await Navigation.PushAsync(new ProjectDetails("TheYetiScalp"));
+            };   
         }
 
 
