@@ -45660,7 +45660,7 @@ _mono_aot_file_info:
 	.long 440,9776,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0
-	.byte 140,147,11,239,18,167,139,136,174,28,53,65,115,102,211,24
+	.byte 42,38,181,19,12,90,155,87,120,48,185,95,89,218,115,36
 	.globl _mono_aot_module_Plugin_Permissions_info
 	.align 3
 _mono_aot_module_Plugin_Permissions_info:

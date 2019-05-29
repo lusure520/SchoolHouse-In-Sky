@@ -140,7 +140,6 @@
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon20.png">
       <Visible>false</Visible>
     </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\LaunchImage.launchimage\Contents.json" />
     <ImageAsset Include="Assets.xcassets\Himalayan.appiconset\Contents.json" />
     <ImageAsset Include="Assets.xcassets\Himalayan.appiconset\Icon_2x.jpg" />
     <ImageAsset Include="Assets.xcassets\Himalayan.appiconset\Icon_2x.png" />
@@ -209,8 +208,8 @@
     <BundleResource Include="Resources\SagarmathaNationalPark.png" />
     <BundleResource Include="Resources\TheYetiScalp.png" />
     <BundleResource Include="Resources\HimalayanTrust.png" />
-    <BundleResource Include="Resources\backGround.png" />
     <BundleResource Include="Resources\home.png" />
+    <BundleResource Include="Resources\backGround.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Assets.xcassets\Himalayan.appiconset\" />

@@ -1,33 +1,17 @@
 ﻿<Properties StartupConfiguration="{C626D332-88A9-4754-BB86-5575DA0F159B}|Default">
   <MonoDevelop.Ide.ItemProperties.SendEmail.iOS automaticSigning="False" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.4f3641ee10f0d896cf873e3848586806183587de" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="SendEmail/Views/SendEmail.xaml.cs">
-    <Files>
-      <File FileName="SendEmail.iOS/Resources/LaunchScreen.storyboard" />
-      <File FileName="SendEmail/Views/Donation.xaml.cs" Line="70" Column="1" />
-      <File FileName="SendEmail.iOS/Info.plist" />
-      <File FileName="SendEmail/Views/SendEmail.xaml" Line="51" Column="1" />
-      <File FileName="SendEmail/Views/SendEmail.xaml.cs" Line="69" Column="64" />
-    </Files>
+  <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="SendEmail" expanded="True">
             <Node name="SendEmail" expanded="True">
-              <Node name="Views" expanded="True">
-                <Node name="ProjectDetails.xaml" expanded="True" />
-                <Node name="SendEmail.xaml" expanded="True">
-                  <Node name="SendEmail.xaml.cs" selected="True" />
-                </Node>
-              </Node>
+              <Node name="Views" expanded="True" />
               <Node name="App.xaml" expanded="True" />
-            </Node>
-            <Node name="SendEmail.Android" expanded="True">
-              <Node name="Resources" expanded="True">
-                <Node name="drawable-xxhdpi" expanded="True" />
-              </Node>
             </Node>
             <Node name="SendEmail.iOS" expanded="True">
               <Node name="Resources" expanded="True" />
+              <Node name="Info.plist" selected="True" />
             </Node>
           </Node>
         </State>

@@ -108668,7 +108668,7 @@ runtime_version:
 .section __TEXT, __const
 	.align 2
 assembly_guid:
-	.asciz "EECC04AC-153E-4913-859B-1B91E599387F"
+	.asciz "F6E91213-CC5F-4614-8559-63F95C4E05E6"
 .section __TEXT, __const
 	.align 2
 assembly_name:
@@ -108753,7 +108753,7 @@ _mono_aot_file_info:
 	.long 528,11048,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0
-	.byte 228,6,54,155,61,8,226,86,183,111,103,95,190,18,182,65
+	.byte 41,226,58,209,147,142,196,102,163,48,58,171,98,188,55,41
 	.globl _mono_aot_module_SendEmail_info
 	.align 3
 _mono_aot_module_SendEmail_info:
