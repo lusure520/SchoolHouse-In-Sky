@@ -66,22 +66,22 @@ namespace SendEmail
                         UseDefaultCredentials = false
                     };
                     System.Net.NetworkCredential basicAuthenticationInfo = new
-                        System.Net.NetworkCredential("dengyuanlu", "WOcaonim2");
+                        System.Net.NetworkCredential("himalayanmembers", "Himalayan37");
                     mySmtpClient.Credentials = basicAuthenticationInfo;
 
                     // add from,to mailaddresses - for user
-                    MailAddress from = new MailAddress("dengyuanlu@gmail.com", "R&D Development Team");
+                    MailAddress from = new MailAddress("himalayanmembers@gmail.com", "R&D Development Team");
                     MailAddress to = new MailAddress(userEmail, user);
                     MailMessage myMail = new System.Net.Mail.MailMessage(from, to);
 
                     // add from,to mailaddresses - for Himalayan Trust
-                    MailAddress fromH = new MailAddress("dengyuanlu@gmail.com", "R&D Development Team");
-                    MailAddress toH = new MailAddress("dengyuanlu@gmail.com", "User Sign Up");
+                    MailAddress fromH = new MailAddress("himalayanmembers@gmail.com", "R&D Development Team");
+                    MailAddress toH = new MailAddress("himalayanmembers@gmail.com", "User Sign Up");
                     MailMessage myMailH = new System.Net.Mail.MailMessage(fromH, toH);
 
 
                     // add ReplyTo - for user
-                    MailAddress replyto = new MailAddress("dengyuanlu+test1@gmail.com");
+                    MailAddress replyto = new MailAddress("himalayanmembers@gmail.com");
                     myMail.ReplyToList.Add(replyto);
 
                     // set subject and encoding - for user
