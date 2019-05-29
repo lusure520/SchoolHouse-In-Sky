@@ -808,11 +808,10 @@
   },
   "libraries": {
     "Plugin.Permissions/3.0.0.12": {
-      "sha512": "VrYqI/ufk3bH6gTP1JJlLByjhS0CHu3riKmdozhX9/qXA9hlvLolmcqKJdyAqpzmrVC74m3ZtirUBIrBxvT1Lw==",
+      "sha512": "R8Rlzfci1byoPBGOiJfCMzu0HhhN6Q4Vq4YizlF41W946NEmoL/Mb8U5caP5t5KfSbdPQpzdQ9JfM8fxPG8pfw==",
       "type": "package",
       "path": "plugin.permissions/3.0.0.12",
       "files": [
-        ".nupkg.metadata",
         ".signature.p7s",
         "lib/monoandroid71/Plugin.Permissions.dll",
         "lib/monoandroid71/Plugin.Permissions.xml",
@@ -831,11 +830,10 @@
       ]
     },
     "System.Numerics.Vectors/4.5.0": {
-      "sha512": "QQTlPTl06J/iiDbJCiepZ4H//BVraReU4O4EoRw1U02H5TLUIT7xn3GnDp9AXPSlJUDyFs4uWjWafNX6WrAojQ==",
+      "sha512": "MNcaYxUJvUcoXOa+jgKl/GDw/Mh+wMrxDjW4dre7qrp35LUGTjUBNtZsNjxsWX592ocdyqt1X5hMJB+5OStoYw==",
       "type": "package",
       "path": "system.numerics.vectors/4.5.0",
       "files": [
-        ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
@@ -878,11 +876,10 @@
       ]
     },
     "Xam.Plugin.Geolocator/4.5.0.6": {
-      "sha512": "Ro7peBDxsDXPc7J7yLx0ekAcXIfVTAXj/rXiBKiTgZ4Lm7KZJIU8PXOCcI4JztzT3MQrL8Rmka48il/ix0pwoA==",
+      "sha512": "rbWNjW7o14EtZa+yjPLujQg+PLVF6M490ooNx9QK/Z6El+uRA2EFut+lT/OAetWFzdPcv9LCs0YGOTvs9e7taQ==",
       "type": "package",
       "path": "xam.plugin.geolocator/4.5.0.6",
       "files": [
-        ".nupkg.metadata",
         ".signature.p7s",
         "lib/monoandroid71/Plugin.Geolocator.dll",
         "lib/monoandroid71/Plugin.Geolocator.xml",
@@ -905,11 +902,10 @@
       ]
     },
     "Xamarin.Essentials/1.1.0": {
-      "sha512": "W0XOt1dNMAE2POcsVotoKDDy5FdAOnR0qULKl6WI4kQEMxQ1sp84DsSU5iacV7oQUMuPhUBAm/3ywks0HO1QrQ==",
+      "sha512": "AGismQb55pszEQ/ZIv9O1U2YyaF2gHdBdAUO79+biHf1s7AL2R++DIvmf7Z+wtfhZrB9wxhXAkOUuYHgpY6oTw==",
       "type": "package",
       "path": "xamarin.essentials/1.1.0",
       "files": [
-        ".nupkg.metadata",
         ".signature.p7s",
         "lib/monoandroid60/Xamarin.Essentials.dll",
         "lib/monoandroid60/Xamarin.Essentials.pdb",
@@ -949,11 +945,10 @@
       ]
     },
     "Xamarin.Forms/3.6.0.344457": {
-      "sha512": "7IffIKgL0fmgbfCLKzXaFKJ7uOueKiz/BIgmAG1Z5WMn+vMKeALe5GgRs3Uddo670VzllIHWkNEZD3lG+e02bw==",
+      "sha512": "YTPYiRg5q8Q1AgkjX9mx2/0wfCNyoSfztvvWw9HY4qM1lmOgkAxAbbtY8zi3fCPUXhfZrCAgRvJYNS8VM519kQ==",
       "type": "package",
       "path": "xamarin.forms/3.6.0.344457",
       "files": [
-        ".nupkg.metadata",
         ".signature.p7s",
         "build/MonoAndroid10/proguard.cfg",
         "build/Xamarin.Forms.DefaultItems.props",
@@ -1114,11 +1109,10 @@
       ]
     },
     "Xamarin.Forms.Maps/3.6.0.344457": {
-      "sha512": "kxd9Nt+nMZhYbd7pH66qdfvXGtP1cK0SefmBfXAvetamhE12MgLli2pVdp96VpPm/JZ/ghvc/4YHzK7maxoSFA==",
+      "sha512": "sqBYD98ODUGjth6s1wOgapk5dBcYnXh9wjZk7gqfw4VRaPmmjHFQbOTRoSrzUDOeuumZntfEyEFR9Nnu3EESrg==",
       "type": "package",
       "path": "xamarin.forms.maps/3.6.0.344457",
       "files": [
-        ".nupkg.metadata",
         ".signature.p7s",
         "lib/MonoAndroid81/Xamarin.Forms.Maps.Android.dll",
         "lib/MonoAndroid81/Xamarin.Forms.Maps.dll",
@@ -1163,34 +1157,32 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\matth\\.nuget\\packages\\": {}
+    "/Users/deng/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\matth\\Documents\\GitHub\\SchoolHouse-In-Sky\\SendEmail\\SendEmail.iOS\\SendEmail.iOS.csproj",
+      "projectUniqueName": "/Users/deng/Documents/GitHub/SchoolHouse-In-Sky/SendEmail/SendEmail.iOS/SendEmail.iOS.csproj",
       "projectName": "SendEmail.iOS",
-      "projectPath": "C:\\Users\\matth\\Documents\\GitHub\\SchoolHouse-In-Sky\\SendEmail\\SendEmail.iOS\\SendEmail.iOS.csproj",
-      "packagesPath": "C:\\Users\\matth\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\matth\\Documents\\GitHub\\SchoolHouse-In-Sky\\SendEmail\\SendEmail.iOS\\obj\\",
+      "projectPath": "/Users/deng/Documents/GitHub/SchoolHouse-In-Sky/SendEmail/SendEmail.iOS/SendEmail.iOS.csproj",
+      "packagesPath": "/Users/deng/.nuget/packages/",
+      "outputPath": "/Users/deng/Documents/GitHub/SchoolHouse-In-Sky/SendEmail/SendEmail.iOS/obj/",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
-        "C:\\Users\\matth\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/deng/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "xamarinios10"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\matth\\Documents\\GitHub\\SchoolHouse-In-Sky\\SendEmail\\SendEmail\\SendEmail.csproj": {
-              "projectPath": "C:\\Users\\matth\\Documents\\GitHub\\SchoolHouse-In-Sky\\SendEmail\\SendEmail\\SendEmail.csproj"
+            "/Users/deng/Documents/GitHub/SchoolHouse-In-Sky/SendEmail/SendEmail/SendEmail.csproj": {
+              "projectPath": "/Users/deng/Documents/GitHub/SchoolHouse-In-Sky/SendEmail/SendEmail/SendEmail.csproj"
             }
           }
         }

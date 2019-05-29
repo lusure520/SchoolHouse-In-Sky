@@ -9,6 +9,7 @@ namespace SendEmail
     {
         public NavigationTest()
         {
+
         
             Page sendEmailPage = null;
             Page donationPage = null;
@@ -60,6 +61,11 @@ namespace SendEmail
         {
             base.OnCurrentPageChanged();
             Title = CurrentPage?.Title ?? string.Empty;
+        }
+
+        public static implicit operator NavigationPage(NavigationTest v)
+        {
+            throw new NotImplementedException();
         }
     }
 }

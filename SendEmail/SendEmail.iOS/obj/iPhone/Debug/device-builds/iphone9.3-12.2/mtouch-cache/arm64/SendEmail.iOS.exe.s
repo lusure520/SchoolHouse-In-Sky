@@ -483,7 +483,7 @@ runtime_version:
 .section __TEXT, __const
 	.align 2
 assembly_guid:
-	.asciz "592E848C-E401-482E-AF43-BCE3CB45C85D"
+	.asciz "DA032909-A9A3-4007-BB24-44BAB344C4DE"
 .section __TEXT, __const
 	.align 2
 assembly_name:
@@ -568,7 +568,7 @@ _mono_aot_file_info:
 	.long 32,872,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0
-	.byte 203,120,201,153,151,38,168,200,55,167,195,67,236,140,140,126
+	.byte 41,207,85,236,46,153,71,41,77,192,74,73,97,221,126,134
 	.globl _mono_aot_module_SendEmail_iOS_info
 	.align 3
 _mono_aot_module_SendEmail_iOS_info:
