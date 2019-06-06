@@ -568,7 +568,7 @@ _mono_aot_file_info:
 	.long 32,872,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0
-	.byte 83,32,23,49,196,24,17,114,213,17,135,194,219,46,167,78
+	.byte 252,213,248,101,193,30,238,4,127,139,101,107,193,87,84,61
 	.globl _mono_aot_module_SendEmail_iOS_info
 	.align 3
 _mono_aot_module_SendEmail_iOS_info:

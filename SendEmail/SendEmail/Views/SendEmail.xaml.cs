@@ -124,9 +124,13 @@ namespace SendEmail
                 }
 
                 messages = signUpSucc;
-                //notification(messages);
-                //DisplayAlert("Notification", signUpSucc, "OK");
             }
+            //reset all input fields.
+            firstName.Text = string.Empty;
+            lastName.Text = string.Empty;
+            EmailEntry.Text = string.Empty;
+            phoneNumber.Text = string.Empty;
+
             notification(messages);
         }
     }

@@ -1,15 +1,16 @@
 ﻿<Properties StartupConfiguration="{C626D332-88A9-4754-BB86-5575DA0F159B}|Default">
-  <MonoDevelop.Ide.ItemProperties.SendEmail.Android PreferredExecutionTarget="Android.285439e530047ece" />
+  <MonoDevelop.Ide.ItemProperties.SendEmail.Android PreferredExecutionTarget="Android.deng" />
   <MonoDevelop.Ide.ItemProperties.SendEmail.iOS automaticSigning="False" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.4f3641ee10f0d896cf873e3848586806183587de" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="SendEmail/Views/About.xaml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="SendEmail/Views/SendEmail.xaml">
     <Files>
-      <File FileName="SendEmail/Views/SendEmail.xaml.cs" Line="27" Column="14" />
-      <File FileName="SendEmail.iOS/Main.cs" Line="21" Column="1" />
+      <File FileName="SendEmail/Views/SendEmail.xaml.cs" Line="18" Column="5" />
       <File FileName="SendEmail/Views/SendEmail.xaml" Line="51" Column="1" />
       <File FileName="SendEmail/Views/About.xaml" Line="40" Column="1" />
       <File FileName="SendEmail/Views/Donation.xaml" Line="11" Column="40" />
       <File FileName="SendEmail/Views/MapPage.xaml" Line="43" Column="40" />
       <File FileName="SendEmail/Views/ProjectDetails.xaml" Line="10" Column="40" />
+      <File FileName="SendEmail/Views/Donation.xaml.cs" Line="20" Column="10" />
+      <File FileName="SendEmail/Validation/EmailValidatorBehavior.cs" Line="29" Column="64" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -18,11 +19,11 @@
             <Node name="SendEmail" expanded="True">
               <Node name="Validation" expanded="True" />
               <Node name="Views" expanded="True">
-                <Node name="About.xaml" expanded="True" selected="True" />
+                <Node name="About.xaml" expanded="True" />
                 <Node name="Donation.xaml" expanded="True" />
                 <Node name="MapPage.xaml" expanded="True" />
                 <Node name="ProjectDetails.xaml" expanded="True" />
-                <Node name="SendEmail.xaml" expanded="True" />
+                <Node name="SendEmail.xaml" expanded="True" selected="True" />
               </Node>
               <Node name="App.xaml" expanded="True" />
             </Node>

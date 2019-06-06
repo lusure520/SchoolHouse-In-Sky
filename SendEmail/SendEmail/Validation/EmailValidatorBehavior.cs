@@ -22,7 +22,7 @@ namespace SendEmail.Validation
             {
                 bool IsValid = false;
                 IsValid = (Regex.IsMatch(args.NewTextValue, emailRegex, RegexOptions.IgnoreCase, TimeSpan.FromMilliseconds(250)));
-                ((Entry)sender).TextColor = IsValid ? Color.Default : Color.Red;
+                ((Entry)sender).TextColor = IsValid ? Color.White : Color.Red;
             }
         }
 
