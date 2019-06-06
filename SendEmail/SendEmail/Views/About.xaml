@@ -27,7 +27,7 @@
                     <Label Text="{Binding AboutTitle}" Font="Bold,20"/>
                     <BoxView Color="Black" WidthRequest ="100" HeightRequest="1"/>
                         <ScrollView  Padding="5">
-                            <Label Text="{Binding AboutDetails}" FontSize="12"/>
+                            <Label Text="{Binding AboutDetails}" FontSize="14"/>
                         </ScrollView>   
                     </StackLayout>
                     
@@ -37,11 +37,7 @@
                     <StackLayout  Margin="10,10,10,5" Grid.Row="2">
                     <Label Text="{Binding SecondTitle}" Font="Bold,20" />
                     <BoxView Color="Black" WidthRequest ="100" HeightRequest="1"/>  
-                        <ScrollView Padding="5">
-                             <StackLayout>
-                               <Label Text="{Binding AboutDetails}" FontSize="12"/>
-                             </StackLayout>
-                        </ScrollView>   
+                       <Label Text="{Binding SecondDetails}" FontSize="14"/> 
                     </StackLayout>
                   
                     <StackLayout Margin="10,10,10,5" Grid.Row="3">
