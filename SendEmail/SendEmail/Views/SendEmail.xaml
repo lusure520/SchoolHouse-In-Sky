@@ -9,41 +9,41 @@
          
         
         <Grid Padding="0">
-            
 
             <Image
             Aspect="AspectFill"
-            Source="backGround.png"
+            Source="BackGroundImage.jpg"
             RelativeLayout.WidthConstraint= "{ConstraintExpression Type=RelativeToParent, Property=Width}"
             RelativeLayout.HeightConstraint= "{ConstraintExpression Type=RelativeToParent, Property=Height}">
         </Image>
 
 
             <StackLayout Padding="20" Spacing="10" Orientation="Vertical">
-            <Label Text="Sign Up To Enews" XAlign="Center" Margin="15" HorizontalOptions="Center" FontAttributes="Bold" FontSize="22"/>
-            <Label Text="Sign up to our email newsletter today and get all the latest news, updates, information and ways to get involved straight to your inbox!" XAlign="Center" Margin="15" HorizontalOptions="Center" FontSize="14"/>
-            <Entry Keyboard="Text" Placeholder="First name" FontSize="15" x:Name="firstName">
+            <Label Text="Sign Up To Enews" XAlign="Center" Margin="15" HorizontalOptions="Center" FontAttributes="Bold" FontSize="22" />
+            <Label Text="Sign up to our email newsletter today and get all the latest news, updates, information and ways to get involved straight to your inbox!" XAlign="Center" Margin="15" HorizontalOptions="Center" FontSize="18" />
+            <Entry Keyboard="Text" Placeholder="First name" PlaceholderColor="White" FontSize="15" x:Name="firstName" BackgroundColor="#7c7c7c" TextColor="White">
             <Entry.Behaviors>
                 <behaviors:LetterValidatorBehavior/>
             </Entry.Behaviors>
             </Entry>    
-            <Entry Keyboard="Text" Placeholder="Last name" FontSize="15" x:Name="lastName">
+            <Entry Keyboard="Text" Placeholder="Last name" PlaceholderColor="White" FontSize="15" x:Name="lastName" BackgroundColor="#7c7c7c" TextColor="White">
             <Entry.Behaviors>
                 <behaviors:LetterValidatorBehavior/>
             </Entry.Behaviors>
             </Entry>
-            <Entry Keyboard="Telephone" Placeholder="e.g. 0211235678" FontSize="15" x:Name="phoneNumber">
+            <Entry Keyboard="Telephone" Placeholder="e.g. 0211235678" PlaceholderColor="White" FontSize="15" x:Name="phoneNumber" BackgroundColor="#7c7c7c" TextColor="White">
             <Entry.Behaviors>
                 <behaviors:NumberValidationBehavior/>
             </Entry.Behaviors>
             </Entry>
-            <Entry Keyboard="Email" Placeholder="sample@email.com" FontSize="15" x:Name="EmailEntry">
+            <Entry Keyboard="Email" Placeholder="sample@email.com" PlaceholderColor="White" FontSize="15" x:Name="EmailEntry" BackgroundColor="#7c7c7c" TextColor="White">
             <Entry.Behaviors>
                 <behaviors:EmailValidatorBehavior/>
             </Entry.Behaviors>
             </Entry>
             
-            <Button Text="Subscribe" Clicked="Handle_Clicked" />
+            <Button Text="Subscribe" Clicked="Handle_Clicked" TextColor="White"  BackgroundColor="#38b5e6" WidthRequest="100" HeightRequest="30" VerticalOptions="Center" HorizontalOptions="Center"/>
+               
             </StackLayout>
         </Grid>
     </ContentPage.Content>

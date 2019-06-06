@@ -1,17 +1,32 @@
 ﻿<Properties StartupConfiguration="{C626D332-88A9-4754-BB86-5575DA0F159B}|Default">
-  <MonoDevelop.Ide.ItemProperties.SendEmail.iOS automaticSigning="False" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.4f3641ee10f0d896cf873e3848586806183587de" />
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.SendEmail.Android PreferredExecutionTarget="Android.285439e530047ece" />
+  <MonoDevelop.Ide.ItemProperties.SendEmail.iOS automaticSigning="False" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.24B9ADB3-6ED5-477F-986A-4FE1DFA8B115" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="SendEmail/Views/ProjectDetails.xaml">
+    <Files>
+      <File FileName="SendEmail/Views/SendEmail.xaml.cs" Line="27" Column="14" />
+      <File FileName="SendEmail.iOS/Main.cs" Line="21" Column="1" />
+      <File FileName="SendEmail/Views/SendEmail.xaml" Line="15" Column="40" />
+      <File FileName="SendEmail/Views/About.xaml" Line="11" Column="40" />
+      <File FileName="SendEmail/Views/Donation.xaml" Line="11" Column="40" />
+      <File FileName="SendEmail/Views/MapPage.xaml" Line="43" Column="40" />
+      <File FileName="SendEmail/Views/ProjectDetails.xaml" Line="32" Column="1" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="SendEmail" expanded="True">
             <Node name="SendEmail" expanded="True">
-              <Node name="Views" expanded="True" />
+              <Node name="Validation" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="About.xaml" expanded="True" />
+                <Node name="Donation.xaml" expanded="True" />
+                <Node name="ProjectDetails.xaml" selected="True" />
+                <Node name="SendEmail.xaml" expanded="True" />
+              </Node>
               <Node name="App.xaml" expanded="True" />
             </Node>
             <Node name="SendEmail.iOS" expanded="True">
               <Node name="Resources" expanded="True" />
-              <Node name="Info.plist" selected="True" />
             </Node>
           </Node>
         </State>
@@ -19,7 +34,7 @@
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhone" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

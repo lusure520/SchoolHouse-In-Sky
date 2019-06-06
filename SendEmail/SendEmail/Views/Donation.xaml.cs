@@ -2,66 +2,28 @@
 using System.Collections.Generic;
 
 using Xamarin.Forms;
+using Xamarin.Forms.Xaml;
 
 namespace SendEmail.Views
 {
+    [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class Donation : ContentPage
     {
+        public string ToolsDetails { get; set; } = "High in the Everest region of Nepal, schools are very poorly funded with little in the way of resources. Reading books and school stationery are luxury items for families and schools. Your gift could provide early literacy books and essential stationary for 10 children.";
+        public string MedicalDetails { get; set; } = "The Himalayan Trust is working to improve the quality of local health care in remote Nepal. your gift could provide one month of midwifery training for a local health worker in the remote district of Bung, giving new babies the best possible start to life.";
+        public string TeacherDetails { get; set; } = "Getting a good start in reading and writing is an essential foundation for future learning. Yet literacy levels throughout Nepal remain low, preventing too many bright, keen and deserving young people from fulfilling their potential. Your gift will empower teachers in remote schools to teach reading and writing more effectively.";
+        public string WaterDetails { get; set; } = "Many families in the remote Solukhumbu region walk long distances to collect water, often from unsafe sources. Your gift could contribute to the construction of an earthquake-resistant water system, fitted with a filtration system, to provide homes with safe, clean drinking water and to irrigate crops.";
         public Donation()
         {
             InitializeComponent();
-
-            var moneys = new List<String>
-            {
-                "$35",
-                "$70",
-                "$105",
-                "Other"
-            };
-            money.ItemsSource = moneys;
-
-            var times = new List<String>
-            {
-                "One time",
-                "Weekly",
-                "Monthly",
-                "Yearly"
-            };
-            donation_time.ItemsSource = times; 
+            BindingContext = this;
         }
 
-        private void OnPickerSelectedIndexChanged(object sender, EventArgs e)
-        {
-            Picker picker = sender as Picker;
-            var selectedItem = picker.SelectedItem; // This is the model selected in the picker
-            if(selectedItem.Equals("Other"))
-            {
-                DisplayAlert("Notification", "Develop later!", "OK");
-            }
-
-        }
 
         void Handle_Clicked(object sender, System.EventArgs e)
         {
             string url = "";
-
-            //string business = "my@paypalemail.com";  // your paypal email
-            //string description = "Donation";            // '%20' represents a space. remember HTML!
-            //string country = "AU";                  // AU, US, etc.
-            //string currency = "AUD";                 // AUD, USD, etc.
-
-        //    url += "https://www.paypal.com/cgi-bin/webscr" +
-        //        "?cmd=" + "_donations" +
-        //        "&business=" + business +
-        //        "&lc=" + country +
-        //        "&item_name=" + description +
-        //        "&currency_code=" + currency +
-        //        "&bn=" + "PP%2dDonationsBF";
-
-        //https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=UYE2TU3LV3SGS&source=url
-
             url = "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=UYE2TU3LV3SGS&source=url";
-            //System.Diagnostics.Process.Start(url);
             Device.OpenUri(new Uri(url));
             
         }

@@ -8,82 +8,58 @@
     <Grid Padding="0">
         <Image
             Aspect="AspectFill"
-            Source="backGround.png"
+            Source="BackGroundImage.jpg"
             RelativeLayout.WidthConstraint= "{ConstraintExpression Type=RelativeToParent, Property=Width}"
             RelativeLayout.HeightConstraint= "{ConstraintExpression Type=RelativeToParent, Property=Height}">
         </Image>
         <ScrollView>
-        <StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
-                <Label Text="Give a Single Gift" Margin="15" HorizontalOptions="Center" FontSize="Large"/>
-            <StackLayout Padding="10, 20, 10, 0" >
-                <Label Text="How much would you like to donate?" />
-                <Picker Title="Select a money" x:Name="money" SelectedIndexChanged="OnPickerSelectedIndexChanged" BackgroundColor="#C0C0C0"/>
-                <Label Text="Would you like to make regular donations?"  />
-                <Picker Title="Select a donation time(s)" x:Name="donation_time" BackgroundColor="#C0C0C0"/>
-                    <Grid HeightRequest="280" Padding="0, 10, 0, 0" ColumnSpacing="10">
+        
+            <StackLayout Padding="10, 20, 10, 20" Orientation="Vertical" HorizontalOptions="Center" VerticalOptions="Center">
+                    <Grid Padding="10" >
                         <Grid.RowDefinitions>
-                            <RowDefinition Height="60"/>
-                            <RowDefinition Height="60"/>
-                            <RowDefinition Height="120"/>
+                            <RowDefinition Height="530"/>
+                            <RowDefinition Height="530"/>
+                            <RowDefinition Height="580"/>
+                            <RowDefinition Height="560"/>
                         </Grid.RowDefinitions>
-
-                        <StackLayout Grid.Row="0" Grid.Column="0" >
-                            <Label Text="First Name *" />
-                            <Entry Keyboard="Text" Placeholder="First name" FontSize="15" x:Name="firstName" BackgroundColor="#C0C0C0">
-                                <Entry.Behaviors>
-                                    <behaviors:LetterValidatorBehavior/>
-                                </Entry.Behaviors>
-                            </Entry>
-                        </StackLayout>
-
-                        <StackLayout Grid.Row="0" Grid.Column="1">
-                            <Label Text="Last Name *" />
-                            <Entry Keyboard="Text" Placeholder="Last name" FontSize="15" x:Name="lastName" BackgroundColor="#C0C0C0">
-                                <Entry.Behaviors>
-                                    <behaviors:LetterValidatorBehavior/>
-                                </Entry.Behaviors>
-                            </Entry>
-                        </StackLayout>
-
-                        <StackLayout Grid.Row="1" Grid.Column="0">
-                            <Label Text="Email *" />
-                            <Entry Keyboard="Email" Placeholder="sample@email.com" FontSize="15" x:Name="EmailEntry" BackgroundColor="#C0C0C0">
-                                <Entry.Behaviors>
-                                    <behaviors:EmailValidatorBehavior/>
-                                </Entry.Behaviors>
-                            </Entry>
-                        </StackLayout>
-
-                        <StackLayout Grid.Row="1" Grid.Column="1">
-                            <Label Text="Phone" />
-                            <Entry Keyboard="Telephone" Placeholder="e.g. 0211235678" FontSize="15" x:Name="phoneNumber" BackgroundColor="#C0C0C0">
-                                <Entry.Behaviors>
-                                    <behaviors:NumberValidationBehavior/>
-                                </Entry.Behaviors>
-                            </Entry>
-                        </StackLayout>
-
-                        <StackLayout Grid.Row="2" Grid.Column="0" >
-                            <Label Text="Address" />
-                            <StackLayout BackgroundColor="Silver" Padding="1" Opacity="0.5">
-                                <Editor HeightRequest="100"  BackgroundColor="#C0C0C0">
-
-                                </Editor>
-                            </StackLayout>
-                        </StackLayout>
-
-                        <StackLayout Grid.Row="2" Grid.Column="1" >
-                            <Label Text="Additional Note" />
-                            <StackLayout BackgroundColor="Silver" Padding="1" Opacity="0.5">
-                                <Editor HeightRequest="100" BackgroundColor="#C0C0C0">
-
-                                </Editor>
-                            </StackLayout>
-                        </StackLayout>
+                      <StackLayout Margin="10,10,10,5" Grid.Row="0" >
+                            <Label Text="$60" FontSize="Large" HorizontalOptions="Center" VerticalOptions="Center"/>
+                            <Label Text="TOOLS TO LEARN" FontSize="16" HorizontalOptions="Center" VerticalOptions="Center"/>
+                            <BoxView Color="Black" WidthRequest ="100" HeightRequest="1" />  
+                            <Label Text="{Binding ToolsDetails}" FontSize="Medium"/>
+                            <Image Source="ToolsImage.png" WidthRequest="230" HeightRequest="260" />
+                        <Button Text="Donate" Clicked="Handle_Clicked" TextColor="White"  BackgroundColor="#38b5e6" WidthRequest="100" HeightRequest="30" VerticalOptions="Center" HorizontalOptions="Center"/>
+                      </StackLayout >
+                            
+                      <StackLayout Margin="10,10,10,5" Grid.Row="1">
+                            <Label Text="$170" FontSize="Large" HorizontalOptions="Center" VerticalOptions="Center"/>
+                            <Label Text="MEDICAL TRAINING" FontSize="16" HorizontalOptions="Center" VerticalOptions="Center"/>
+                            <BoxView Color="Black" WidthRequest ="100" HeightRequest="1"/>
+                            <Label Text="{Binding MedicalDetails}" FontSize="Medium"/>
+                            <Image Source="MedicalImage.png" WidthRequest="230" HeightRequest="260" />
+                        <Button Text="Donate" Clicked="Handle_Clicked" TextColor="White"  BackgroundColor="#38b5e6" WidthRequest="100" HeightRequest="30" VerticalOptions="Center" HorizontalOptions="Center"/>
+                      </StackLayout >
+                        
+                      <StackLayout Margin="10,10,10,5" Grid.Row="2">
+                            <Label Text="$300" FontSize="Large" HorizontalOptions="Center" VerticalOptions="Center"/>
+                            <Label Text="COACHING FOR TEACHERS" FontSize="16" HorizontalOptions="Center" VerticalOptions="Center"/>
+                            <BoxView Color="Black" WidthRequest ="100" HeightRequest="1"/>
+                            <Label Text="{Binding TeacherDetails}" FontSize="Medium"/>
+                            <Image Source="TeacherImage.png" WidthRequest="230" HeightRequest="260" />
+                        <Button Text="Donate" Clicked="Handle_Clicked" TextColor="White"  BackgroundColor="#38b5e6" WidthRequest="100" HeightRequest="30" VerticalOptions="Center" HorizontalOptions="Center"/>
+                      </StackLayout >
+                        
+                      <StackLayout Margin="10,10,10,5" Grid.Row="3">
+                            <Label Text="$1000" FontSize="Large" HorizontalOptions="Center" VerticalOptions="Center"/>
+                            <Label Text="SAFE WATER FOR A WHOLE VILLAGE" FontSize="16" HorizontalOptions="Center" VerticalOptions="Center"/>
+                            <BoxView Color="Black" WidthRequest ="100" HeightRequest="1"/>
+                            <Label Text="{Binding WaterDetails}" FontSize="Medium"/>
+                            <Image Source="WaterImage.png" WidthRequest="230" HeightRequest="260" />
+                        <Button Text="Donate" Clicked="Handle_Clicked" TextColor="White"  BackgroundColor="#38b5e6" WidthRequest="100" HeightRequest="30" VerticalOptions="Center" HorizontalOptions="Center"/>
+                      </StackLayout >
+                       
                     </Grid>
-                    <Button Text="DONATE" Clicked="Handle_Clicked" BackgroundColor="Aqua"/>
             </StackLayout>
-        </StackLayout>
         </ScrollView>
     </Grid>
 </ContentPage>

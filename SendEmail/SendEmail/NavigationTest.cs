@@ -50,8 +50,8 @@ namespace SendEmail
                     aboutPage = new About();
                     break;
             }
-            Children.Add(aboutPage);
             Children.Add(sendEmailPage);
+            Children.Add(aboutPage);
             Children.Add(mapPage);
             Children.Add(donationPage);
             Title = Children[0].Title;

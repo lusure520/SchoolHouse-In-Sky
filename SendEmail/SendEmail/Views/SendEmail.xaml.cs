@@ -1,11 +1,14 @@
 ﻿using System;
 using System.Net.Mail;
+using System.Text.RegularExpressions;
 using Xamarin.Forms;
 
 namespace SendEmail
 {
     public partial class SendEmail : ContentPage
     {
+        const string emailRegex = @"^(?("")("".+?(?<!\\)""@)|(([0-9a-z]((\.(?!\.))|[-!#\$%&'\*\+/=\?\^`\{\}\|~\w])*)(?<=[0-9a-z])@))" +
+            @"(?(\[)(\[(\d{1,3}\.){3}\d{1,3}\])|(([0-9a-z][-\w]*[0-9a-z]*\.)+[a-z0-9][\-a-z0-9]{0,22}[a-z0-9]))$";
         public string messages;
         public SendEmail()
         {
@@ -14,30 +17,19 @@ namespace SendEmail
 
         public Boolean checkAllRight(){
             String notify = "";
-            Boolean check = true;
-            if (string.IsNullOrWhiteSpace(firstName.Text))
-            {
-                check = false;
-            }
-
-            if (string.IsNullOrWhiteSpace(lastName.Text))
-            {
-                check = false;
-            }
-
-            if (string.IsNullOrWhiteSpace(phoneNumber.Text))
-            {
-                check = false;
-            }
-
-            if (string.IsNullOrWhiteSpace(EmailEntry.Text))
-            {
-                check = false;
-            }
-
-            if(!check)
+            Boolean check = !string.IsNullOrWhiteSpace(firstName.Text)
+                            && !string.IsNullOrWhiteSpace(lastName.Text)
+                            && !string.IsNullOrWhiteSpace(phoneNumber.Text)
+                            && !string.IsNullOrWhiteSpace(EmailEntry.Text);
+            if (!check)
             {
                 notify = "Please enter your details!";
+            }
+
+            if (check && !CheckEmailValid(EmailEntry.Text))
+            {
+                check = false;
+                notify = "Please enter a valid email!";
             }
             messages = notify;
             return check;
@@ -45,6 +37,13 @@ namespace SendEmail
 
         public void notification(String text){
             DisplayAlert("Notification", text, "OK");
+        }
+
+        public bool CheckEmailValid(String emailInput)
+        {
+            bool IsValid = false;
+            IsValid = (Regex.IsMatch(emailInput, emailRegex, RegexOptions.IgnoreCase, TimeSpan.FromMilliseconds(250)));
+            return IsValid;
         }
 
         void Handle_Clicked(object sender, System.EventArgs e)

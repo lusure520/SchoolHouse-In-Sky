@@ -7,7 +7,7 @@
         <Grid Padding="0">
         <Image
             Aspect="AspectFill"
-            Source="backGround.png"
+            Source="BackGroundImage.jpg"
             RelativeLayout.WidthConstraint= "{ConstraintExpression Type=RelativeToParent, Property=Width}"
             RelativeLayout.HeightConstraint= "{ConstraintExpression Type=RelativeToParent, Property=Height}">
         </Image>
@@ -17,10 +17,12 @@
                     <Image x:Name="images" WidthRequest="270" HeightRequest="180" Aspect="Fill"/>
                 </StackLayout>
                 <StackLayout>
-                    <Label Text="Project Name"  FontSize="Small" TextColor="Silver"/>
-                    <Label x:Name="names" FontSize="Large"/> 
-                    <Label Text="Description"  FontSize="Small" TextColor="Silver"/>
-                    <Label x:Name="description" FontSize="Medium"/>
+                    <Label Text="Project Name"  FontSize="Medium" TextColor="Black"/>
+                        <BoxView Color="Black" WidthRequest ="100" HeightRequest="1"/>
+                        <Label x:Name="names" FontSize="Large"/> 
+                    <Label Text="Description"  FontSize="Medium" TextColor="Black"/>
+                        <BoxView Color="Black" WidthRequest ="100" HeightRequest="1"/>
+                        <Label x:Name="description" FontSize="Small"/>
                 </StackLayout>
             </StackLayout>
             </ScrollView>

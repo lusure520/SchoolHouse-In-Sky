@@ -5,8 +5,8 @@
              Title="Explore Nepal">
       <ContentPage.Resources> 
             <Style TargetType="Frame">
-                <Setter Property="BackgroundColor" Value="LightYellow" />
-                <Setter Property="BorderColor" Value="Blue" />
+                <Setter Property="BackgroundColor" Value="White" />
+                <Setter Property="BorderColor" Value="Black" />
                 <Setter Property="Margin" Value="10" />
                 <Setter Property="CornerRadius" Value="15" />
             </Style>
@@ -18,7 +18,7 @@
             <Style x:Key="headerLabel" TargetType="Label">
                 <Setter Property="Margin" Value="0, 6" />
                 <Setter Property="FontSize" Value="Medium" />
-                <Setter Property="TextColor" Value="Blue" />
+                <Setter Property="TextColor" Value="#38b5e6" />
                 <Setter Property="XAlign" Value="Center" />
             </Style>
 
@@ -31,7 +31,7 @@
                 <Setter Property="Text" Value="LEARN MORE" />
                 <Setter Property="FontSize" Value="Large" />
                 <Setter Property="TextColor" Value="White" />
-                <Setter Property="BackgroundColor" Value="Green" />
+                <Setter Property="BackgroundColor" Value="#38b5e6" />
                 <Setter Property="BorderRadius" Value="20" />
             </Style>
     </ContentPage.Resources>
@@ -40,7 +40,7 @@
         <Grid Padding="0">
         <Image
             Aspect="AspectFill"
-            Source="backGround.png"
+            Source="BackGroundImage.jpg"
             RelativeLayout.WidthConstraint= "{ConstraintExpression Type=RelativeToParent, Property=Width}"
             RelativeLayout.HeightConstraint= "{ConstraintExpression Type=RelativeToParent, Property=Height}">
         </Image>

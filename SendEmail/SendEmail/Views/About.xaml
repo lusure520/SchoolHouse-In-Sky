@@ -8,7 +8,7 @@
         <Grid Padding="0">
         <Image
             Aspect="AspectFill"
-            Source="backGround.png"
+            Source="BackGroundImage.jpg"
             RelativeLayout.WidthConstraint= "{ConstraintExpression Type=RelativeToParent, Property=Width}"
             RelativeLayout.HeightConstraint= "{ConstraintExpression Type=RelativeToParent, Property=Height}">
         </Image>
@@ -17,6 +17,9 @@
                     <Grid.RowDefinitions>
                         <RowDefinition Height="300"/>
                         <RowDefinition Height="300"/>
+                        <RowDefinition Height="300"/>
+                        <RowDefinition Height="350"/>
+                        <RowDefinition Height="200"/>
                     </Grid.RowDefinitions>
                     
                    
@@ -28,14 +31,32 @@
                         </ScrollView>   
                     </StackLayout>
                     
-                    <StackLayout  Margin="10,10,10,5" Grid.Row="1">
+                    <StackLayout Margin="10,10,10,5" Grid.Row="1">
+                        <Image Source="aboutImage.png" WidthRequest="270" HeightRequest="250" Aspect="Fill"/>
+                    </StackLayout>
+                    <StackLayout  Margin="10,10,10,5" Grid.Row="2">
                     <Label Text="{Binding SecondTitle}" Font="Bold,20" />
-                    <BoxView Color="Black" WidthRequest ="100" HeightRequest="1"/>
+                    <BoxView Color="Black" WidthRequest ="100" HeightRequest="1"/>  
                         <ScrollView Padding="5">
-                            <Label Text="{Binding AboutDetails}" FontSize="12"/>
+                             <StackLayout>
+                               <Label Text="{Binding AboutDetails}" FontSize="12"/>
+                             </StackLayout>
                         </ScrollView>   
                     </StackLayout>
                   
+                    <StackLayout Margin="10,10,10,5" Grid.Row="3">
+                        <Image Source="edBeginItAll.png" WidthRequest="270" HeightRequest="330" Aspect="Fill"/>
+                    </StackLayout>
+                        
+                    <StackLayout Margin="10,10,10,5" Grid.Row="4">
+                        <Label Text="Contact Us" Font="Bold,20"/>
+                            <BoxView Color="Black" WidthRequest ="100" HeightRequest="1"/>
+                            <StackLayout>
+                                 <Label Text="Phone: 0800 786 647" />
+                                 <Label Text="Email: info@himalayantrust.org" />
+                                 <Label Text="Address: PO Box 43, Auckland 1140" />
+                            </StackLayout>
+                    </StackLayout>
                 </Grid>
             </ScrollView>
         </Grid>

@@ -23,7 +23,7 @@
 	<key>MinimumOSVersion</key>
 	<string>8.0</string>
 	<key>CFBundleDisplayName</key>
-	<string>Himalayan&apos;s</string>
+	<string>Himalayan Trust</string>
 	<key>CFBundleIdentifier</key>
 	<string>com.orand.SendEmail</string>
 	<key>CFBundleVersion</key>

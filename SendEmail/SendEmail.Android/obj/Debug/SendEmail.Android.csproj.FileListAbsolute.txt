@@ -41,7 +41,6 @@
 /Users/deng/Documents/GitHub/SchoolHouse-In-Sky/SendEmail/SendEmail.Android/obj/Debug/res/mipmap-xxhdpi/launcher_foreground.png
 /Users/deng/Documents/GitHub/SchoolHouse-In-Sky/SendEmail/SendEmail.Android/obj/Debug/res/mipmap-xxxhdpi/icon.png
 /Users/deng/Documents/GitHub/SchoolHouse-In-Sky/SendEmail/SendEmail.Android/obj/Debug/res/mipmap-xxxhdpi/launcher_foreground.png
-/Users/deng/Documents/GitHub/SchoolHouse-In-Sky/SendEmail/SendEmail.Android/obj/Debug/res/drawable-xxhdpi/background.png
 /Users/deng/Documents/GitHub/SchoolHouse-In-Sky/SendEmail/SendEmail.Android/obj/Debug/res/drawable-xxhdpi/theyetiscalp.png
 /Users/deng/Documents/GitHub/SchoolHouse-In-Sky/SendEmail/SendEmail.Android/obj/Debug/res/drawable-xxhdpi/sagarmathanationalpark.png
 /Users/deng/Documents/GitHub/SchoolHouse-In-Sky/SendEmail/SendEmail.Android/obj/Debug/res/drawable-xxhdpi/monjoschool.png
@@ -60,6 +59,13 @@
 /Users/deng/Documents/GitHub/SchoolHouse-In-Sky/SendEmail/SendEmail.Android/obj/Debug/R.cs.flag
 /Users/deng/Documents/GitHub/SchoolHouse-In-Sky/SendEmail/SendEmail.Android/obj/Debug/R.txt
 /Users/deng/Documents/GitHub/SchoolHouse-In-Sky/SendEmail/SendEmail.Android/obj/Debug/uploadflags.txt
+/Users/deng/Documents/GitHub/SchoolHouse-In-Sky/SendEmail/SendEmail.Android/obj/Debug/res/drawable-xxhdpi/teacherimage.png
+/Users/deng/Documents/GitHub/SchoolHouse-In-Sky/SendEmail/SendEmail.Android/obj/Debug/res/drawable-xxhdpi/waterimage.png
+/Users/deng/Documents/GitHub/SchoolHouse-In-Sky/SendEmail/SendEmail.Android/obj/Debug/res/drawable-xxhdpi/medicalimage.png
+/Users/deng/Documents/GitHub/SchoolHouse-In-Sky/SendEmail/SendEmail.Android/obj/Debug/res/drawable-xxhdpi/toolsimage.png
+/Users/deng/Documents/GitHub/SchoolHouse-In-Sky/SendEmail/SendEmail.Android/obj/Debug/res/drawable-xxhdpi/aboutimage.png
+/Users/deng/Documents/GitHub/SchoolHouse-In-Sky/SendEmail/SendEmail.Android/obj/Debug/res/drawable-xxhdpi/edbeginitall.png
+/Users/deng/Documents/GitHub/SchoolHouse-In-Sky/SendEmail/SendEmail.Android/obj/Debug/res/drawable-xxhdpi/backgroundimage.jpg
 /Users/deng/Documents/GitHub/SchoolHouse-In-Sky/SendEmail/SendEmail.Android/bin/Debug/Mono.Android.pdb
 /Users/deng/Documents/GitHub/SchoolHouse-In-Sky/SendEmail/SendEmail.Android/obj/Debug/linksrc/SendEmail.Android.pdb
 /Users/deng/Documents/GitHub/SchoolHouse-In-Sky/SendEmail/SendEmail.Android/obj/Debug/linksrc/FormsViewGroup.pdb

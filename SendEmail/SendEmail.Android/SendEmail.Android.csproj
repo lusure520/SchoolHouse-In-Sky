@@ -101,7 +101,6 @@
     <AndroidResource Include="Resources\mipmap-xxhdpi\launcher_foreground.png" />
     <AndroidResource Include="Resources\mipmap-xxxhdpi\Icon.png" />
     <AndroidResource Include="Resources\mipmap-xxxhdpi\launcher_foreground.png" />
-    <AndroidResource Include="Resources\drawable-xxhdpi\backGround.png" />
     <AndroidResource Include="Resources\drawable-xxhdpi\TheYetiScalp.png" />
     <AndroidResource Include="Resources\drawable-xxhdpi\SagarmathaNationalPark.png" />
     <AndroidResource Include="Resources\drawable-xxhdpi\MonjoSchool.png" />
@@ -114,6 +113,13 @@
     <AndroidResource Include="Resources\drawable-xxhdpi\LuklaDrinkingWater.png" />
     <AndroidResource Include="Resources\drawable-xxhdpi\Airport.png" />
     <AndroidResource Include="Resources\drawable-xxhdpi\HimalayanTrust.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\TeacherImage.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\WaterImage.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\MedicalImage.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\ToolsImage.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\aboutImage.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\edBeginItAll.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\BackGroundImage.jpg" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\drawable-hdpi\" />
