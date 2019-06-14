@@ -6,6 +6,7 @@
     x:Class="SendEmail.Views.Donation"
     Title="Donate">
     <Grid Padding="0">
+        <!--Back Ground Image-->
         <Image
             Aspect="AspectFill"
             Source="BackGroundImage.jpg"
@@ -13,7 +14,6 @@
             RelativeLayout.HeightConstraint= "{ConstraintExpression Type=RelativeToParent, Property=Height}">
         </Image>
         <ScrollView>
-        
             <StackLayout Padding="10, 20, 10, 20" Orientation="Vertical" HorizontalOptions="Center" VerticalOptions="Center">
                     <Grid Padding="10" >
                         <Grid.RowDefinitions>
@@ -22,6 +22,7 @@
                             <RowDefinition Height="580"/>
                             <RowDefinition Height="560"/>
                         </Grid.RowDefinitions>
+                    <!--Tools To Learn Details-->
                       <StackLayout Margin="10,10,10,5" Grid.Row="0" >
                             <Label Text="$60" FontSize="Large" HorizontalOptions="Center" VerticalOptions="Center"/>
                             <Label Text="TOOLS TO LEARN" FontSize="16" HorizontalOptions="Center" VerticalOptions="Center"/>
@@ -30,7 +31,8 @@
                             <Image Source="ToolsImage.png" WidthRequest="230" HeightRequest="260" />
                         <Button Text="Donate" Clicked="Handle_Clicked" TextColor="White"  BackgroundColor="#38b5e6" WidthRequest="100" HeightRequest="30" VerticalOptions="Center" HorizontalOptions="Center"/>
                       </StackLayout >
-                            
+                    
+                    <!--Medical Training Details-->
                       <StackLayout Margin="10,10,10,5" Grid.Row="1">
                             <Label Text="$170" FontSize="Large" HorizontalOptions="Center" VerticalOptions="Center"/>
                             <Label Text="MEDICAL TRAINING" FontSize="16" HorizontalOptions="Center" VerticalOptions="Center"/>
@@ -40,6 +42,7 @@
                         <Button Text="Donate" Clicked="Handle_Clicked" TextColor="White"  BackgroundColor="#38b5e6" WidthRequest="100" HeightRequest="30" VerticalOptions="Center" HorizontalOptions="Center"/>
                       </StackLayout >
                         
+                    <!--Coaching For Teachers Details-->
                       <StackLayout Margin="10,10,10,5" Grid.Row="2">
                             <Label Text="$300" FontSize="Large" HorizontalOptions="Center" VerticalOptions="Center"/>
                             <Label Text="COACHING FOR TEACHERS" FontSize="16" HorizontalOptions="Center" VerticalOptions="Center"/>
@@ -49,6 +52,7 @@
                         <Button Text="Donate" Clicked="Handle_Clicked" TextColor="White"  BackgroundColor="#38b5e6" WidthRequest="100" HeightRequest="30" VerticalOptions="Center" HorizontalOptions="Center"/>
                       </StackLayout >
                         
+                    <!--Safe Water Details-->
                       <StackLayout Margin="10,10,10,5" Grid.Row="3">
                             <Label Text="$1000" FontSize="Large" HorizontalOptions="Center" VerticalOptions="Center"/>
                             <Label Text="SAFE WATER FOR A WHOLE VILLAGE" FontSize="16" HorizontalOptions="Center" VerticalOptions="Center"/>

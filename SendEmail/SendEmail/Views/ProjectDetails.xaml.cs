@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-
 using Xamarin.Forms;
 
 namespace SendEmail.Views
@@ -10,18 +8,10 @@ namespace SendEmail.Views
         public ProjectDetails(String name)
         {
             InitializeComponent();
-            //switch (Device.RuntimePlatform)
-            //{
-            //    case Device.Android:
-            //        NavigationPage.SetHasNavigationBar(this, false);
-            //        break;
-            //    default:
-            //        NavigationPage.SetHasNavigationBar(this, true);
-            //        break;
-            //}
             GetProjectDetailByName(name);
         }
 
+        //A generate method for set up project detail by a given project name.
         public void GetProjectDetailByName(string name) {
             String projectName ="";
             String details = "";
@@ -83,30 +73,26 @@ namespace SendEmail.Views
                     details = "In 1960, Ed returned to the Everest region to lead an expedition with two very different goals:\n1. To learn more about what happens to the human body at high altitude where there is less\noxygen in the air, and\n2. To search for legendary Yeti or Abominable Snowman that is believed to live in the\nHimalayan Mountains. \nEd’s took what was thought to be Yeti skin and a scalp from the Himalayas to America, France and England for further investigation. \n\nScientists believed the scalp was in fact shaped from the skin of a serow, and what was thought to be a Yeti skin was in fact skin from a Tibetan blue bear.\n\nEd’s team was never able to find out for sure whether the Himalayan Yeti exists. Many people believe the Yeti still lives in hiding high above where any human can live.\n\nWhilst Ed didn’t catch a Yeti, he did discover\nsomething unexpected that would keep him busy for the rest of his life. It was during this expedition that Ed asked his Sherpa friends what he could do to repay them for their friendship and support. They asked for his help building a school in Khumjung. And so he did. Ed went on to devote much of his life from then on to helping the people of the Everest region.\n\nThe yeti scalp is on display at the Khumjung Gompa.";
                     break;
                 case "EverestAvalanche":
-
                     projectName = "Everest avalanche on Popcorn Field";
                     details = "In April 2014, 16 families lost their fathers, sons and husbands in a devastating avalanche on the slopes of Everest. Many of the climbers killed in the avalanche were from the upper Khumbu area, where the Himalayan Trust has been working for 60 years. Immediately following news of the avalanche, an appeal was launched to help the families. Since that tragic day, we have supported the families of those who were killed by providing scholarships for their school-age children.";
                     break;
                 case "KhumjungWater":
-
                     projectName = "Khumjung water project";
                     details = "In 1963, Sir Edmund Hillary's HImalayan Trust builds its first water supply system in the village of Khumjung. The water system is such an immediate and dramatic help to the community, it causes tears of joy as the first water gushes out of the pipe.";
                     break;
                 case "TengbocheMonastery":
-
                     projectName = "Tengboche Monastery";
                     details = "In 1993, the Himalayan Trust helped rebuild Tengboche Monastery after it was destroyed in a fire. Most Everest expeditions, including the 1953 expedition, stop at Tengboche Monastery to be blessed on their way to the mountain.";
                     break;
                 case "PhortseSchool":
-                   
                     projectName = "Phortse school";
                     details = "Monjo school is one of 60 across the region that the Himalayan Trust supports with vital equipment, resources and training for teachers.\n\nThe Himalayan Trust also built the new earthquake-strengthened classroom block.\n\nFollowing the devastating earthquakes in 2015, the Himalayan Trust developed its biggest ever school building project. With funding from the New Zealand public, we built 150 earthquake-strengthened classroom blocks at 36 schools across the Everest region to replace those damaged and destroyed in the earthquakes.\n\nPhortse students are some of over 7000 children that are now able to study in safe, strong classrooms. And their families and communities will benefit from these facilities for decades to come.";
                     break;
 
             }
-            images.Source = source;
-            names.Text = projectName;
-            description.Text = details;
+            images.Source = source;//initial image source.
+            names.Text = projectName;//initial project name.
+            description.Text = details;//initial project contents.
         }
     }
 }

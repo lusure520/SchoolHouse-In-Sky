@@ -66,7 +66,11 @@
 /Users/deng/Documents/GitHub/SchoolHouse-In-Sky/SendEmail/SendEmail.Android/obj/Debug/R.cs.flag
 /Users/deng/Documents/GitHub/SchoolHouse-In-Sky/SendEmail/SendEmail.Android/obj/Debug/R.txt
 /Users/deng/Documents/GitHub/SchoolHouse-In-Sky/SendEmail/SendEmail.Android/obj/Debug/uploadflags.txt
+/Users/deng/Documents/GitHub/SchoolHouse-In-Sky/SendEmail/SendEmail.Android/bin/Debug/FormsViewGroup.pdb
 /Users/deng/Documents/GitHub/SchoolHouse-In-Sky/SendEmail/SendEmail.Android/bin/Debug/Mono.Android.pdb
+/Users/deng/Documents/GitHub/SchoolHouse-In-Sky/SendEmail/SendEmail.Android/bin/Debug/Xamarin.Forms.Core.pdb
+/Users/deng/Documents/GitHub/SchoolHouse-In-Sky/SendEmail/SendEmail.Android/bin/Debug/Xamarin.Forms.Platform.Android.pdb
+/Users/deng/Documents/GitHub/SchoolHouse-In-Sky/SendEmail/SendEmail.Android/bin/Debug/Xamarin.Forms.Xaml.pdb
 /Users/deng/Documents/GitHub/SchoolHouse-In-Sky/SendEmail/SendEmail.Android/obj/Debug/linksrc/SendEmail.Android.pdb
 /Users/deng/Documents/GitHub/SchoolHouse-In-Sky/SendEmail/SendEmail.Android/obj/Debug/linksrc/FormsViewGroup.pdb
 /Users/deng/Documents/GitHub/SchoolHouse-In-Sky/SendEmail/SendEmail.Android/obj/Debug/linksrc/Mono.Android.pdb

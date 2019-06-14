@@ -4,9 +4,10 @@ using Xamarin.Forms;
 
 namespace SendEmail.Validation
 {
+    //A generate letter validation class.
     public class LetterValidatorBehavior : Behavior<Entry>
     {
-        const string numberRegex = @"^[a-zA-Z]+$";
+        const string numberRegex = @"^[a-zA-Z]+$";//A simple pattern for letter validation.
         protected override void OnAttachedTo(Entry bindable)
         {
             bindable.TextChanged += OnEntryTextChanged;
@@ -19,6 +20,7 @@ namespace SendEmail.Validation
             base.OnDetachingFrom(bindable);
         }
 
+        //A onchange method that only the letter  allow to input.
         void OnEntryTextChanged(object sender, TextChangedEventArgs args)
         {
             if (!string.IsNullOrWhiteSpace(args.NewTextValue))

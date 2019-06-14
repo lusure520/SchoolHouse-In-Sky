@@ -7,6 +7,7 @@ namespace SendEmail
 {
     public partial class SendEmail : ContentPage
     {
+        //A simple pattern for email validation.
         const string emailRegex = @"^(?("")("".+?(?<!\\)""@)|(([0-9a-z]((\.(?!\.))|[-!#\$%&'\*\+/=\?\^`\{\}\|~\w])*)(?<=[0-9a-z])@))" +
             @"(?(\[)(\[(\d{1,3}\.){3}\d{1,3}\])|(([0-9a-z][-\w]*[0-9a-z]*\.)+[a-z0-9][\-a-z0-9]{0,22}[a-z0-9]))$";
         public string messages;
@@ -15,6 +16,7 @@ namespace SendEmail
             InitializeComponent();
         }
 
+        //A return method to check all input validation.
         public Boolean checkAllRight(){
             String notify = "";
             Boolean check = !string.IsNullOrWhiteSpace(firstName.Text)
@@ -35,10 +37,12 @@ namespace SendEmail
             return check;
         }
 
+        //A generate method for notification pop-up.
         public void notification(String text){
             DisplayAlert("Notification", text, "OK");
         }
 
+        //A return method for email validation check
         public bool CheckEmailValid(String emailInput)
         {
             bool IsValid = false;
@@ -46,14 +50,15 @@ namespace SendEmail
             return IsValid;
         }
 
+        //A button click event for send email that contains new members details. 
         void Handle_Clicked(object sender, System.EventArgs e)
         {
 
             if(checkAllRight()){
 
-                var userEmail = EmailEntry.Text;
-                var user = firstName.Text + " " + lastName.Text;
-                var contactNumber = phoneNumber.Text;
+                var userEmail = EmailEntry.Text;//the emails of user
+                var user = firstName.Text + " " + lastName.Text;//the full name of user
+                var contactNumber = phoneNumber.Text;//the phone number of user
 
                 String signUpSucc = "Welcome to Join us," + firstName.Text + " " + lastName.Text + ". \nYou will get more detail from email!";
                 try
@@ -131,6 +136,7 @@ namespace SendEmail
             EmailEntry.Text = string.Empty;
             phoneNumber.Text = string.Empty;
 
+            //display notifiction on the app.
             notification(messages);
         }
     }

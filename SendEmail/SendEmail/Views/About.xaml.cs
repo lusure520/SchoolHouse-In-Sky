@@ -9,6 +9,7 @@ namespace SendEmail
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class About : ContentPage
     {
+        //Binding String for the About Us Page.
         public string AboutTitle { get; set; } = "About us";
         public string SecondTitle { get; set; } = "Ed begins it all";
         public string AboutDetails { get; set; } = "Sir Edmund Hillary (20 July 1919 – 11 January 2008) was a New Zealand mountaineer, explorer and philanthropist. On 29 May 1953, Hillary and Tenzing Norgay became the first climbers to reach the summit of Mount Everest.\n\u00a0\nFollowing his ascent of Everest, Sir Ed devoted his life to helping the people of Nepal through the Himalayan Trust,\n\u00a0\nSir Ed founded the Himalayan Trust in the 1960s. Thanks to supporters in New Zealand and across the world, we continue his work to bring quality education, safe water, and better healthcare to communities living in the Everest region of Nepal.\n\u00a0\nTo Sir Ed, his greatest achievement was not climbing Everest, but his help for the people of Nepal through the Himalayan Trust.";

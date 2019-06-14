@@ -9,13 +9,12 @@ namespace SendEmail
     {
         public NavigationTest()
         {
-
-        
             Page sendEmailPage = null;
             Page donationPage = null;
             Page aboutPage = null;
             Page mapPage = null;
 
+            //creat navigation bar on Android and IOS Device.
             switch (Device.RuntimePlatform){
                 case Device.iOS:
                     sendEmailPage = new NavigationPage(new SendEmail())
@@ -50,11 +49,11 @@ namespace SendEmail
                     aboutPage = new About();
                     break;
             }
-            Children.Add(sendEmailPage);
-            Children.Add(aboutPage);
-            Children.Add(mapPage);
-            Children.Add(donationPage);
-            Title = Children[0].Title;
+            Children.Add(sendEmailPage);//link Newsletter page to navigation bar.
+            Children.Add(aboutPage);//link About Us page to navigation bar.
+            Children.Add(mapPage);//link Map page to navigation bar.
+            Children.Add(donationPage);//link Donation page to navigation bar.
+            Title = Children[0].Title;//set first children page with defaul page.
         }
 
         protected override void OnCurrentPageChanged()

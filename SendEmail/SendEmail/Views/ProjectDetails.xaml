@@ -5,6 +5,7 @@
              >
     <ContentPage.Content>
         <Grid Padding="0">
+        <!--Back Ground Image-->
         <Image
             Aspect="AspectFill"
             Source="BackGroundImage.jpg"
@@ -16,6 +17,7 @@
                 <StackLayout>
                     <Image x:Name="images" WidthRequest="270" HeightRequest="180" Aspect="Fill"/>
                 </StackLayout>
+                <!--A generate view of project details-->
                 <StackLayout>
                     <Label Text="Project Name"  FontSize="Medium" TextColor="Black"/>
                         <BoxView Color="Black" WidthRequest ="100" HeightRequest="1"/>

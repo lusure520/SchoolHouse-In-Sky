@@ -3,6 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
              x:Class="SendEmail.MapPage"
              Title="Explore Nepal">
+    <!--Whole Page Style-->
       <ContentPage.Resources> 
             <Style TargetType="Frame">
                 <Setter Property="BackgroundColor" Value="White" />
@@ -38,6 +39,7 @@
     
     <ContentPage.Content>
         <Grid Padding="0">
+        <!--Back Ground Image-->
         <Image
             Aspect="AspectFill"
             Source="BackGroundImage.jpg"
@@ -46,6 +48,7 @@
         </Image>
             <ScrollView>
             <StackLayout>
+                <!--Map Explore Button-->
                 <StackLayout Padding="30" Spacing="10">
                     <Button Text="Explore Nepal" Clicked="Button_OnClicked"></Button>
                 </StackLayout>
@@ -53,7 +56,9 @@
                 <StackLayout>
                     <Grid>
                     <ScrollView Orientation="Horizontal" VerticalOptions="StartAndExpand">
+                        <!--The List of all Himalayan Trust Project, Contains Image, Name and Descriotions-->
                         <FlexLayout>
+                            <!--Hillary-Tenzing Airport-->
                             <Frame WidthRequest="300"
                                    HeightRequest="400">
 
@@ -75,7 +80,8 @@
                                     <Button StyleId="Airport" Clicked="Handle_Clicked"/>
                                 </FlexLayout>
                             </Frame>
-
+                                    
+                            <!--Khumjung School-->
                             <Frame WidthRequest="300"
                                    HeightRequest="400">
 
@@ -97,7 +103,8 @@
                                     <Button StyleId="KhumjungSchool" Clicked="Handle_Clicked"/>
                                 </FlexLayout>
                             </Frame>
-                                
+                                    
+                            <!--Lukla Drinking Water Project-->
                             <Frame WidthRequest="300"
                                    HeightRequest="400">
 
@@ -119,7 +126,8 @@
                                     <Button StyleId="LuklaDrinkingWater" Clicked="Handle_Clicked"/>
                                 </FlexLayout>
                             </Frame>
-                                
+                            
+                            <!--Kunde Hospital-->
                             <Frame WidthRequest="300"
                                    HeightRequest="400">
 
@@ -142,6 +150,7 @@
                                 </FlexLayout>
                             </Frame>
                             
+                            <!--Chaurikharka School-->
                             <Frame WidthRequest="300"
                                    HeightRequest="400">
 
@@ -164,6 +173,7 @@
                                 </FlexLayout>
                             </Frame>  
                                 
+                            <!--Musey Drinking Water Proejct-->
                             <Frame WidthRequest="300"
                                    HeightRequest="400">
 
@@ -186,6 +196,7 @@
                                 </FlexLayout>
                             </Frame>  
                                 
+                            <!--Thame School-->
                             <Frame WidthRequest="300"
                                    HeightRequest="400">
 
@@ -208,11 +219,12 @@
                                 </FlexLayout>
                             </Frame>  
                                 
+                            <!--Shree Himalayan Primary School-->
                             <Frame WidthRequest="300"
                                    HeightRequest="400">
 
                                 <FlexLayout Direction="Column">
-                                    <Label Text="Shree Himalayan Primary School, Namche"
+                                    <Label Text="Shree Himalayan Primary School"
                                            Style="{StaticResource headerLabel}" />
                                     <Label Text="Shree Himalaya School in Namche is one of 60 across the region that the Himalayan Trust supports with vital equipment, resources and training for teachers." FontSize="Small"/>
                                             <Image StyleId="ShreeHimalayanPrimarySchool" Source="ShreeHimalayanPrimarySchool.png"
@@ -230,6 +242,7 @@
                                 </FlexLayout>
                             </Frame>  
                                 
+                            <!--Monjo School-->
                             <Frame WidthRequest="300"
                                    HeightRequest="400">
 
@@ -252,6 +265,7 @@
                                 </FlexLayout>
                             </Frame>  
                                 
+                            <!--Sagarmatha National Park-->
                             <Frame WidthRequest="300"
                                    HeightRequest="400">
 
@@ -274,6 +288,7 @@
                                 </FlexLayout>
                             </Frame>  
                                 
+                            <!--The Yeti Scalp-->
                             <Frame WidthRequest="300"
                                    HeightRequest="400">
 
@@ -296,6 +311,7 @@
                                 </FlexLayout>
                             </Frame>  
                                 
+                            <!--Everest avalanche on Popcorn Field-->
                             <Frame WidthRequest="300"
                                    HeightRequest="400">
 
@@ -318,6 +334,7 @@
                                 </FlexLayout>
                             </Frame>
                                 
+                            <!--Khumjung water project-->
                             <Frame WidthRequest="300"
                                    HeightRequest="400">
 
@@ -340,6 +357,7 @@
                                 </FlexLayout>
                             </Frame>  
                             
+                            <!--Tengboche Monastery-->
                             <Frame WidthRequest="300"
                                    HeightRequest="400">
 
@@ -362,6 +380,7 @@
                                 </FlexLayout>
                             </Frame>  
                                 
+                            <!--Phortse School-->
                             <Frame WidthRequest="300"
                                    HeightRequest="400">
 

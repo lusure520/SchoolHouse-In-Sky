@@ -6,6 +6,7 @@
     <ContentPage.Content>
         <StackLayout>
         <Grid Padding="0">
+        <!--Back Ground Image-->
         <Image
             Aspect="AspectFill"
             Source="BackGroundImage.jpg"
@@ -21,8 +22,7 @@
                         <RowDefinition Height="350"/>
                         <RowDefinition Height="200"/>
                     </Grid.RowDefinitions>
-                    
-                   
+                   <!--About Us Binding code and Image-->
                     <StackLayout Margin="10,10,10,5" Grid.Row="0">
                     <Label Text="{Binding AboutTitle}" Font="Bold,20"/>
                     <BoxView Color="Black" WidthRequest ="100" HeightRequest="1"/>
@@ -30,20 +30,21 @@
                             <Label Text="{Binding AboutDetails}" FontSize="14"/>
                         </ScrollView>   
                     </StackLayout>
-                    
                     <StackLayout Margin="10,10,10,5" Grid.Row="1">
                         <Image Source="aboutImage.png" WidthRequest="270" HeightRequest="250" Aspect="Fill"/>
                     </StackLayout>
+                        
+                    <!--Ed begins it all Binding code and Image-->
                     <StackLayout  Margin="10,10,10,5" Grid.Row="2">
                     <Label Text="{Binding SecondTitle}" Font="Bold,20" />
                     <BoxView Color="Black" WidthRequest ="100" HeightRequest="1"/>  
                        <Label Text="{Binding SecondDetails}" FontSize="14"/> 
                     </StackLayout>
-                  
                     <StackLayout Margin="10,10,10,5" Grid.Row="3">
                         <Image Source="edBeginItAll.png" WidthRequest="270" HeightRequest="330" Aspect="Fill"/>
                     </StackLayout>
                         
+                    <!--Contact Us Information-->
                     <StackLayout Margin="10,10,10,5" Grid.Row="4">
                         <Label Text="Contact Us" Font="Bold,20"/>
                             <BoxView Color="Black" WidthRequest ="100" HeightRequest="1"/>

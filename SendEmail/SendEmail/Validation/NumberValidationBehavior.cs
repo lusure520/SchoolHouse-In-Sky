@@ -4,6 +4,7 @@ using Xamarin.Forms;
 
 namespace SendEmail.Validation
 {
+    //A generate number validation class.
     public class NumberValidationBehavior : Behavior<Entry>
     {
         protected override void OnAttachedTo(Entry bindable)
@@ -18,6 +19,7 @@ namespace SendEmail.Validation
             base.OnDetachingFrom(bindable);
         }
 
+        //A onchange method that only the number allow to input.
         void OnEntryTextChanged(object sender, TextChangedEventArgs args)
         {
             if (!string.IsNullOrWhiteSpace(args.NewTextValue))

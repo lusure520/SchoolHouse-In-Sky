@@ -19,6 +19,7 @@ namespace SendEmail
         public MapPage()
         {
             InitializeComponent();
+            //Hiding Title for Android Device.
             switch (Device.RuntimePlatform)
             {
                 case Device.Android:
@@ -31,6 +32,7 @@ namespace SendEmail
 
         }
 
+        //A Button Click Event for Navigating to Clicked Project Details Page
         void Handle_Clicked(object sender, System.EventArgs e)
         {
             switch (((Button)sender).StyleId)
@@ -83,6 +85,7 @@ namespace SendEmail
             }
         }
 
+        //Create pins with project event on the map by given position
         void CreatePins(Map map)
         {
             var pin1 = new Pin
@@ -282,8 +285,9 @@ namespace SendEmail
         }
 
 
-        bool busy;
+        bool busy;// global variable for map on app control.
 
+        //A button click event for google map explore Nepal.
         async void Button_OnClicked(object sender, EventArgs e)
         {
             if (busy)
@@ -294,6 +298,7 @@ namespace SendEmail
 
             try
             {
+                //Check location permission of apps
                 var status = await CrossPermissions.Current.CheckPermissionStatusAsync(Permission.Location);
                 if (status != PermissionStatus.Granted)
                 {
@@ -303,23 +308,23 @@ namespace SendEmail
                     status = results[Permission.Location];
                 }
 
+                //Initial the map.
                 var map = new Map(MapSpan.FromCenterAndRadius(new Position(27.775, 86.705), Distance.FromKilometers(8.8)));
                 map.MapType = MapType.Hybrid;
                 map.HeightRequest = 100;
                 map.WidthRequest = 960;
                 map.VerticalOptions = LayoutOptions.FillAndExpand;
 
+                //Creat map within Naviagation Page.
                 var newPage = new ProjectDetails("maps");
-
-
                 var stack = new StackLayout { Spacing = 0 };
                 stack.Children.Add(map);
                 newPage.Content = stack;
                 await Navigation.PushAsync(newPage);
-                //Content = stack;
 
-                CreatePins(map);
-                
+                CreatePins(map);//a Local method for creating pins on map
+
+                //Moving the views to current location on map
                 if (status == PermissionStatus.Granted)
                 {
                     map.IsShowingUser = true;
@@ -330,25 +335,26 @@ namespace SendEmail
             catch (Exception ex)
             {
                 await DisplayAlert("Location Error", ex.ToString(), "OK");
-                //LabelGeolocation.Text = "Error: " + ex;
             }
 
             ((Button)sender).IsEnabled = true;
             busy = false;
         }
 
+        //A click event for explore the project on map.
         async void OnImageNameTapped(object sender, EventArgs args)
         {
             try
             {
+                //Initial the map.
                 var map = new Map(MapSpan.FromCenterAndRadius(new Position(27.775, 86.705), Distance.FromKilometers(8.8)));
                 map.MapType = MapType.Hybrid;
                 map.HeightRequest = 100;
                 map.WidthRequest = 960;
                 map.VerticalOptions = LayoutOptions.FillAndExpand;
 
+                //Creat map within Naviagation Page.
                 var newPage = new ProjectDetails("maps");
-
                 var stack = new StackLayout { Spacing = 0 };
                 stack.Children.Add(map);
                 newPage.Content = stack;
@@ -356,6 +362,7 @@ namespace SendEmail
 
                 CreatePins(map);
 
+                //Permission checking
                 var status = await CrossPermissions.Current.CheckPermissionStatusAsync(Permission.Location);
 
                 if (status != PermissionStatus.Granted)
@@ -371,7 +378,7 @@ namespace SendEmail
                     map.IsShowingUser = true;
                 }
 
-
+                //Moving the view to clicked project.
                 switch (((Image)sender).StyleId)
                 {
                     case "Airport":
